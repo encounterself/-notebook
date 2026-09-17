@@ -1,0 +1,161 @@
+charge_type	status	final_days	active_days	usage_days	monthly_rate	n	sum_chg	avg_chg
+Full Cycle Charge	Stayed From Previous Month	31.0	31.0	-	21.0	1	21.0	21.0
+Full Cycle Charge	Stayed From Previous Month	31.0	31.0	-	62.0	2776	172112.0	62.0
+Full Cycle Charge	Stayed From Previous Month	31.0	31.0	-	43.0	3876	166668.0	43.0
+Full Cycle Charge	Stayed From Previous Month	31.0	30.0	-	21.0	74	1554.0	21.0
+Full Cycle Charge	Stayed From Previous Month	31.0	30.0	-	43.0	10	430.0	43.0
+Full Cycle Charge	Stayed From Previous Month	31.0	31.0	-	32.0	400	12800.0	32.0
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	26.0	26.0	26.0	43.0	1	36.06	36.0645
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	26.0	26.0	23.0	43.0	1	36.06	36.0645
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	26.0	26.0	21.0	43.0	1	36.06	36.0645
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	26.0	26.0	16.0	43.0	1	36.06	36.0645
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	26.0	26.0	11.0	43.0	1	36.06	36.0645
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	12.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	5.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	17.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	26.0	27.0	43.0	2	74.9	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	1.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	15.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	8.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	22.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	27.0	27.0	20.0	43.0	1	37.45	37.4516
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	21.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	26.0	43.0	3	116.52	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	28.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	26.0	28.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	1.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	15.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28.0	28.0	19.0	43.0	1	38.84	38.8387
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	29.0	27.0	29.0	43.0	2	80.45	40.2258
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	30.0	27.0	30.0	43.0	1	41.61	41.6129
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	31.0	27.0	31.0	43.0	1	43.0	43.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	1.0	1.0	0.0	43.0	3	4.16	1.3871
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	1.0	1.0	0.0	62.0	3	6.0	2.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	2.0	1.0	2.0	43.0	1	2.77	2.7742
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	3.0	3.0	0.0	43.0	1	4.16	4.1613
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	3.0	3.0	2.0	43.0	2	8.32	4.1613
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	3.0	62.0	3	24.0	8.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	2.0	62.0	3	24.0	8.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	4.0	43.0	1	5.55	5.5484
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	1.0	62.0	3	24.0	8.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	0.0	62.0	5	40.0	8.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	4.0	4.0	4.0	62.0	4	32.0	8.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	5.0	4.0	5.0	43.0	1	6.94	6.9355
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	5.0	5.0	2.0	62.0	1	10.0	10.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	5.0	5.0	1.0	62.0	1	10.0	10.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	6.0	4.0	6.0	62.0	1	12.0	12.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	6.0	3.0	6.0	43.0	1	8.32	8.3226
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	7.0	7.0	1.0	43.0	1	9.71	9.7097
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	7.0	7.0	0.0	43.0	4	38.84	9.7097
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	2.0	62.0	4	72.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	7.0	62.0	3	54.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	9.0	62.0	1	18.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	1.0	62.0	6	108.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	4.0	62.0	2	36.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	6.0	62.0	3	54.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	0.0	62.0	4	72.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	3.0	62.0	7	126.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	9.0	9.0	5.0	62.0	4	72.0	18.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	9.0	10.0	62.0	1	20.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	8.0	62.0	3	60.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	1.0	62.0	12	240.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	9.0	62.0	5	100.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	7.0	62.0	4	80.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	6.0	62.0	14	280.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	4.0	62.0	18	360.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	10.0	62.0	2	40.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	5.0	62.0	11	220.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	4.0	10.0	62.0	1	20.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	3.0	62.0	13	260.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	7.0	10.0	43.0	2	27.74	13.871
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	0.0	62.0	17	340.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	10.0	10.0	2.0	62.0	19	380.0	20.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	10.0	11.0	62.0	2	44.0	22.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	9.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	10.0	43.0	2	30.52	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	5.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	9.0	11.0	62.0	1	22.0	22.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	7.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	8.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	11.0	11.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	11.0	4.0	11.0	43.0	1	15.26	15.2581
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	12.0	7.0	12.0	43.0	1	16.65	16.6452
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	12.0	10.0	12.0	62.0	1	24.0	24.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	13.0	4.0	43.0	1	18.03	18.0323
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	7.0	13.0	43.0	1	18.03	18.0323
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	13.0	12.0	43.0	1	18.03	18.0323
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	13.0	5.0	43.0	1	18.03	18.0323
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	10.0	13.0	62.0	2	52.0	26.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	13.0	11.0	13.0	43.0	1	18.03	18.0323
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	14.0	13.0	14.0	43.0	1	19.42	19.4194
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	18.0	4.0	18.0	43.0	1	24.97	24.9677
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	22.0	7.0	22.0	43.0	1	30.52	30.5161
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	23.0	62.0	2	96.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	7.0	62.0	4	192.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	17.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	5.0	62.0	4	192.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	1.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	20.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	13.0	62.0	8	384.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	21.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	22.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	15.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	11.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	6.0	62.0	2	96.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	2.0	62.0	2	96.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	12.0	62.0	5	240.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	18.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	9.0	62.0	5	240.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	14.0	62.0	5	240.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	10.0	62.0	2	96.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	4.0	62.0	2	96.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	8.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	16.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	19.0	62.0	3	144.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	0.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	24.0	24.0	3.0	62.0	1	48.0	48.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	25.0	25.0	0.0	43.0	1	34.68	34.6774
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	25.0	25.0	20.0	43.0	1	34.68	34.6774
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	25.0	25.0	1.0	43.0	4	138.71	34.6774
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	25.0	25.0	23.0	43.0	1	34.68	34.6774
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	25.0	25.0	13.0	43.0	1	34.68	34.6774
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	10.0	62.0	3	168.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	17.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	12.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	22.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	23.0	62.0	2	112.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	21.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	15.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	19.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	6.0	62.0	2	112.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	8.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	5.0	62.0	2	112.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	9.0	62.0	1	56.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	28.0	28.0	7.0	62.0	3	168.0	56.0
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	29.0	29.0	1.0	43.0	4	160.9	40.2258
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	7.0	7.0	0.0	43.0	1	9.71	9.7097
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	7.0	7.0	1.0	43.0	4	38.84	9.7097
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	10.0	10.0	1.0	62.0	1	20.0	20.0
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	10.0	10.0	2.0	62.0	1	20.0	20.0
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	10.0	10.0	6.0	62.0	1	20.0	20.0
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	18.0	18.0	0.0	43.0	1	24.97	24.9677
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	18.0	18.0	1.0	43.0	2	49.94	24.9677
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	18.0	18.0	3.0	43.0	1	24.97	24.9677
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	18.0	18.0	2.0	43.0	1	24.97	24.9677
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	21.0	21.0	1.0	43.0	2	58.26	29.129
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	21.0	21.0	4.0	43.0	1	29.13	29.129
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	21.0	21.0	10.0	43.0	1	29.13	29.129
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	21.0	21.0	0.0	43.0	1	29.13	29.129
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	24.0	24.0	2.0	43.0	1	33.29	33.2903
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	24.0	24.0	1.0	43.0	3	99.87	33.2903
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	24.0	24.0	0.0	43.0	1	33.29	33.2903
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	25.0	25.0	2.0	43.0	2	69.35	34.6774
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	25.0	25.0	0.0	43.0	2	69.35	34.6774
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	25.0	25.0	1.0	43.0	10	346.77	34.6774
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	25.0	25.0	4.0	43.0	1	34.68	34.6774
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	26.0	26.0	0.0	43.0	1	36.06	36.0645
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	26.0	26.0	1.0	43.0	8	288.52	36.0645
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	26.0	26.0	2.0	43.0	1	36.06	36.0645
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	27.0	27.0	0.0	43.0	1	37.45	37.4516
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	27.0	27.0	1.0	43.0	3	112.35	37.4516
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	27.0	27.0	6.0	43.0	1	37.45	37.4516

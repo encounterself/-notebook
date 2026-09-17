@@ -1,0 +1,5 @@
+charge_type	status	rows_cnt	cards	total	avg_chg
+Full Cycle Charge	Stayed From Previous Month	7137	7137	353585.0	49.54
+Partial Charge - Card Replaced Mid Cycle	IMSI to be recycled	318	318	8578.61	26.98
+Partial Charge - New Card Used as Replacement Mid Cycle	Newly Added - To Replace Old IMSI	53	53	1613.55	30.44
+New Activation: Prorated-in Charge	Newly Added - To Replace Old IMSI	28	28	1069.45	38.19

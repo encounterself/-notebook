@@ -1,0 +1,24 @@
+charge_type	matched	n	sum_excel
+Credit for Offstocked Card	NEG	9	-222.1
+Credit for Offstocked Card	ZERO	1	0.0
+Full Cycle Charge	A: fd/dim_sd*rate	102272	5718270.0
+Full Cycle Charge	OTHER	35	2075.0
+Full Cycle Charge	B: fd/dim_ed*rate	14	602.0
+Full Cycle Charge - Backbilled for FEB Invoice	A: fd/dim_sd*rate	269	12371.0
+Full Rate	A: fd/dim_sd*rate	12602	771254.0
+New Activation: Prorated-in Charge	A: fd/dim_sd*rate	3448	93107.26
+New Activation: Prorated-in Charge	C: fd*2	649	16116.0
+New Activation: Prorated-in Charge	OTHER	448	8410.69
+Partial Charge (Activated AUG)	C: fd*2	10954	330760.0
+Partial Charge (Activated AUG)	OTHER	530	8572.26
+Partial Charge - Card Replaced Mid Cycle	A: fd/dim_sd*rate	1016	19937.44
+Partial Charge - New Card Used as Replacement Mid Cycle	A: fd/dim_sd*rate	439	17210.56
+Partial Charge - New Card Used as Replacement Mid Cycle	OTHER	387	8443.25
+Partial Charge - Product Transfer Mid Cycle	A: fd/dim_sd*rate	194	6251.26
+Partial Charge - Product Transfer Mid Cycle	OTHER	188	4107.19
+Prorated Out - Transferred to Wing's Simbank	A: fd/dim_sd*rate	4901	200751.29
+Prorated-Out Credit (Offstocked for Replacement)	NEG	60	-1860.0
+Prorated-in Charge (Activated SEPT)	A: fd/dim_sd*rate	1085	27478.4
+Prorated-out Charge (Activated OCT)	A: fd/dim_sd*rate	32	930.0
+Prorated-out Charge (Activated SEPT)	A: fd/dim_sd*rate	66	1328.87
+Prorated-out Charge - Offstocked Card	A: fd/dim_sd*rate	16	597.1

@@ -1,0 +1,11 @@
+charge_type	n	days_mismatch	excel_sum	plat_sum	diff	over	under
+Prorated Out - Transferred to Wing's Simbank	4901	3557	200751.29	292350.39	91599.1	92147.0	547.9
+New Activation: Prorated-in Charge	4545	4473	117633.96	192452.8	74818.84	89530.65	15612.94
+Full Cycle Charge	102321	1498	5720947.0	5692799.39	-28147.61	0.0	28252.85
+Partial Charge - Card Replaced Mid Cycle	1016	1007	19937.44	45260.71	25323.27	25348.92	25.65
+Partial Charge - Product Transfer Mid Cycle	382	379	10358.45	19995.0	9636.55	9196.49	0.0
+Partial Charge - New Card Used as Replacement Mid Cycle	826	725	25653.82	34942.53	9288.71	11727.17	2276.18
+Prorated-Out Credit (Offstocked for Replacement)	60	45	-1860.0	120.0	1980.0	0.0	1740.0
+Credit for Offstocked Card	10	9	-222.1	582.0	804.1	222.1	0.0
+Prorated-out Charge (Activated OCT)	32	19	930.0	1176.0	246.0	278.0	32.0
+Prorated-out Charge - Offstocked Card	16	15	597.1	761.0	163.9	163.9	0.0

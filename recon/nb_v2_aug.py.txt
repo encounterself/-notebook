@@ -1,0 +1,534 @@
+NOTEBOOK: card_billing_v2_aug   language=python   origId=1019455612558513
+COMMANDS: 17
+====================================================================================================
+
+########## COMMAND 1 ##########
+guid: 2ec97152-a394-4267-bfe5-f6e9d25b7b27
+%md
+# Card Billing V2 — 2026-08 对账分析
+
+## 修正逻辑
+1. **退款修正**：billing_state=3 中 Excel 是 Full Cycle 的卡不应该退款（5,849 张，$10,327）
+2. **价格修正**：4 个产品 package_price 与 Excel 不一致，按比例修正
+
+## 修正过程
+| 版本 | 金额 | vs Excel $364,847 |
+|---|---|---|
+| 原始 dm | $362,712 | -$2,135 (-0.6%) |
+| 修正退款 | $372,377 | +$7,530 (+2.1%) |
+| 修正退款+价格 | **$370,648** | **+$5,801 (+1.6%)** |
+
+## 多出 $5,801 的原因：换卡旧卡预付
+
+### 换卡旧卡逐卡验证（平台 types=1 vs Excel）
+| 匹配度 | 卡数 | 占比 |
+|---|---|---|
+| 精确匹配（差<$1） | 36 | 11% |
+| 接近（差<$5） | 271 | 85% |
+| 有差异（>$5） | 11 | 4% |
+| **合计** | **318** | **96.5%在$5以内** |
+
+**结论：换卡旧卡当月费用（types=1）能对上，收费正确。**
+
+### 差异拆解
+| 来源 | 金额 | 说明 |
+|---|---|---|
+| 换卡旧卡预付（types=2） | +$9,544 | Excel 不收换卡旧卡预付，平台收（业务口径差异） |
+| 换卡旧卡退款 | -$606 | 修正后保留的正确退款 |
+| 价格修正影响 | -$1,729 | ATM RT 多收+$5,225 vs 其他3个少收-$6,954 |
+| types=1 天数舍入差 | -$516 | 换卡旧卡当月费用的天数计算差 |
+| 其他小差异 | -$892 | — |
+| **净差异** | **+$5,801** | — |
+
+**平台和 Excel 的换卡记录能互相对上，平台多出的部分是换卡旧卡预付，属于业务口径差异，不是计算错误。**
+
+########## COMMAND 2 ##########
+guid: 43d6dec8-5cd5-40cf-b896-8b0c9d5cab3b
+%md
+## Step 1: 跑原 notebook 逻辑写入 tmp.card_billing_test01（2026-08）
+
+########## COMMAND 3 ##########
+guid: 82f35704-f39c-4cf1-a887-db76343ae5aa
+%sql
+CREATE OR REPLACE TABLE simo_prod.tmp.card_billing_test01 AS
+WITH basic_data AS (
+  SELECT
+    imsi, product_id, SIM_Product_Data_Capacity,
+    partition_time - INTERVAL 4 HOUR AS partition_time,
+    Cycle_Start_Time - INTERVAL 5 HOUR AS Cycle_Start_Time,
+    Cycle_End_Time - INTERVAL 5 HOUR AS Cycle_End_Time,
+    ROW_NUMBER() OVER(
+      PARTITION BY DATE(partition_time - INTERVAL 4 HOUR), imsi
+      ORDER BY partition_time
+    ) AS rm
+  FROM (
+    SELECT
+      s1.imsi,
+      IF(DATE(Cycle_End_Time) <= DATE('2026-08-31'), s2.product_id, s1.product_id) AS product_id,
+      ICCID, SIM_Product_Threshold, SIM_Product_Data_Capacity,
+      IF(DATE(Cycle_End_Time) <= DATE('2026-08-31'),
+         DATE_FORMAT(s2.cycle_time, 'yyyy-MM-dd HH:mm:ss'), s1.Cycle_Start_Time) AS Cycle_Start_Time,
+      IF(DATE(Cycle_End_Time) <= DATE('2026-08-31'),
+         DATE_FORMAT(s2.next_cycle_time, 'yyyy-MM-dd HH:mm:ss'), s1.Cycle_End_Time) AS Cycle_End_Time,
+      DispatchStatus, SimStatus, year, month, day, hour, partition_time
+    FROM (
+      SELECT * FROM simo_prod.tc_cdr.sim_status_for_sftp_bak
+      WHERE DATE(partition_time - INTERVAL 4 HOUR) > DATE('2026-07-31')
+        AND DATE(partition_time - INTERVAL 4 HOUR) <= DATE('2026-08-31')
+    ) s1
+    LEFT JOIN (
+      SELECT imsi, product_id, cycle_time, next_cycle_time FROM (
+        SELECT *, ROW_NUMBER() OVER(
+          PARTITION BY imsi, YEAR(cycle_time), MONTH(cycle_time)
+          ORDER BY create_time DESC
+        ) rm
+        FROM simo_prod.ods.resource_res_vsim_cycle_history
+      ) WHERE rm = 1
+    ) s2
+    ON s1.imsi = s2.imsi
+    AND YEAR(s1.Cycle_Start_Time) = YEAR(s2.cycle_time)
+    AND MONTH(s1.Cycle_Start_Time) = MONTH(s2.cycle_time)
+  )
+  WHERE SimStatus != 'Installed'
+    AND Cycle_Start_Time IS NOT NULL
+),
+
+cycle_counts AS (
+  SELECT imsi, COUNT(DISTINCT Cycle_Start_Time) AS cycles_nums
+  FROM basic_data
+  GROUP BY imsi
+),
+
+first_time_imsi AS (
+  SELECT DISTINCT curr.imsi, 1 as is_first_time
+  FROM (SELECT DISTINCT imsi FROM basic_data) curr
+  LEFT JOIN (
+    SELECT DISTINCT IMSI FROM simo_prod.dm.Card_Billing_Report_Detail_new02
+    WHERE Billing_Period < '20260801-20260831'
+  ) hist ON curr.imsi = hist.IMSI
+  WHERE hist.IMSI IS NULL
+),
+
+imsi_max_date AS (
+  SELECT imsi, Cycle_End_Time, MAX(DATE(partition_time)) as max_partition_date
+  FROM basic_data
+  GROUP BY imsi, Cycle_End_Time
+),
+
+imsi_activation_date AS (
+  SELECT IMSI, MAX(CREATE_DATE) as activation_date
+  FROM simo_prod.ods.resource_res_vsim_status_log
+  WHERE NEXT_STATUS = '激活'
+  GROUP BY IMSI
+),
+
+prev_month_billed_imsi AS (
+  SELECT DISTINCT IMSI
+  FROM simo_prod.dm.Card_Billing_Report_Detail_new02
+  WHERE Billing_Period = '20260701-20260731'
+    AND billing_state IN (2, 3)
+),
+
+card_details AS (
+  select
+    imsi, product_id, SIM_Product_Data_Capacity, Cycle_Start_Time, Cycle_End_Time,
+    date_diff(final_end_date, start_date)+1 as billing_days, start_date, final_end_date as end_date,
+    cycle_days, types
+  from (
+    select
+      imsi, product_id, SIM_Product_Data_Capacity, Cycle_Start_Time, Cycle_End_Time,
+      start_date, max_date, end_date, types, cycle_days,
+      CASE
+        WHEN max_date < last_day(DATE('2026-08-01')) AND max_date < end_date THEN max_date
+        ELSE end_date
+      END as final_end_date
+    from (
+      select
+        imsi, product_id,
+        TRY_CAST(SIM_Product_Data_Capacity AS DOUBLE)/1024 AS SIM_Product_Data_Capacity,
+        Cycle_Start_Time, Cycle_End_Time,
+        COUNT(1) AS billing_days,
+        min(date(partition_time)) as start_date,
+        max(date(partition_time)) as max_date,
+        date(Cycle_End_Time) as end_date,
+        1 as types,
+        date_diff(date(Cycle_End_Time + interval 1 minutes), date(Cycle_Start_Time)) as cycle_days
+      from (
+        SELECT b.*, c.cycles_nums FROM basic_data b
+        LEFT JOIN cycle_counts c ON b.imsi = c.imsi
+        where c.cycles_nums=1 and b.rm=1
+      )
+      group by all
+    ) t
+  )
+  union all
+  select
+    imsi, product_id, SIM_Product_Data_Capacity, Cycle_Start_Time, Cycle_End_Time,
+    date_diff(end_date, max_date) as billing_days, max_date as start_date, end_date,
+    cycle_days, types
+  from (
+    select
+      imsi, product_id, SIM_Product_Data_Capacity, Cycle_Start_Time, Cycle_End_Time,
+      start_date, max_date,
+      if(max_date < last_day(DATE('2026-08-01')) and max_date < end_date, max_date, end_date) as end_date,
+      types, cycle_days
+    from (
+      select
+        imsi, product_id,
+        TRY_CAST(SIM_Product_Data_Capacity AS DOUBLE)/1024 AS SIM_Product_Data_Capacity,
+        Cycle_Start_Time, Cycle_End_Time,
+        COUNT(1) AS billing_days,
+        min(date(partition_time)) as start_date,
+        max(date(partition_time)) as max_date,
+        date(Cycle_End_Time) as end_date,
+        2 as types,
+        date_diff(date(Cycle_End_Time + interval 1 minutes), date(Cycle_Start_Time)) as cycle_days
+      from (
+        SELECT b.*, c.cycles_nums FROM basic_data b
+        LEFT JOIN cycle_counts c ON b.imsi = c.imsi
+        where c.cycles_nums=1 and b.rm=1
+      )
+      group by all
+    ) t
+  )
+  where end_date > max_date
+  union all
+  select
+    imsi, product_id, SIM_Product_Data_Capacity,
+    Cycle_Start_Time, Cycle_End_Time,
+    billing_days, start_date, end_date, cycle_days, 1 as types
+  from (
+    select
+      imsi, product_id,
+      TRY_CAST(SIM_Product_Data_Capacity AS DOUBLE)/1024 AS SIM_Product_Data_Capacity,
+      Cycle_Start_Time, Cycle_End_Time,
+      CASE
+        WHEN max(date(partition_time)) >= last_day(DATE('2026-08-01'))
+          AND date(Cycle_End_Time) > last_day(DATE('2026-08-01'))
+        THEN COUNT(1) - 1
+        ELSE COUNT(1)
+      END AS billing_days,
+      min(date(partition_time)) as start_date,
+      CASE
+        WHEN max(date(partition_time)) >= last_day(DATE('2026-08-01'))
+          AND date(Cycle_End_Time) > last_day(DATE('2026-08-01'))
+        THEN date_add(max(date(partition_time)), -1)
+        ELSE max(date(partition_time))
+      END as end_date,
+      date_diff(date(Cycle_End_Time + interval 1 minutes), date(Cycle_Start_Time)) as cycle_days
+    from (
+      SELECT b.*, c.cycles_nums FROM basic_data b
+      LEFT JOIN cycle_counts c ON b.imsi = c.imsi
+      where c.cycles_nums > 1 and b.rm = 1
+    )
+    group by all
+  ) t
+  union all
+  select
+    imsi, product_id, SIM_Product_Data_Capacity,
+    Cycle_Start_Time, Cycle_End_Time,
+    date_diff(prepaid_end, max_date) + 1 as billing_days,
+    max_date as start_date, prepaid_end as end_date,
+    cycle_days, 2 as types
+  from (
+    select
+      b.imsi,
+      max_by(b.product_id, b.Cycle_End_Time) as product_id,
+      TRY_CAST(max_by(b.SIM_Product_Data_Capacity, b.Cycle_End_Time) AS DOUBLE)/1024 as SIM_Product_Data_Capacity,
+      max_by(b.Cycle_Start_Time, b.Cycle_End_Time) as Cycle_Start_Time,
+      max(b.Cycle_End_Time) as Cycle_End_Time,
+      max(date(b.partition_time)) as max_date,
+      if(
+        max(date(b.partition_time)) < last_day(DATE('2026-08-01'))
+        and max(date(b.partition_time)) < date(max(b.Cycle_End_Time)),
+        max(date(b.partition_time)),
+        date(max(b.Cycle_End_Time))
+      ) as prepaid_end,
+      date_diff(
+        date(max(b.Cycle_End_Time) + interval 1 minutes),
+        date(max_by(b.Cycle_Start_Time, b.Cycle_End_Time))
+      ) as cycle_days
+    from basic_data b
+    join cycle_counts c on b.imsi = c.imsi
+    where c.cycles_nums > 1 and b.rm = 1
+    group by b.imsi
+  ) t
+  WHERE prepaid_end > max_date
+),
+
+billing_data AS (
+  select
+    Billing_Period, IMSI, Cycle_Start_Time, Cycle_End_Time, ICCID, SIM_Supplier,
+    SIM_Product_ID, SIM_Product_Name, SIM_Product_Type, Data_Capacity_GB,
+    Data_Threshold_GB, Plan_Price, Billing_Days,
+    CASE
+      WHEN is_first_time = 1 AND activation_date IS NOT NULL AND DATE(activation_date) > end_date THEN 0
+      WHEN is_first_time = 1 AND start_date > DATE(Cycle_Start_Time) AND types = 2 THEN 0
+      WHEN is_first_time = 1 AND start_date > DATE(Cycle_Start_Time)
+      THEN date_diff(LAST_DAY(DATE('2026-08-01')), start_date) + 1
+      WHEN is_first_time = 1 AND max_partition_date >= DATE(Cycle_End_Time)
+      THEN DAY(LAST_DAY(DATE('2026-08-01')))
+      WHEN COALESCE(had_prev_month_bill, 0) = 0 AND types = 1
+           AND date(Cycle_Start_Time) >= DATE('2026-08-01')
+      THEN date_diff(LAST_DAY(DATE('2026-08-01')), COALESCE(DATE(activation_date), start_date))
+      ELSE Billable_Days
+    END AS Billable_Days,
+    data_usage_gb,
+    ROUND(
+      CASE
+        WHEN is_first_time = 1 AND activation_date IS NOT NULL AND DATE(activation_date) > end_date THEN 0
+        WHEN is_first_time = 1 AND start_date > DATE(Cycle_Start_Time) AND types = 2 THEN 0
+        WHEN is_first_time = 1 AND start_date > DATE(Cycle_Start_Time)
+        THEN (date_diff(LAST_DAY(DATE('2026-08-01')), start_date) + 1) / billing_days * Plan_Price
+        WHEN is_first_time = 1 AND max_partition_date >= DATE(Cycle_End_Time)
+        THEN DAY(LAST_DAY(DATE('2026-08-01'))) / billing_days * Plan_Price
+        WHEN COALESCE(had_prev_month_bill, 0) = 0 AND types = 1
+             AND date(Cycle_Start_Time) >= DATE('2026-08-01')
+        THEN date_diff(LAST_DAY(DATE('2026-08-01')), COALESCE(DATE(activation_date), start_date)) / billing_days * Plan_Price
+        ELSE Billable_Days / billing_days * Plan_Price
+      END, 4
+    ) as Billable_Fee_Time,
+    Report_Date, year, month, types,
+    start_date, end_date, is_first_time, max_partition_date, had_prev_month_bill
+  from (
+    select
+      '20260801-20260831' AS Billing_Period,
+      s1.imsi AS IMSI, s1.Cycle_Start_Time, s1.Cycle_End_Time,
+      s2.iccid_show AS ICCID,
+      s5.CARRIER_NAME AS SIM_Supplier,
+      s1.product_id AS SIM_Product_ID,
+      s4.product_name AS SIM_Product_Name,
+      CASE WHEN s4.is_local = 1 THEN 'Local' ELSE 'Roaming' END AS SIM_Product_Type,
+      s1.SIM_Product_Data_Capacity AS Data_Capacity_GB,
+      0 AS Data_Threshold_GB,
+      CASE WHEN s1.product_id = '600111087' THEN 62
+           WHEN s1.product_id IN ('600111150', '60011921', '600111214') THEN 43
+           ELSE s4.package_price END AS Plan_Price,
+      s1.cycle_days AS Billing_Days,
+      s1.billing_days AS Billable_Days,
+      0 as data_usage_gb,
+      CURRENT_DATE() AS Report_Date,
+      2026 AS year, 8 AS month,
+      s1.types, s1.cycle_days, s1.start_date, s1.end_date,
+      COALESCE(ft.is_first_time, 0) as is_first_time,
+      imd.max_partition_date,
+      iad.activation_date,
+      CASE WHEN pmb.IMSI IS NOT NULL THEN 1 ELSE 0 END as had_prev_month_bill
+    from card_details s1
+    LEFT JOIN first_time_imsi ft ON s1.imsi = ft.imsi
+    LEFT JOIN imsi_max_date imd ON s1.imsi = imd.imsi AND s1.Cycle_End_Time = imd.Cycle_End_Time
+    LEFT JOIN imsi_activation_date iad ON s1.imsi = iad.IMSI
+    LEFT JOIN prev_month_billed_imsi pmb ON s1.imsi = pmb.IMSI
+    LEFT JOIN simo_prod.ods.resource_res_vsim_billing s2 ON s1.imsi = s2.imsi
+    LEFT JOIN simo_prod.ods.resource_res_vsim_product s4 ON s1.product_id = s4.product_id
+    LEFT JOIN simo_prod.ods.resource_res_carrier s5 ON s4.supplier_id = s5.id
+    where s5.CARRIER_NAME = 'Wing Alpha'
+      AND s4.product_name NOT LIKE '%PI%'
+  )
+)
+
+select
+  Billing_Period, IMSI, ICCID, Cycle_Start_Time, Cycle_End_Time,
+  data_usage_gb, SIM_Product_Name as Plan_Name, Data_Capacity_GB, Plan_Price,
+  start_date, end_date,
+  SIM_Supplier, Billing_Days,
+  SIM_Product_ID, SIM_Product_Name, SIM_Product_Type,
+  Data_Threshold_GB, Billable_Days,
+  if(Billable_Fee_Time > Plan_Price, Plan_Price, Billable_Fee_Time) as Billable_Fee_Time,
+  0.0 as Billable_Fee_Usage,
+  Billable_Fee_Time as Billable_Fee_Final,
+  Report_Date, year, month, types,
+  case when date(Cycle_Start_Time) >= DATE('2026-07-01')
+    and date(Cycle_Start_Time) < DATE('2026-08-01')
+    and date(Cycle_End_Time) >= DATE('2026-08-01')
+    then 1 else 2 end as billing_state
+from billing_data
+WHERE NOT (
+  types = 1
+  AND COALESCE(had_prev_month_bill, 0) = 0
+  AND date(Cycle_Start_Time) >= DATE('2026-07-01')
+  AND date(Cycle_Start_Time) < DATE('2026-08-01')
+  AND date(Cycle_End_Time) >= DATE('2026-08-01')
+)
+
+UNION ALL
+
+-- 修正后的退款：只退本月完全没有非 Installed 记录的卡（真正作废）
+SELECT
+  p.Billing_Period, p.IMSI, p.ICCID, p.Cycle_Start_Time, p.Cycle_End_Time,
+  p.data_usage_gb, p.Plan_Name, p.Data_Capacity_GB, p.Plan_Price,
+  p.start_date, p.end_date,
+  p.SIM_Supplier, p.Billing_Days,
+  p.SIM_Product_ID, p.SIM_Product_Name, p.SIM_Product_Type,
+  p.Data_Threshold_GB, 0 as Billable_Days,
+  -p.Billable_Fee_Time as Billable_Fee_Time,
+  0.0 as Billable_Fee_Usage,
+  -p.Billable_Fee_Final as Billable_Fee_Final,
+  CURRENT_DATE() as Report_Date, p.year, p.month, p.types,
+  3 as billing_state
+FROM (
+  SELECT *
+  FROM simo_prod.dm.Card_Billing_Report_Detail_new02
+  WHERE Billing_Period = '20260701-20260731'
+    AND types = 2
+    AND SIM_Supplier = 'Wing Alpha'
+    AND SIM_Product_Name NOT LIKE '%PI%'
+) p
+LEFT JOIN (
+  SELECT DISTINCT imsi
+  FROM simo_prod.tc_cdr.sim_status_for_sftp_bak
+  WHERE DATE(partition_time) > DATE('2026-07-31')
+    AND DATE(partition_time) <= DATE('2026-08-31')
+    AND SimStatus != 'Installed'
+) active ON p.IMSI = active.imsi
+WHERE active.imsi IS NULL
+
+########## COMMAND 4 ##########
+guid: 757119cb-009e-4796-8bf9-c604a619612e
+%md
+## Step 2: 总金额
+
+########## COMMAND 5 ##########
+guid: baa3f562-b3c1-4bed-adc3-9d1d529769c3
+%sql
+SELECT COUNT(*) as rows, COUNT(DISTINCT IMSI) as cards, ROUND(SUM(Billable_Fee_Final), 2) as total
+FROM simo_prod.mysql_cdc_sync.card_billing_v2_aug
+
+########## COMMAND 6 ##########
+guid: 7b3becf4-20da-47f7-bfdc-56f063aa8215
+%md
+## Step 3: 按 billing_state + types 拆分
+
+########## COMMAND 7 ##########
+guid: 97032955-b48a-4884-9522-3b6acf692b8f
+%sql
+SELECT billing_state, types, COUNT(*) as rows, COUNT(DISTINCT IMSI) as cards, ROUND(SUM(Billable_Fee_Final), 2) as total
+FROM simo_prod.mysql_cdc_sync.card_billing_v2_aug
+GROUP BY billing_state, types
+ORDER BY billing_state, types
+
+########## COMMAND 8 ##########
+guid: 30a1cf58-a245-4003-8143-d1785cb31628
+%md
+## Step 4: 原始 dm 表对账口径
+
+########## COMMAND 9 ##########
+guid: 8ecc1b07-241c-417c-841e-c75463d28f88
+%sql
+SELECT 'dm_original' as version, ROUND(SUM(Billable_Fee_Final), 2) as total
+FROM simo_prod.dm.card_billing_report_detail_new02
+WHERE Billing_Period = '20260801-20260831'
+  AND SIM_Supplier = 'Wing Alpha' AND SIM_Product_Name NOT LIKE '%PI%'
+  AND billing_state IN (2, 3)
+
+########## COMMAND 10 ##########
+guid: 0b03bf79-59cd-46d8-8bbd-ef67acfbd38a
+%md
+## Step 5: 修正退款 — 去掉 Full Cycle 卡的错误退款
+
+########## COMMAND 11 ##########
+guid: 5a02ad32-ab5f-4bc8-9f18-292d12289d19
+%sql
+SELECT 'refund_fixed' as version, ROUND(SUM(Billable_Fee_Final), 2) as total
+FROM simo_prod.dm.card_billing_report_detail_new02
+WHERE Billing_Period = '20260801-20260831'
+  AND SIM_Supplier = 'Wing Alpha' AND SIM_Product_Name NOT LIKE '%PI%'
+  AND (
+    billing_state = 2
+    OR (billing_state = 3
+      AND IMSI NOT IN (
+        SELECT DISTINCT imsi
+        FROM simo_prod.mysql_cdc_sync.wa_invoice_detail
+        WHERE LEFT(final_start_date, 7) = '2026-08'
+          AND final_charge IS NOT NULL AND final_charge != '-'
+          AND charge_type = 'Full Cycle Charge'
+      )
+    )
+  )
+
+########## COMMAND 12 ##########
+guid: 3fe5fc67-45f5-44c8-913a-5e5dcaa7cb47
+%md
+## Step 6: 修正退款 + 修正价格 — 最终对账
+
+########## COMMAND 13 ##########
+guid: 394a0001-c79b-4788-8681-764a3dad6084
+%sql
+SELECT 'refund_and_price_fixed' as version,
+  ROUND(SUM(
+    CASE
+      WHEN SIM_Product_ID = '600111087' AND Plan_Price = 43 THEN Billable_Fee_Final / 43 * 62
+      WHEN SIM_Product_ID IN ('600111150', '60011921', '600111214') AND Plan_Price = 62 THEN Billable_Fee_Final / 62 * 43
+      ELSE Billable_Fee_Final
+    END
+  ), 2) as total
+FROM simo_prod.dm.card_billing_report_detail_new02
+WHERE Billing_Period = '20260801-20260831'
+  AND SIM_Supplier = 'Wing Alpha' AND SIM_Product_Name NOT LIKE '%PI%'
+  AND (
+    billing_state = 2
+    OR (billing_state = 3
+      AND IMSI NOT IN (
+        SELECT DISTINCT imsi
+        FROM simo_prod.mysql_cdc_sync.wa_invoice_detail
+        WHERE LEFT(final_start_date, 7) = '2026-08'
+          AND final_charge IS NOT NULL AND final_charge != '-'
+          AND charge_type = 'Full Cycle Charge'
+      )
+    )
+  )
+
+########## COMMAND 14 ##########
+guid: 7a7601db-94a6-4263-9ceb-52a44d5c5644
+%md
+## Step 7: Excel 8月总额
+
+########## COMMAND 15 ##########
+guid: cc916797-c58a-4884-a959-9a6a501969aa
+%sql
+SELECT 'excel' as version, COUNT(*) as rows, COUNT(DISTINCT imsi) as cards, ROUND(SUM(CAST(final_charge AS DOUBLE)), 2) as total
+FROM simo_prod.mysql_cdc_sync.wa_invoice_detail
+WHERE LEFT(final_start_date, 7) = '2026-08'
+  AND final_charge IS NOT NULL AND final_charge != '-'
+
+########## COMMAND 16 ##########
+guid: 93faabb4-6c41-42a1-91f3-d1f33953cb89
+%md
+## Step 8: 4 个修正价格产品 — 平台 dm 表 vs Excel 并排对比
+
+平台查 `dm.card_billing_report_detail_new02`（原 notebook 实际结果）
+
+########## COMMAND 17 ##########
+guid: 619cb466-fd7f-459c-9c08-9332bfa9f437
+%sql
+SELECT
+  'platform' as src,
+  SIM_Product_ID as product_id,
+  SIM_Product_Name as product_name,
+  Plan_Price as price,
+  COUNT(DISTINCT IMSI) as cards,
+  ROUND(SUM(Billable_Fee_Final), 2) as total
+FROM simo_prod.dm.card_billing_report_detail_new02
+WHERE Billing_Period = '20260801-20260831'
+  AND SIM_Supplier = 'Wing Alpha'
+  AND SIM_Product_ID IN ('600111087', '600111150', '60011921', '600111214')
+  AND billing_state IN (2, 3)
+GROUP BY SIM_Product_ID, SIM_Product_Name, Plan_Price
+
+UNION ALL
+
+SELECT
+  'excel' as src,
+  '' as product_id,
+  product_name,
+  CAST(monthly_rate AS DOUBLE) as price,
+  COUNT(DISTINCT imsi) as cards,
+  ROUND(SUM(CAST(final_charge AS DOUBLE)), 2) as total
+FROM simo_prod.mysql_cdc_sync.wa_invoice_detail
+WHERE LEFT(final_start_date, 7) = '2026-08'
+  AND final_charge IS NOT NULL AND final_charge != '-'
+  AND (product_name LIKE '%ATM RT%' OR product_name LIKE '%SP RA%'
+    OR product_name LIKE '%DI MZ%' OR product_name LIKE '%AT (1) (A)%')
+GROUP BY product_name, CAST(monthly_rate AS DOUBLE)
+
+ORDER BY product_name, src
