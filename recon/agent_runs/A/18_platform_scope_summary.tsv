@@ -1,0 +1,5 @@
+billing_month	platform_scope_status	platform_cards	cards_with_unique_wa_price	cards_with_multiple_wa_prices	cards_with_missing_product_mapping
+2025-10	NON_WA_OR_UNMAPPED	41696	0	0	0
+2025-10	WA_PRODUCT_MATCH	13086	13083	3	0
+2025-11	NON_WA_OR_UNMAPPED	41460	0	0	0
+2025-11	WA_PRODUCT_MATCH	16860	16708	152	0

@@ -1,0 +1,4 @@
+source_file	invoice_batch_label	observed_start_month	record_count	imsi_count	total_excel_amount	total_excel_price	charge_type_count	product_name_count	min_final_start_date	max_final_start_date	min_final_end_date	max_final_end_date	start_month_label_conflict_rows
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02		1	1		62.000000000000	1	1					0
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-02	12571	12308	690572.723502304135	712356.000000000000	4	82	2026-02-01	2026-02-28	2026-02-06	2026-03-29	0
+SIMO Data Purchase Invoice Details - DEC 2025.xlsx	2025-12	2025-12	12185	12110	704839.353763440731	723265.000000000000	2	74	2025-12-01	2025-12-31	2025-12-23	2026-01-29	0

@@ -1,0 +1,11 @@
+billing_month	result_kind	scoped_card_product_rows	scoped_card_count	scoped_product_id_count	scoped_price_count	platform_only_card_count	excluded_card_count	reason
+2026-03	EXCLUDED_MISSING_PRODUCT_MAPPING						2	Target-month product_id absent from product dimension; excluded before platform card aggregation, not PLATFORM_ONLY.
+2026-03	EXCLUDED_NON_WA_SUPPLIER						38620	Target-month product mapped but supplier_id<>2275; excluded before platform card aggregation, not PLATFORM_ONLY.
+2026-03	PLATFORM_ONLY					2774		Source: target-month supplier_id=2275 snapshot card absent from Excel detail imsi; cycle_history/status_log are not allowed to add this category.
+2026-03	PLATFORM_SCOPE	16616	15537	86	4			Target-month sim_status_for_sftp_bak partition INNER JOIN resource_res_vsim_product on product_id and supplier_id=2275.
+2026-04	EXCLUDED_NON_WA_SUPPLIER						38830	Target-month product mapped but supplier_id<>2275; excluded before platform card aggregation, not PLATFORM_ONLY.
+2026-04	PLATFORM_ONLY					8685		Source: target-month supplier_id=2275 snapshot card absent from Excel detail imsi; cycle_history/status_log are not allowed to add this category.
+2026-04	PLATFORM_SCOPE	18058	16002	97	4			Target-month sim_status_for_sftp_bak partition INNER JOIN resource_res_vsim_product on product_id and supplier_id=2275.
+2026-05	EXCLUDED_NON_WA_SUPPLIER						39088	Target-month product mapped but supplier_id<>2275; excluded before platform card aggregation, not PLATFORM_ONLY.
+2026-05	PLATFORM_ONLY					8592		Source: target-month supplier_id=2275 snapshot card absent from Excel detail imsi; cycle_history/status_log are not allowed to add this category.
+2026-05	PLATFORM_SCOPE	16677	16086	99	4			Target-month sim_status_for_sftp_bak partition INNER JOIN resource_res_vsim_product on product_id and supplier_id=2275.

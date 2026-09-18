@@ -1,0 +1,2 @@
+billing_month	source_file	excel_row_key	imsi	excel_product_id	excel_product_name	charge_type	excel_final_start	excel_final_end	excel_days	excel_price	excel_amount	rule_id	source_match_status
+2026-03	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx#4329	083901300080584266		ATT 300GB Plan DC (WA)	Offstocked before cycle start				62.0000000000		R_OFFSTOCK_BEFORE_CYCLE_UNRESOLVED	WA_ONLY

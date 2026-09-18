@@ -1,0 +1,1589 @@
+[
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年11月\\WingAlpha-2025年11月付；USD1,139,393.53\\006-V2 - SIMO Data Purchase Invoice Details - SEP 2025.xlsx",
+    "relative_path": "2025年11月\\WingAlpha-2025年11月付；USD1,139,393.53\\006-V2 - SIMO Data Purchase Invoice Details - SEP 2025.xlsx",
+    "file_name": "006-V2 - SIMO Data Purchase Invoice Details - SEP 2025.xlsx",
+    "extension": ".xlsx",
+    "file_size": 2203797,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Invoice Summary",
+        "max_row": 22,
+        "max_column": 8,
+        "header_row": 5,
+        "headers": [
+          "",
+          "",
+          "Description",
+          "# of Unique Cards",
+          "Avg. # of Days per Card",
+          "Total Charge",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 17,
+        "nonempty_rows": 18,
+        "data_nonempty_rows_after_header": 16,
+        "formula_count": null,
+        "amount_stats": {
+          "Total Charge": {
+            "count_numeric": 13,
+            "sum": 3418180.574187298,
+            "min": 0.0,
+            "max": 1139393.524729099
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Invoice Details - SEP 2025",
+        "max_row": 25250,
+        "max_column": 16,
+        "header_row": 1,
+        "headers": [
+          "imsi",
+          "iccid",
+          "cycle_time",
+          "cycle_end_time",
+          "Final Cycle Usage (GB)",
+          "Plan Name",
+          "Data Allowance",
+          "Price",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Usage Days > Active Days",
+          "Final # of Days",
+          "Final Charge",
+          "Comment for Summary"
+        ],
+        "key_columns": [
+          "imsi",
+          "iccid"
+        ],
+        "data_rows_from_header": 25249,
+        "nonempty_rows": 25238,
+        "data_nonempty_rows_after_header": 25238,
+        "formula_count": null,
+        "amount_stats": {
+          "Price": {
+            "count_numeric": 25237,
+            "sum": 1544554.0,
+            "min": 43.0,
+            "max": 62.0
+          },
+          "Final Charge": {
+            "count_numeric": 25237,
+            "sum": 1139393.524729114,
+            "min": 2.0,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Invoice Summary",
+      "Invoice Details - SEP 2025"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年11月\\WingAlpha-2025年11月付；USD1,139,393.53\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2025年11月\\WingAlpha-2025年11月付；USD1,139,393.53\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年11月\\WingAlpha-2025年11月付；USD772,765.00\\01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "relative_path": "2025年11月\\WingAlpha-2025年11月付；USD772,765.00\\01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "file_name": "01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "extension": ".xlsx",
+    "file_size": 746981,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 5,
+        "headers": [
+          "",
+          "",
+          "Description",
+          "# of Unique Cards",
+          "Avg. # of Days per Card",
+          "Total Charge",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 22,
+        "nonempty_rows": 22,
+        "data_nonempty_rows_after_header": 20,
+        "formula_count": null,
+        "amount_stats": {
+          "Total Charge": {
+            "count_numeric": 17,
+            "sum": 3091060.0000018,
+            "min": -465.0,
+            "max": 772765.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Offstocked Date",
+          "Charge Type",
+          "Charge Start Date",
+          "Charge End Date",
+          "# of Active Days",
+          "# of Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 12714,
+        "nonempty_rows": 12715,
+        "data_nonempty_rows_after_header": 12715,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 12714,
+            "sum": 772285.5333333334,
+            "min": -41.33333333333333,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In SEP - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "imsi",
+          "iccid",
+          "cycle_time",
+          "cycle_end_time",
+          "Plan Name",
+          "Price",
+          "New Activation",
+          "Charge Start Date",
+          "Charge End Date",
+          "# of Active Days",
+          "Original Charge in SEP Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "imsi",
+          "iccid"
+        ],
+        "data_rows_from_header": 36,
+        "nonempty_rows": 37,
+        "data_nonempty_rows_after_header": 37,
+        "formula_count": null,
+        "amount_stats": {
+          "Price": {
+            "count_numeric": 36,
+            "sum": 2232.0,
+            "min": 62.0,
+            "max": 62.0
+          },
+          "Pending Charge": {
+            "count_numeric": 36,
+            "sum": 479.46666786666657,
+            "min": 2.066666699999999,
+            "max": 35.133333366666676
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In SEP - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年11月\\WingAlpha-2025年11月付；USD772,765.00\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2025年11月\\WingAlpha-2025年11月付；USD772,765.00\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "relative_path": "2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "file_name": "01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx",
+    "extension": ".xlsx",
+    "file_size": 773509,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 5,
+        "headers": [
+          "",
+          "",
+          "Description",
+          "# of Unique Cards",
+          "Avg. # of Days per Card",
+          "Total Charge",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 16,
+        "nonempty_rows": 16,
+        "data_nonempty_rows_after_header": 14,
+        "formula_count": null,
+        "amount_stats": {
+          "Total Charge": {
+            "count_numeric": 11,
+            "sum": 3095175.3548194002,
+            "min": 0.0,
+            "max": 773793.8387
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 12663,
+        "nonempty_rows": 12664,
+        "data_nonempty_rows_after_header": 12664,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 12663,
+            "sum": 773737.8387096773,
+            "min": 9.709677419354838,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In OCT - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in OCT Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 5,
+        "nonempty_rows": 6,
+        "data_nonempty_rows_after_header": 6,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 5,
+            "sum": 56.0,
+            "min": 8.0,
+            "max": 16.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In OCT - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx",
+    "relative_path": "2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx",
+    "file_name": "01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx",
+    "extension": ".xlsx",
+    "file_size": 60875,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Sheet1",
+        "max_row": 394,
+        "max_column": 24,
+        "header_row": 1,
+        "headers": [
+          "imsi",
+          "did we charge for this imsi?",
+          "ICCID",
+          "prod",
+          "cycle start",
+          "cycle end",
+          "price",
+          "final price",
+          "was this line replaced",
+          "if replaced whats new imsi",
+          "replacement product",
+          "Did we charge for this imsi?",
+          "date line went down",
+          "date replacement was activated",
+          "Days without Service?",
+          "Correct Price",
+          "New Purchase Due to Max Optimization Request",
+          "Credit Owed",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [
+          "imsi",
+          "ICCID",
+          "prod",
+          "if replaced whats new imsi"
+        ],
+        "data_rows_from_header": 393,
+        "nonempty_rows": 394,
+        "data_nonempty_rows_after_header": 394,
+        "formula_count": null,
+        "amount_stats": {
+          "price": {
+            "count_numeric": 393,
+            "sum": 24366.0,
+            "min": 62.0,
+            "max": 62.0
+          },
+          "final price": {
+            "count_numeric": 393,
+            "sum": 24366.0,
+            "min": 62.0,
+            "max": 62.0
+          },
+          "Correct Price": {
+            "count_numeric": 393,
+            "sum": 23780.54999999999,
+            "min": 20.67,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Sheet2",
+        "max_row": 402,
+        "max_column": 1,
+        "header_row": 1,
+        "headers": [],
+        "key_columns": [],
+        "data_rows_from_header": 401,
+        "nonempty_rows": 394,
+        "data_nonempty_rows_after_header": 394,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Sheet1",
+      "Sheet2"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2025年12月\\WingAlpha-2025年12月付；USD773,380.39\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年1月\\WingAlpha-2026年1月付；USD704,839.35\\SIMO Data Purchase Invoice Details - DEC 2025.xlsx",
+    "relative_path": "2026年1月\\WingAlpha-2026年1月付；USD704,839.35\\SIMO Data Purchase Invoice Details - DEC 2025.xlsx",
+    "file_name": "SIMO Data Purchase Invoice Details - DEC 2025.xlsx",
+    "extension": ".xlsx",
+    "file_size": 940172,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 5,
+        "headers": [
+          "",
+          "",
+          "Description",
+          "# of Unique Cards",
+          "Avg. # of Days per Card",
+          "Total Charge",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 13,
+        "nonempty_rows": 13,
+        "data_nonempty_rows_after_header": 11,
+        "formula_count": null,
+        "amount_stats": {
+          "Total Charge": {
+            "count_numeric": 8,
+            "sum": 2819357.41512,
+            "min": 3508.0,
+            "max": 704839.3538
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 12185,
+        "nonempty_rows": 12186,
+        "data_nonempty_rows_after_header": 12186,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 12185,
+            "sum": 704839.3537634341,
+            "min": 2.8666666666666667,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年1月\\WingAlpha-2026年1月付；USD704,839.35\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年1月\\WingAlpha-2026年1月付；USD704,839.35\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年2月\\WingAlpha-2026年2月付；USD703,612.29\\01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx",
+    "relative_path": "2026年2月\\WingAlpha-2026年2月付；USD703,612.29\\01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx",
+    "extension": ".xlsx",
+    "file_size": 1241145,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-01-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 37,
+        "nonempty_rows": 33,
+        "data_nonempty_rows_after_header": 32,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge",
+          "Note"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 13661,
+        "nonempty_rows": 13662,
+        "data_nonempty_rows_after_header": 13662,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 12953,
+            "sum": 703606.2903225648,
+            "min": -50.0,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In DEC - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in DEC Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 1,
+        "nonempty_rows": 2,
+        "data_nonempty_rows_after_header": 2,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 1,
+            "sum": 6.0,
+            "min": 6.0,
+            "max": 6.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In DEC - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年2月\\WingAlpha-2026年2月付；USD703,612.29\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年2月\\WingAlpha-2026年2月付；USD703,612.29\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年3月\\WingAlpha-2026年3月付；USD693,915.21\\01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx",
+    "relative_path": "2026年3月\\WingAlpha-2026年3月付；USD693,915.21\\01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 1188662,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-02-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 32,
+        "nonempty_rows": 28,
+        "data_nonempty_rows_after_header": 27,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge",
+          "Note"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 12572,
+        "nonempty_rows": 12573,
+        "data_nonempty_rows_after_header": 12573,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 12481,
+            "sum": 690572.7235023025,
+            "min": 1.3870967741935483,
+            "max": 64.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In JAN - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in DEC Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 359,
+        "nonempty_rows": 360,
+        "data_nonempty_rows_after_header": 360,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 359,
+            "sum": 3342.4838709677633,
+            "min": 1.3870967741935019,
+            "max": 28.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In JAN - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年3月\\WingAlpha-2026年3月付；USD693,915.21\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年3月\\WingAlpha-2026年3月付；USD693,915.21\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年4月\\WingAlpha-2026年4月付；USD579,471.47\\01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx",
+    "relative_path": "2026年4月\\WingAlpha-2026年4月付；USD579,471.47\\01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 1064283,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-03-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 36,
+        "nonempty_rows": 34,
+        "data_nonempty_rows_after_header": 33,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge",
+          "Transferred To Wing Simbank",
+          "Note"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 13082,
+        "nonempty_rows": 13083,
+        "data_nonempty_rows_after_header": 13083,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 13081,
+            "sum": 578406.3064516163,
+            "min": -24.357142857142858,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In FEB - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in FEB Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 127,
+        "nonempty_rows": 128,
+        "data_nonempty_rows_after_header": 128,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 127,
+            "sum": 1065.1685714285716,
+            "min": 1.5314285714285738,
+            "max": 27.644285714285715
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In FEB - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年4月\\WingAlpha-2026年4月付；USD579,471.47\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年4月\\WingAlpha-2026年4月付；USD579,471.47\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年5月\\WingAlpha-2026年5月付；USD374,480.38\\01-SIMO Data Purchase Invoice Details - APR 2026.xlsx",
+    "relative_path": "2026年5月\\WingAlpha-2026年5月付；USD374,480.38\\01-SIMO Data Purchase Invoice Details - APR 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - APR 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 549437,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-04-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 24,
+        "nonempty_rows": 22,
+        "data_nonempty_rows_after_header": 21,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge",
+          "Note"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 7780,
+        "nonempty_rows": 7781,
+        "data_nonempty_rows_after_header": 7781,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 7780,
+            "sum": 372289.3075268814,
+            "min": 1.3870967741935483,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In MAR - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in MAR Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 284,
+        "nonempty_rows": 285,
+        "data_nonempty_rows_after_header": 285,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 284,
+            "sum": 2191.067096774194,
+            "min": 1.3829032258064586,
+            "max": 40.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In MAR - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年5月\\WingAlpha-2026年5月付；USD374,480.38\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年5月\\WingAlpha-2026年5月付；USD374,480.38\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年6月\\WingAlpha-2026年6月付；USD389,842.49\\01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx",
+    "relative_path": "2026年6月\\WingAlpha-2026年6月付；USD389,842.49\\01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 579502,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-05-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 36,
+        "nonempty_rows": 27,
+        "data_nonempty_rows_after_header": 26,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Status",
+          "New Card IMSI (Replacement)",
+          "Old Card IMSI (Replaced)",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 7887,
+        "nonempty_rows": 7888,
+        "data_nonempty_rows_after_header": 7888,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 7887,
+            "sum": 389800.9526881746,
+            "min": -31.53333333333333,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In APR - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in APR Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 9,
+        "nonempty_rows": 10,
+        "data_nonempty_rows_after_header": 10,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 9,
+            "sum": 41.52666666666665,
+            "min": 1.4299999999999962,
+            "max": 8.603333333333332
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In APR - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年6月\\WingAlpha-2026年6月付；USD389,842.49\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年6月\\WingAlpha-2026年6月付；USD389,842.49\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年7月\\WingAlpha-2026年7月付；USD382,329.72\\01-SIMO Data Purchase Invoice Details - JUNE 2026.xlsx",
+    "relative_path": "2026年7月\\WingAlpha-2026年7月付；USD382,329.72\\01-SIMO Data Purchase Invoice Details - JUNE 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - JUNE 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 550883,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-06-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 27,
+        "nonempty_rows": 23,
+        "data_nonempty_rows_after_header": 22,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Status",
+          "New Card IMSI (Replacement)",
+          "Old Card IMSI (Replaced)",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 7598,
+        "nonempty_rows": 7599,
+        "data_nonempty_rows_after_header": 7599,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 7598,
+            "sum": 382329.7204301078,
+            "min": 1.3870967741935483,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年7月\\WingAlpha-2026年7月付；USD382,329.72\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年7月\\WingAlpha-2026年7月付；USD382,329.72\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年8月\\WingAlpha-2026年8月付；USD373,928.34\\01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx",
+    "relative_path": "2026年8月\\WingAlpha-2026年8月付；USD373,928.34\\01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx",
+    "file_name": "01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 552091,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-07-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 30,
+        "nonempty_rows": 28,
+        "data_nonempty_rows_after_header": 27,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Status",
+          "New Card IMSI (Replacement)",
+          "Old Card IMSI (Replaced)",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 7537,
+        "nonempty_rows": 7538,
+        "data_nonempty_rows_after_header": 7538,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 7537,
+            "sum": 373918.3139784969,
+            "min": 6.935483870967742,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In JUN - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in JUN Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 4,
+        "nonempty_rows": 5,
+        "data_nonempty_rows_after_header": 5,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 4,
+            "sum": 10.019999999999992,
+            "min": 1.4299999999999962,
+            "max": 5.729999999999997
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In JUN - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年8月\\WingAlpha-2026年8月付；USD373,928.34\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年8月\\WingAlpha-2026年8月付；USD373,928.34\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年9月\\WingAlpha-2026年9月付；USD\\SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx",
+    "relative_path": "2026年9月\\WingAlpha-2026年9月付；USD\\SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx",
+    "file_name": "SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx",
+    "extension": ".xlsx",
+    "file_size": 553374,
+    "is_temp_lock_file": false,
+    "sheets": [
+      {
+        "sheet_name": "Charges Summary",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 2,
+        "headers": [
+          "MONTH:",
+          "2026-08-01 00:00:00",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "key_columns": [],
+        "data_rows_from_header": 39,
+        "nonempty_rows": 35,
+        "data_nonempty_rows_after_header": 34,
+        "formula_count": null,
+        "amount_stats": {},
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Detail Charges",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Cycle Usage (GB)",
+          "Data Allowance (GB)",
+          "% Used",
+          "New Activation Date",
+          "Offstock Date",
+          "Charge Type",
+          "Status",
+          "New Card IMSI (Replacement)",
+          "Old Card IMSI (Replaced)",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Usage Days",
+          "Final # of Days for Proration",
+          "Monthly Rate",
+          "Final Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 7536,
+        "nonempty_rows": 7537,
+        "data_nonempty_rows_after_header": 7537,
+        "formula_count": null,
+        "amount_stats": {
+          "Final Charge": {
+            "count_numeric": 7536,
+            "sum": 364846.6129032255,
+            "min": 1.3870967741935483,
+            "max": 62.0
+          }
+        },
+        "date_stats": {}
+      },
+      {
+        "sheet_name": "Prorated-In JUL - Pending Charg",
+        "max_row": null,
+        "max_column": null,
+        "header_row": 1,
+        "headers": [
+          "IMSI",
+          "Product Name",
+          "Cycle Start Date",
+          "Cycle End Date",
+          "Data Allowance (GB)",
+          "New Activation Date",
+          "Final Start Date",
+          "Final End Date",
+          "# of Active Days",
+          "Monthly Rate",
+          "Original Charge in JUL Invoice",
+          "Cycle Usage (GB)",
+          "Usage Days",
+          "Final Charge For Usage Days",
+          "Pending Charge"
+        ],
+        "key_columns": [
+          "IMSI"
+        ],
+        "data_rows_from_header": 3,
+        "nonempty_rows": 4,
+        "data_nonempty_rows_after_header": 4,
+        "formula_count": null,
+        "amount_stats": {
+          "Pending Charge": {
+            "count_numeric": 3,
+            "sum": 4.162903226,
+            "min": 1.382903226,
+            "max": 1.39
+          }
+        },
+        "date_stats": {}
+      }
+    ],
+    "read_status": "OK",
+    "sheet_names": [
+      "Charges Summary",
+      "Detail Charges",
+      "Prorated-In JUL - Pending Charg"
+    ]
+  },
+  {
+    "local_excel_file": "C:\\Users\\EDY\\Desktop\\WA账单20260914\\2026年9月\\WingAlpha-2026年9月付；USD\\~$给Wing的付款说明2022-7-9.xlsx",
+    "relative_path": "2026年9月\\WingAlpha-2026年9月付；USD\\~$给Wing的付款说明2022-7-9.xlsx",
+    "file_name": "~$给Wing的付款说明2022-7-9.xlsx",
+    "extension": ".xlsx",
+    "file_size": 165,
+    "is_temp_lock_file": true,
+    "sheets": [],
+    "read_status": "INVALID_OR_UNREADABLE",
+    "error": "BadZipFile: File is not a zip file"
+  }
+]

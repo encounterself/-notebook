@@ -1,0 +1,5 @@
+file	readonly_preflight	first_token	cte_count	has_full_outer_join	has_calculated_fields	explain_evidence
+13_candidate_billing_v3.sql	PASS	WITH	13	NO	YES	SUCCEEDED
+13_reconciliation_v3.sql	PASS	WITH	13	YES	NO	SUCCEEDED
+13_candidate_billing_v3_summary.sql	PASS	WITH	14	NO	YES	SUCCEEDED
+13_reconciliation_v3_summary.sql	PASS	WITH	13	YES	NO	SUCCEEDED

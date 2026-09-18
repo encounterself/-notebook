@@ -1,0 +1,10 @@
+source_table	source_file	billing_month	candidate_base_month	when_hit_count	case_status	record_count	imsi_count	final_start_null_rows	min_final_start_date	max_final_start_date	final_start_months	final_start_month_count	final_start_vs_case_status
+wa_invoice_prorated	01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v2)	2025-10	1	SINGLE_CASE_HIT	5	5	0	2025-10-24	2025-10-24	2025-10	1	NO_CONFLICT
+wa_invoice_prorated	01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v1)	2025-10	1	SINGLE_CASE_HIT	36	36	0	2025-09-20	2025-09-20	2025-09	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	2026-04	2026-04	1	SINGLE_CASE_HIT	284	284	0	2026-03-23	2026-03-28	2026-03	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-02	1	SINGLE_CASE_HIT	359	359	0	2026-01-23	2026-01-31	2026-01	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx	2025-01	2025-01	1	SINGLE_CASE_HIT	1	1	0	2025-12-31	2025-12-31	2025-12	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx	2026-07	2026-07	1	SINGLE_CASE_HIT	4	4	0	2026-06-25	2026-06-30	2026-06	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	2026-03	2026-03	1	SINGLE_CASE_HIT	127	127	0	2026-02-10	2026-02-26	2026-02	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	2026-05	2026-05	1	SINGLE_CASE_HIT	9	9	0	2026-04-19	2026-04-20	2026-04	1	FINAL_START_MONTH_CONFLICT
+wa_invoice_prorated	SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx	2026-08	2026-08	1	SINGLE_CASE_HIT	3	3	0	2026-07-06	2026-07-06	2026-07	1	FINAL_START_MONTH_CONFLICT

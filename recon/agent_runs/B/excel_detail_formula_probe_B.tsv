@@ -1,0 +1,7 @@
+source_file	charge_type	row_count	imsi_count	total_excel_amount	total_excel_days	total_excel_price	days_match_exclusive	days_match_inclusive	amount_match_price_days_calendar	amount_match_full_price	min_start	max_start	min_end	max_end
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	Full Cycle Charge	11748	11748	667676.000000000000	328984.000000000000	667676.000000000000	0	11566	11713	11748	2026-02-01	2026-02-28	2026-02-28	2026-03-29
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	New Activation: Prorated-in Charge	729	729	22741.723502304136	12244.000000000000	38852.000000000000	0	426	466	5	2026-02-01	2026-02-28	2026-02-06	2026-03-24
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	Offstocked before cycle start	91	91			5642.000000000000	0	0	0	0	2026-02-09	2026-02-09	2026-03-08	2026-03-08
+01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	Partial Charge - Card Replaced Mid Cycle	4	4	154.999999999999	70.000000000000	248.000000000000	0	4	4	0	2026-02-01	2026-02-23	2026-02-23	2026-02-23
+SIMO Data Purchase Invoice Details - DEC 2025.xlsx	Full Cycle Charge	11437	11437	689429.000000000000	354547.000000000000	689429.000000000000	0	11437	11437	11437	2025-12-01	2025-12-30	2025-12-31	2026-01-29
+SIMO Data Purchase Invoice Details - DEC 2025.xlsx	New Activation: Prorated-in Charge	748	748	15410.353763440731	10321.000000000000	33836.000000000000	0	746	673	0	2025-12-22	2025-12-31	2025-12-23	2026-01-21

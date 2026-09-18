@@ -1,0 +1,7 @@
+file	readonly_preflight	first_token	cte_count	has_full_outer_join	has_calculated_fields	explain_evidence
+24_card_reconciliation_oct.sql	PASS	WITH	10	YES	YES	SUCCEEDED
+25_card_reconciliation_nov.sql	PASS	WITH	10	YES	YES	SUCCEEDED
+30_candidate_billing_oct.sql	PASS	WITH	11	YES	YES	SUCCEEDED
+31_candidate_billing_nov.sql	PASS	WITH	11	YES	YES	SUCCEEDED
+32_candidate_billing_sep.sql	PASS	WITH	2	NO	YES	SUCCEEDED
+33_reconciliation_sep.sql	PASS	WITH	4	YES	NO	SUCCEEDED

@@ -1,0 +1,2 @@
+duplicate_classification	duplicate_key_count	duplicate_row_count	duplicate_extra_row_count	max_rows_per_key	amount_sum_on_duplicate_groups	exact_duplicate_key_count	different_field_key_count
+MULTIPLE_DETAIL_ROWS_SAME_CYCLE_CHARGE_TYPE_DIFFERENT_FIELDS	191	382	191	2	10358.451612	0	191

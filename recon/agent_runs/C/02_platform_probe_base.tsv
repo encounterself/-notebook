@@ -1,0 +1,7 @@
+source_table	row_count	distinct_key_count	matched_wa_count	min_event_raw	max_event_raw
+ods.resource_res_carrier_via_product	15495	3	14079		
+ods.resource_res_vsim_cycle_history	223030	58507	14079	2026-02-01 00:00:00	2026-09-02 05:00:00
+ods.resource_res_vsim_product_via_cycle	15495	98	14079		
+ods.resource_res_vsim_status_log	1232816	55566	14042	2026-02-01 00:00:04	2026-07-14 23:59:47
+tc_cdr.sim_status_for_sftp_bak	184777299	66644	14079	2026-02-01 00:00:00	2026-06-30 23:00:00
+wa_card_keys	14079	14079	14079		

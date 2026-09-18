@@ -1,0 +1,18 @@
+billing_month	charge_type	row_count	imsi_count	null_wa_final_days	null_final_dates	exact_final_date_span	exact_activation_to_month_end	exact_final_start_to_month_end	exact_final_start_to_offstock	exact_full_month_days	exact_active_days	exact_usage_days	exact_usage_days_alt	wa_price_count	wa_prices_seen	wa_amount_sum
+2026-03	Credit for Offstocked Card	8	8	0	0	7	0	0	7	0	7	1	0	1	62.0	-170.5
+2026-03	Full Cycle Charge	6164	6164	0	0	6164	0	1064	0	6164	6164	0	0	4	21.0 || 32.0 || 43.0 || 62.0	324001.0
+2026-03	Full Cycle Charge - Backbilled for FEB Invoice	269	269	0	0	269	0	0	0	0	269	0	0	3	21.0 || 43.0 || 62.0	12371.0
+2026-03	New Activation: Prorated-in Charge	1229	1229	0	0	1056	0	0	0	9	1056	202	0	2	43.0 || 62.0	33640.677419
+2026-03	Offstocked before cycle start	1	1	1	1	0	0	0	0	0	0	0	0	1	62.0	
+2026-03	Partial Charge - Card Replaced Mid Cycle	496	496	0	0	489	0	0	489	2	489	7	0	2	43.0 || 62.0	7327.741935
+2026-03	Prorated Out - Transferred to Wing's Simbank	4901	4901	0	0	4478	48	4478	20	1339	4478	632	0	2	43.0 || 62.0	200751.290323
+2026-03	Prorated-out Charge - Offstocked Card	14	14	0	0	14	0	0	14	0	14	0	0	2	43.0 || 62.0	485.096774
+2026-04	Full Cycle Charge	7025	7025	0	0	7025	0	1039	0	7011	7025	0	0	4	21.0 || 32.0 || 43.0 || 62.0	355210.0
+2026-04	New Activation: Prorated-in Charge	706	706	0	0	674	33	33	0	1	674	44	0	2	43.0 || 62.0	16597.54086
+2026-04	Partial Charge - Card Replaced Mid Cycle	49	49	0	0	46	0	0	46	0	46	3	0	2	43.0 || 62.0	481.766667
+2026-05	Credit for Offstocked Card	2	2	0	0	2	0	0	2	0	2	0	0	1	43.0	-51.6
+2026-05	Full Cycle Charge	7251	7251	0	0	7163	100	1066	0	7251	7163	0	0	4	21.0 || 32.0 || 43.0 || 62.0	371255.0
+2026-05	New Activation: Prorated-in Charge	200	200	0	0	200	0	0	0	0	200	0	0	1	62.0	4340.0
+2026-05	Partial Charge - Card Replaced Mid Cycle	30	30	0	0	30	0	0	30	0	30	0	0	1	43.0	665.806452
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	402	402	0	0	390	102	102	0	4	390	20	0	2	43.0 || 62.0	13479.746237
+2026-05	Prorated-out Charge - Offstocked Card	2	2	0	0	2	0	2	2	0	2	0	0	1	62.0	112.0

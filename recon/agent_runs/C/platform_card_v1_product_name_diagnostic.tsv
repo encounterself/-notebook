@@ -1,0 +1,17 @@
+charge_type	product_name_mapping_diagnostic	rows	imsi_count	excel_total	current_matched_count
+Credit for Offstocked Card	EXACT_PRODUCT_NAME	1	1	-31.5333333333	0
+Credit for Offstocked Card	PRODUCT_NAME_MISMATCH	9	9	-190.5666666664	0
+Full Cycle Charge	EXACT_PRODUCT_NAME	15610	7281	793284.0000000000	14050
+Full Cycle Charge	PRODUCT_NAME_MISMATCH	4830	2653	257182.0000000000	2113
+Full Cycle Charge - Backbilled for FEB Invoice	EXACT_PRODUCT_NAME	141	141	4435.0000000000	141
+Full Cycle Charge - Backbilled for FEB Invoice	PRODUCT_NAME_MISMATCH	128	128	7936.0000000000	124
+New Activation: Prorated-in Charge	EXACT_PRODUCT_NAME	1978	1978	51224.4164362415	219
+New Activation: Prorated-in Charge	PRODUCT_NAME_MISMATCH	157	157	3353.8018433165	50
+Offstocked before cycle start	NO_PLATFORM_PRODUCT_ID	1	1		0
+Partial Charge - Card Replaced Mid Cycle	EXACT_PRODUCT_NAME	534	534	7504.3150537662	0
+Partial Charge - Card Replaced Mid Cycle	PRODUCT_NAME_MISMATCH	41	41	971.0000000001	0
+Partial Charge - New Card Used as Replacement Mid Cycle	EXACT_PRODUCT_NAME	402	402	13479.7462365579	0
+Prorated Out - Transferred to Wing's Simbank	EXACT_PRODUCT_NAME	460	460	17908.2580645140	0
+Prorated Out - Transferred to Wing's Simbank	PRODUCT_NAME_MISMATCH	4441	4441	182843.0322580674	0
+Prorated-out Charge - Offstocked Card	EXACT_PRODUCT_NAME	3	3	123.0967741935	1
+Prorated-out Charge - Offstocked Card	PRODUCT_NAME_MISMATCH	13	13	474.0000000000	13

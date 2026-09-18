@@ -1,0 +1,10 @@
+billing_month	charge_type	invoice_rows	distinct_card_count	missing_formula_input_rows	final_days_sum	invoice_amount	excel_calculated_amount	formula_amount_difference	formula_cent_exact_rows	formula_non_exact_rows	date_span_mismatch_rows	date_span_exact_rows
+2025-09	Full Rate	12602	12602	0	378060.0	771254.0	771254.0	0.0	12602	0	2279	10323
+2025-09	Partial Charge (Activated AUG)	11484	11484	0	171560.0	339332.2581	350643.363	11311.09	0	11484	95	11389
+2025-09	Prorated-in Charge (Activated SEPT)	1085	1085	0	13296.0	27478.4	27478.4063	0.0	1085	0	169	916
+2025-09	Prorated-out Charge (Activated SEPT)	66	66	0	643.0	1328.8667	1328.8678	0.0	66	0	0	66
+2025-10	Full Cycle Charge	12573	12573	0	389763.0	769456.0	769456.0	0.0	12573	0	0	12573
+2025-10	New Activation: Prorated-in Charge	72	72	0	1182.0	2364.5333	2364.0	-0.5334	70	2	4	68
+2025-10	Prorated-out Charge (Activated OCT)	32	32	0	465.0	930.0	930.0	0.0	32	0	0	32
+2025-11	Full Cycle Charge	12641	12641	0	379230.0	773292.0	773292.0	0.0	12641	0	0	12641
+2025-11	New Activation: Prorated-in Charge	22	22	0	317.0	445.8387	460.6997	14.8607	0	22	16	6

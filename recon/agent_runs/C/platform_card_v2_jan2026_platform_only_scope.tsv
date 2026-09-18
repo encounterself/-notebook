@@ -1,0 +1,2 @@
+reconciliation_billing_month	source_match_status	difference_reason	row_count	distinct_imsi_count	distinct_product_count	min_platform_cycle_start	max_platform_cycle_end
+2026-01	PLATFORM_ONLY	NO_OFFICIAL_JAN_2026_DETAIL_SOURCE_FILE	29045	15765	88	2025-03-12	2026-02-28

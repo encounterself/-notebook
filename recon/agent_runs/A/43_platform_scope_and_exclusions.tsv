@@ -1,0 +1,10 @@
+billing_month	result_kind	scoped_snapshot_rows	scoped_card_count	scoped_product_id_count	scoped_price_count	excluded_card_count	platform_only_card_count	source_or_exclusion_reason
+2025-09	PLATFORM_SCOPE_UNAVAILABLE							MISSING_DATA: September raw snapshot partitions returned AccessDeniedException; no PLATFORM_ONLY classification is materialized.
+2025-10	EXCLUDED_MISSING_PRODUCT_MAPPING					22		Target-month snapshot card/product was excluded because product_id has no current product mapping; not PLATFORM_ONLY.
+2025-10	EXCLUDED_NON_WA_SUPPLIER					41696		Target-month snapshot card/product was excluded because mapped supplier_id <> 2275; not PLATFORM_ONLY.
+2025-10	PLATFORM_ONLY						411	WA supplier_id=2275 card in target-month partition with no matching Excel detail imsi; source is scoped sim_status_for_sftp_bak, not a union of full snapshots/logs/history.
+2025-10	PLATFORM_SCOPE	400495	13086	68	2			Early scope: target month partition INNER JOIN product_id with supplier_id=2275.
+2025-11	EXCLUDED_MISSING_PRODUCT_MAPPING					106		Target-month snapshot card/product was excluded because product_id has no current product mapping; not PLATFORM_ONLY.
+2025-11	EXCLUDED_NON_WA_SUPPLIER					41485		Target-month snapshot card/product was excluded because mapped supplier_id <> 2275; not PLATFORM_ONLY.
+2025-11	PLATFORM_ONLY						4219	WA supplier_id=2275 card in target-month partition with no matching Excel detail imsi; source is scoped sim_status_for_sftp_bak, not a union of full snapshots/logs/history.
+2025-11	PLATFORM_SCOPE	414865	16860	77	3			Early scope: target month partition INNER JOIN product_id with supplier_id=2275.

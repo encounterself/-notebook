@@ -1,0 +1,15 @@
+billing_month	charge_type	monthly_rate	invoice_rows	distinct_imsi	sum_final_days	invoice_amount
+2025-09	Full Rate	43.0	530	530	15900.0	22790.0
+2025-09	Full Rate	62.0	12072	12072	362160.0	748464.0
+2025-09	Partial Charge (Activated AUG)	43.0	530	530	6180.0	8572.26
+2025-09	Partial Charge (Activated AUG)	62.0	10954	10954	165380.0	330760.0
+2025-09	Prorated-in Charge (Activated SEPT)	62.0	1085	1085	13296.0	27478.4
+2025-09	Prorated-out Charge (Activated SEPT)	62.0	66	66	643.0	1328.87
+2025-10	Full Cycle Charge	43.0	530	530	16430.0	22790.0
+2025-10	Full Cycle Charge	62.0	12043	12043	373333.0	746666.0
+2025-10	New Activation: Prorated-in Charge	62.0	72	72	1182.0	2364.53
+2025-10	Prorated-out Charge (Activated OCT)	62.0	32	32	465.0	930.0
+2025-11	Full Cycle Charge	43.0	550	550	16500.0	23650.0
+2025-11	Full Cycle Charge	62.0	12091	12091	362730.0	749642.0
+2025-11	New Activation: Prorated-in Charge	43.0	20	20	307.0	425.84
+2025-11	New Activation: Prorated-in Charge	62.0	2	2	10.0	20.0

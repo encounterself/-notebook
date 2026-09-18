@@ -1,0 +1,19 @@
+billing_month	charge_type	exception_reason	card_count	wa_amount_sum	amount_diff_sum
+2026-03	Credit for Offstocked Card	DAY_MISMATCH	1	0.0	0.0
+2026-03	Full Cycle Charge	MISSING_MAPPING	1254	77748.0	0.0
+2026-03	New Activation: Prorated-in Charge	AMOUNT_MISMATCH	68	1435.892857	138.957392
+2026-03	New Activation: Prorated-in Charge	DAY_MISMATCH	173	5127.558756	1986.945846
+2026-03	Offstocked before cycle start	MISSING_DATA	1		0.0
+2026-03	Partial Charge - Card Replaced Mid Cycle	DAY_MISMATCH	7	226.322581	51.612903
+2026-03	Prorated Out - Transferred to Wing's Simbank	DAY_MISMATCH	423	13451.096774	3227.741941
+2026-03	Prorated Out - Transferred to Wing's Simbank	MISSING_MAPPING	69	1542.645161	0.0
+2026-04	Full Cycle Charge	DAY_MISMATCH	14	602.0	0.0
+2026-04	Full Cycle Charge	MISSING_MAPPING	700	43400.0	0.0
+2026-04	New Activation: Prorated-in Charge	AMOUNT_MISMATCH	438	8903.322581	-296.777533
+2026-04	New Activation: Prorated-in Charge	DAY_MISMATCH	32	900.81828	201.05161
+2026-04	Partial Charge - Card Replaced Mid Cycle	DAY_MISMATCH	3	41.233333	12.733333
+2026-04	Partial Charge - Card Replaced Mid Cycle	MISSING_MAPPING	6	155.0	-1.0E-6
+2026-05	Full Cycle Charge	MISSING_MAPPING	700	43400.0	0.0
+2026-05	New Activation: Prorated-in Charge	AMOUNT_MISMATCH	200	4340.0	140.0
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	AMOUNT_MISMATCH	190	4801.2	154.877417
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	DAY_MISMATCH	12	338.675269	57.449463

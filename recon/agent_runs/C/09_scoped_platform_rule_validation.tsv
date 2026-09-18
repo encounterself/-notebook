@@ -1,0 +1,18 @@
+billing_month	charge_type	card_count	platform_days_evaluable	platform_days_exact	platform_days_exact_rate	platform_day_error_1	platform_day_error_ge2	platform_price_evaluable	platform_price_exact	platform_price_exact_rate	platform_amount_evaluable	platform_amount_exact	platform_amount_exact_rate	platform_amount_diff_sum	multiple_history_price_cards	multiple_dimension_price_cards	missing_dimension_price_cards	missing_history_price_cards	missing_platform_product_id_cards
+2026-03	Credit for Offstocked Card	8	0	0		0	0	8	8	1.0	0	0		0.0	0	0	0	0	0
+2026-03	Full Cycle Charge	6164	6164	6164	1.0	0	0	6010	4756	0.791348	6010	4756	0.791348	23826.0	0	154	0	0	0
+2026-03	Full Cycle Charge - Backbilled for FEB Invoice	269	269	269	1.0	0	0	269	265	0.98513	269	265	0.98513	76.0	0	0	0	0	0
+2026-03	New Activation: Prorated-in Charge	1229	1229	11	0.00895	86	1132	637	637	1.0	637	10	0.015699	9000.677503	0	0	592	592	592
+2026-03	Offstocked before cycle start	1	0	0		0	0	1	1	1.0	0	0		0.0	0	0	0	0	0
+2026-03	Partial Charge - Card Replaced Mid Cycle	496	496	91	0.183468	399	6	496	496	1.0	496	91	0.183468	683.22581	0	0	0	0	0
+2026-03	Prorated Out - Transferred to Wing's Simbank	4901	4765	4284	0.899056	167	314	4797	4720	0.983948	4765	4265	0.895068	3112.032284	0	0	104	104	104
+2026-03	Prorated-out Charge - Offstocked Card	14	14	0	0.0	0	14	14	14	1.0	14	0	0.0	-217.548387	0	0	0	0	0
+2026-04	Full Cycle Charge	7025	7025	7011	0.998007	14	0	6857	6157	0.897915	6857	6157	0.897915	13300.0	0	168	0	0	0
+2026-04	New Activation: Prorated-in Charge	706	706	8	0.011331	24	674	702	702	1.0	702	10	0.014245	-20722.992499	0	0	4	4	4
+2026-04	Partial Charge - Card Replaced Mid Cycle	49	49	24	0.489796	22	3	49	43	0.877551	49	24	0.489796	94.633342	0	0	0	0	0
+2026-05	Credit for Offstocked Card	2	0	0		0	0	2	2	1.0	0	0		0.0	0	0	0	0	0
+2026-05	Full Cycle Charge	7251	7251	7251	1.0	0	0	7251	6551	0.903462	7251	6551	0.903462	13300.0	0	0	0	0	0
+2026-05	New Activation: Prorated-in Charge	200	200	0	0.0	0	200	200	200	1.0	200	0	0.0	-5060.0	0	0	0	0	0
+2026-05	Partial Charge - Card Replaced Mid Cycle	30	30	30	1.0	0	0	30	30	1.0	30	30	1.0	1.2E-5	0	0	0	0	0
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	402	10	0	0.0	0	10	402	402	1.0	10	0	0.0	327.262362	0	0	0	0	0
+2026-05	Prorated-out Charge - Offstocked Card	2	2	2	1.0	0	0	2	2	1.0	2	2	1.0	0.0	0	0	0	0	0

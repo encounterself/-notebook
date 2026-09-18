@@ -1,0 +1,4 @@
+evidence_field	evidence_rows	price_count	prices_seen
+cycle_history.package_price	61685	1	0.0
+product.monthly_rent	58073	5	21.0 || 32.0 || 43.0 || 6.0 || 62.0
+product.package_price	61685	4	21.0 || 32.0 || 43.0 || 62.0

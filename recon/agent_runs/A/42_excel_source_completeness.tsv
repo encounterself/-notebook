@@ -1,0 +1,13 @@
+billing_month	source_role	source_rows	source_cards	source_amount	source_days	duplicate_rows_at_billing_month_imsi_charge_type	overlap_rows_with_detail	overlap_cards_with_detail	evidence_status
+2025-09	CREDIT_AUXILIARY	0	0						Auxiliary credit source; negative sign preserved; not unioned into detail target.
+2025-09	DETAIL_AUTHORITATIVE	25237	14793	1139393.5247	563559.0	0			Authoritative Excel target: final_start_date month; no union with auxiliary tables.
+2025-09	PRORATED_AUXILIARY	36	36	1521.0667	504.0				Auxiliary prorated source; audited for overlap; not unioned into detail target.
+2025-09	PRORATED_OVERLAP_WITH_DETAIL	36	36	1521.0667	504.0		36	36	Overlap is evidence against naive union; detail remains authoritative.
+2025-10	CREDIT_AUXILIARY	0	0						Auxiliary credit source; negative sign preserved; not unioned into detail target.
+2025-10	DETAIL_AUTHORITATIVE	12677	12675	772750.5333	391410.0	0			Authoritative Excel target: final_start_date month; no union with auxiliary tables.
+2025-10	PRORATED_AUXILIARY	5	5	294.0	115.0				Auxiliary prorated source; audited for overlap; not unioned into detail target.
+2025-10	PRORATED_OVERLAP_WITH_DETAIL	5	5	294.0	115.0		5	5	Overlap is evidence against naive union; detail remains authoritative.
+2025-11	CREDIT_AUXILIARY	0	0						Auxiliary credit source; negative sign preserved; not unioned into detail target.
+2025-11	DETAIL_AUTHORITATIVE	12663	12641	773737.8387	379547.0	0			Authoritative Excel target: final_start_date month; no union with auxiliary tables.
+2025-11	PRORATED_AUXILIARY	0	0						Auxiliary prorated source; audited for overlap; not unioned into detail target.
+2025-11	PRORATED_OVERLAP_WITH_DETAIL	0	0				0	0	Overlap is evidence against naive union; detail remains authoritative.

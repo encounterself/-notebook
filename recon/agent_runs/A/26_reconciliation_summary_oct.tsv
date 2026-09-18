@@ -1,0 +1,5 @@
+billing_month	charge_type	join_status	joined_row_count	distinct_card_count	matched_card_count	exact_day_card_count	exact_day_line_count	day_mismatch_line_count	missing_lifecycle_line_count	sum_abs_day_error	price_match_observed_line_count	price_mismatch_observed_line_count	multiple_price_line_count	missing_mapping_or_price_line_count	price_effective_condition_unresolved_line_count	invalid_date_window_line_count	activation_plus1_minus1_exact_line_count	activation_end_inclusive_exact_line_count	invoice_amount	platform_calculated_amount	amount_difference
+2025-10	<PLATFORM_ONLY>	PLATFORM_ONLY	411	411	0	0	0	0	0	0.0	0	0	0	0	0	0	0	0	0.0	0.0	0.0
+2025-10	Full Cycle Charge	MATCHED	12573	12573	12573	12573	12573	0	0	0.0	11449	1121	3	0	12570	0	0	0	769456.0	747971.0	-21485.0
+2025-10	New Activation: Prorated-in Charge	MATCHED	72	72	72	66	66	6	0	69.0	72	0	0	0	72	0	0	3	2364.5333333333338	2474.0	109.46666666666624
+2025-10	Prorated-out Charge (Activated OCT)	MATCHED	32	32	32	21	21	11	0	25.0	31	1	0	0	32	0	0	0	930.0	875.7097	-54.2903

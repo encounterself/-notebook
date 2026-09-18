@@ -1,0 +1,1388 @@
+check_name	platform_month	platform_product_id	supplier_id	product_name	row_count	imsi_count	min_start	max_end	source_package_price	product_monthly_rent
+cycle_product_mapping		60011002	573	Australia Telstra 55GB Plan (5G)	65	65	11/05/2025 13:00:00	03/26/2026 13:00:00	0.0	
+cycle_product_mapping		60011030	513	Singapore SingTel 60GB Plan	8	8	11/30/2025 16:00:00	12/31/2025 16:00:00	0.0	38.0
+cycle_product_mapping		60011044	486	UK VDF 30GB Plan (5G)	96	68	11/01/2025 00:00:00	01/01/2026 00:00:00	0.0	14.6
+cycle_product_mapping		60011046	616	Taiwan TW Mobile Unlimited Plan	12	3	11/02/2025 16:00:00	03/02/2026 16:00:00	0.0	480.0
+cycle_product_mapping		60011065	616	Taiwan FET Unlimited Plan	40	10	11/23/2025 16:00:00	03/23/2026 16:00:00	0.0	540.0
+cycle_product_mapping		600111001	650	Nigeria MTN 75GB Plan	68	17	11/23/2025 23:00:00	03/23/2026 23:00:00	0.0	60.0
+cycle_product_mapping		600111002	2275	TMO 500GB DI BU MW (WA)	1148	287	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111003	2417	Thailand AIS 100GB Plan (5G)	306	84	11/20/2025 17:00:00	03/20/2026 17:00:00	0.0	
+cycle_product_mapping		600111004	212	Nigeria Airtel 40GB Plan (5G)	52	13	11/10/2025 23:00:00	03/10/2026 23:00:00	0.0	
+cycle_product_mapping		600111005	2275	ATT 300GB Plan AX HS (WA)	1	1	11/22/2025 05:00:00	12/22/2025 05:00:00	0.0	62.0
+cycle_product_mapping		600111015	2434	Japan Docomo Unlimited(MAYA)	480	120	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111016	2434	Japan Rakuten 100GB (5G)(MAYA)	632	158	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111018	2434	Japan Softbank 50GB(MAYA)	80	20	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111019	2417	Thailand TrueMove 100GB Plan (5G)	292	73	11/02/2025 17:00:00	03/02/2026 17:00:00	0.0	
+cycle_product_mapping		600111022	2417	Brazil Vivo 40GB Plan	1	1	01/01/2026 03:00:00	02/01/2026 03:00:00	0.0	
+cycle_product_mapping		600111023	2446	Wirelesslogic IOT Roaming test	8	2	11/24/2025 00:00:00	03/24/2026 00:00:00	0.0	
+cycle_product_mapping		600111024	2333	Japan Docomo PPU（For TS only）	800	200	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	80.0
+cycle_product_mapping		600111027	2469	Taiwan FarEasTone Unlimited Plan	60	15	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	200.0
+cycle_product_mapping		600111028	2469	Taiwan Mobile Unlimited Plan	60	15	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	300.0
+cycle_product_mapping		600111031	2435	Japan SoftBank 20GB (TS)	2000	500	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111032	2435	Japan SoftBank 50GB (TS)	3996	999	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111033	2435	Japan SoftBank 100GB (TS)	6400	1600	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111034	2435	Japan Rakuten 100GB (TS)	999	999	02/28/2026 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111035	2435	Japan Docomo 10GB (TS)	800	200	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111036	2435	Japan KDDI 10GB (TS)	800	200	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111041	2434	Japan Rakuten MVNO 100GB (5G)(MAYA)	40	10	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111046	2446	Wirelesslogic 10GB Roaming test 	6	3	09/07/2025 05:00:00	03/06/2026 05:00:00	0.0	
+cycle_product_mapping		600111058	2415	USA TMO 30GB HLD PLAN SIMO (5G) SDP	1026	414	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	
+cycle_product_mapping		600111062	2333	CSL Global 100GB PPU (5G) for factory only	812	203	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	0.57
+cycle_product_mapping		600111063	2465	Palau Testing Card 8GB	2	2	02/03/2026 15:00:00	02/10/2026 15:00:00	0.0	
+cycle_product_mapping		600111065	2434	Japan Softbank 50GB( 5G)(MAYA)	2120	530	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111066	2434	Japan KDDI 20GB(MAYA)	396	99	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111068	573	Cambodia Metfone 50GB Plan (5G)	8	2	11/18/2025 17:00:00	03/18/2026 17:00:00	0.0	
+cycle_product_mapping		600111069	2275	ATT 300GB Plan ATM RA 5G2 (WA)	15	10	11/24/2025 05:00:00	03/24/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111072	2275	ATT 300GB Plan DI PV 5G (WA)	4	1	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111074	2275	TMO Unlimited TT 5G (WA)	6	3	11/19/2025 05:00:00	03/19/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111075	2275	TMO 500GB DI BU MW 5G (WA)	4	1	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111077	2275	TMO 300GB Plan AT (1) (A) 5G (WA)	4	1	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111078	2275	TMO 500GB VS BU 5G (WA)	4	1	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111079	650	Poland Plus 100GB Plan (5G)	200	50	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	13.0
+cycle_product_mapping		600111080	2275	AT&T 300GB Plan HX RT 5G2 (WA)	2	1	11/24/2025 05:00:00	01/24/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111082	2275	ATT 300GB Plan DI PV 5G2 (WA)	4	1	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111083	2275	TMO Unlimited TT 5G2 (WA)	4	1	11/19/2025 05:00:00	03/19/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111084	2275	TMO 300GB Plan AT (1) (A) 5G2 (WA)	4	1	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111085	2275	TMO 500GB DI BU MW 5G2 (WA)	4	1	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111086	2275	TMO 500GB VS BU 5G2 (WA)	4	1	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111087	2275	AT&T 150GB Plan ATM RT (WA)	1100	275	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111089	2415	USA TMO 120GB HLD PLAN (5G)	12	3	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	
+cycle_product_mapping		600111090	2254	AT&T Postpaid Plan (5G) for VIP testing	12	3	11/02/2025 07:00:00	03/02/2026 07:00:00	0.0	
+cycle_product_mapping		600111091	2254	AT&T Prepaid 30GB Plan (5G)	387	141	11/20/2025 06:00:00	03/20/2026 06:00:00	0.0	
+cycle_product_mapping		600111092	2254	T-Mobile Prepaid 40GB Plan (5G) (SDP)	15	5	11/06/2025 06:00:00	02/04/2026 06:00:00	0.0	
+cycle_product_mapping		600111093	2275	ATT 300GB Plan DF BU (PI)	152	39	11/13/2025 05:00:00	03/17/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111095	212	UK EE Unlimited Plan (5G) for VDF testing 	12	3	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		600111098	486	UK O2 30GB Plan (5G) for VDF testing	6	3	11/01/2025 00:00:00	01/01/2026 00:00:00	0.0	12.6
+cycle_product_mapping		600111099	650	Poland Orange 75GB Plan (5G)	200	50	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	13.0
+cycle_product_mapping		600111101	212	Egypt WE 50GB Plan (5G)	14	5	11/02/2025 22:00:00	03/02/2026 22:00:00	0.0	
+cycle_product_mapping		600111102	2434	Japan Softbank 50GB 5G(SKY)	2300	600	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		600111104	667	TMO 2GB Testing	5	5	11/13/2025 19:00:00	12/13/2025 19:00:00	0.0	
+cycle_product_mapping		600111105	2233	KPN  for SRSIM testing	52	52	11/29/2025 21:00:00	12/30/2025 21:00:00	0.0	
+cycle_product_mapping		600111106	2233	VDF for SRSIM testing	113	113	11/29/2025 16:00:00	12/29/2025 16:00:00	0.0	999.0
+cycle_product_mapping		600111108	2275	ATT 300GB Plan EC TB（WA)	2	1	11/01/2025 05:00:00	01/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111109	2275	AT&T 300GB Plan Air Test (WA)	6	3	11/04/2025 05:00:00	01/06/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111110	3	for Wireless logic testing	20	5	11/17/2025 05:00:00	03/17/2026 05:00:00	0.0	
+cycle_product_mapping		600111111	2275	ATT 300GB Plan DI RC (PI)	355	71	11/01/2025 05:00:00	03/21/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111112	2349	T-Mobile PPU	2	2	11/26/2025 08:00:00	12/26/2025 08:00:00	0.0	
+cycle_product_mapping		600111113	2275	ATT 300GB Plan DF BU (2) (PI)	246	101	11/01/2025 05:00:00	03/22/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111114	2275	ATT 300GB Plan DF BU (3) (PI)	115	23	11/06/2025 05:00:00	03/06/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111115	2275	ATT 300GB Plan DF BU (4) (WA)	105	35	12/01/2025 05:00:00	03/01/2026 05:00:00	0.0	6.0
+cycle_product_mapping		600111116	2275	AT&T 300GB Plan RA (PI)	282	72	11/06/2025 05:00:00	03/06/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111117	212	UK Vodafone Unlimited Plan (5G)	20	10	01/01/2026 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		600111118	212	UK O2 Unlimited Plan (5G)	30	10	12/01/2025 00:00:00	03/01/2026 00:00:00	0.0	30.0
+cycle_product_mapping		600111119	2275	ATT 100GB Plan DF ET (43) (WA)	566	197	11/20/2025 05:00:00	02/26/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111120	2275	ATT 100GB Plan VS ET (43) (WA)	315	105	11/18/2025 05:00:00	02/27/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111121	2275	ATT 100GB Plan PVP (33) (WA)	1134	457	11/05/2025 05:00:00	03/29/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111122	212	Poland Play 100GB Plan (5G)	344	86	11/14/2025 23:00:00	03/14/2026 23:00:00	0.0	
+cycle_product_mapping		600111123	2275	ATT 300GB Plan DF BU (5) (WA)	38	10	12/01/2025 05:00:00	03/03/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111124	2275	ATT 100GB Plan PVP (36) (WA)	90	39	12/05/2025 05:00:00	03/28/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111126	2275	ATT 100GB Plan VS ET (WA)	733	299	11/09/2025 05:00:00	03/28/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111127	667	TMO Pool 1.5TB (20GB/SIM)	300	100	12/01/2025 05:00:00	03/01/2026 05:00:00	0.0	
+cycle_product_mapping		600111128	2275	ATT 300GB Plan DI FS (PI)	348	87	12/01/2025 05:00:00	03/13/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111130	2275	ATT 100GB Plan DI MM (WA)	171	49	11/29/2025 05:00:00	03/29/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111131	2275	ATT 50GB Plan DI MM (WA) (For SDP)	1	1	11/29/2025 05:00:00	12/29/2025 05:00:00	0.0	32.0
+cycle_product_mapping		600111132	2275	ATT 100GB Plan DI CD (WA)	192	64	12/11/2025 05:00:00	03/11/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111133	2275	ATT 300GB Plan DI SL (PI)	89	50	12/01/2025 05:00:00	03/25/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111134	2275	ATT 100GB Plan DI JL (WA)	144	48	12/16/2025 05:00:00	03/16/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111135	2275	ATT 100GB Plan DI MZ (WA)	9	3	12/18/2025 05:00:00	03/18/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111136	2275	ATT 100GB Plan EC (WA)	889	212	12/01/2025 05:00:00	03/22/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111137	212	Singapore ZYM 100GB Plan (Singtel 5G)	4	2	01/01/2026 16:00:00	03/01/2026 16:00:00	0.0	
+cycle_product_mapping		600111138	2275	AT&T 100GB Plan RA (WA)	552	184	12/06/2025 05:00:00	03/06/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111139	2275	AT&T 300GB Plan HX RT (333) (PI)	999	333	12/24/2025 05:00:00	03/24/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111140	212	Indonesia Indosat 50GB Plan (5G)	2	2	01/06/2026 17:00:00	02/06/2026 17:00:00	0.0	
+cycle_product_mapping		600111142	2275	ATT 60GB Plan AT SDP (WA)	1599	403	12/01/2025 05:00:00	03/10/2026 05:00:00	0.0	32.0
+cycle_product_mapping		600111143	450	Vietnam Viettel 500GB Plan (5G)	120	60	01/20/2026 17:00:00	03/26/2026 17:00:00	0.0	12.0
+cycle_product_mapping		600111144	2369	Brunei DST 65GB Plan (5G)	2	2	02/01/2026 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		600111145	2275	AT&T 150GB Plan ATM RA (WA)	710	380	01/04/2026 05:00:00	03/04/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111146	2275	TMO 300GB DI BU SL (WA)	128	47	12/22/2025 05:00:00	03/22/2026 05:00:00	0.0	62.0
+cycle_product_mapping		600111147	2275	ATT 125GB Plan EC (WA)	122	61	01/01/2026 05:00:00	03/04/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111148	2275	ATT 100GB Plan VS ET (39) (WA)	183	121	12/24/2025 05:00:00	03/29/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111149	2275	TMO 150GB Plan AT (1) (D) (WA)	750	375	01/01/2026 05:00:00	03/01/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111150	2275	AT&T 150GB Plan SP RA (WA)	420	210	01/25/2026 05:00:00	03/25/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111151	2275	ATT 125GB Plan DF ET (43) (WA)	39	39	01/02/2026 05:00:00	02/09/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111152	2275	ATT 200GB Plan ZN ET (PI)	132	77	01/22/2026 05:00:00	03/30/2026 05:00:00	0.0	43.0
+cycle_product_mapping		600111153	2275	ATT 125GB Plan ZN ET (WA)	4	4	02/27/2026 05:00:00	03/27/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011126	514	USA ATT 22GB Plan (5G) SDP	80	20	11/10/2025 04:00:00	03/10/2026 04:00:00	0.0	36.0
+cycle_product_mapping		60011138	212	Morocco Orange 35GB Plan (5G)	120	30	11/07/2025 23:00:00	03/07/2026 23:00:00	0.0	
+cycle_product_mapping		60011147	466	Ukraine Life 50GB Plan	36	9	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	160.0
+cycle_product_mapping		60011158	616	Taiwan Chunghwa Telecom Unlimited Plan	1030	285	11/08/2025 16:00:00	03/26/2026 16:00:00	0.0	420.0
+cycle_product_mapping		60011185	137	Indonesia Indosat 16GB Plan (5G)	80	20	11/26/2025 17:00:00	03/26/2026 17:00:00	0.0	
+cycle_product_mapping		60011192	212	Brazil Claro 40GB Plan (5G)	70	20	11/05/2025 03:00:00	03/05/2026 03:00:00	0.0	
+cycle_product_mapping		60011253	2417	Colombia Claro 50GB Plan (5G)	60	15	11/13/2025 05:00:00	03/13/2026 05:00:00	0.0	
+cycle_product_mapping		60011256	212	Portugal NOS Unlimited Plan (5G)	90	30	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60011290	212	Bulgaria Vivacom Unlimited Plan (5G)	60	15	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	
+cycle_product_mapping		60011309	262	Elisa Pool (5G)	7196	1799	11/30/2025 21:00:00	03/31/2026 21:00:00	0.0	
+cycle_product_mapping		60011320	6	CA Telus Pool (5G)	3600	900	11/01/2025 07:00:00	03/01/2026 07:00:00	0.0	
+cycle_product_mapping		60011321	90	India Airtel Unlimited Plan (5G)	280	70	11/30/2025 18:00:00	03/31/2026 18:00:00	0.0	23.0
+cycle_product_mapping		60011347	2233	Smartone [For VIP Only]	40	10	11/20/2025 16:00:00	03/20/2026 16:00:00	0.0	
+cycle_product_mapping		60011349	650	Slovenia A1 30GB Plan (5G)	40	10	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	20.0
+cycle_product_mapping		60011356	2233	USA Backup-Smartone	516	129	11/21/2025 00:00:00	03/30/2026 00:00:00	0.0	
+cycle_product_mapping		60011364	2254	T-Mobile Postpaid Unlimited Plan (5G)	2320	580	11/18/2025 08:00:00	03/18/2026 08:00:00	0.0	
+cycle_product_mapping		60011373	2275	ATT 300GB Plan EC (PI)	144	39	11/01/2025 05:00:00	03/17/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011376	2275	TMO 110GB Plan HY (WA)	100	50	11/19/2025 05:00:00	01/19/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011378	2275	 AT&T 300GB Plan HX (WA)	930	461	11/24/2025 05:00:00	03/24/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011379	2275	ATT 300GB Plan EC PV (PI)	146	25	11/01/2025 05:00:00	03/14/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011405	2370	Romania Digi Mobil 75GB  Plan (5G)	80	20	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	10.0
+cycle_product_mapping		60011408	513	Singapore SingTel  60GB Plan for VIP	2	2	11/30/2025 16:00:00	12/31/2025 16:00:00	0.0	38.0
+cycle_product_mapping		60011418	2369	Argentina Claro 25GB Plan (5G)	7	7	11/16/2025 03:00:00	12/16/2025 03:00:00	0.0	
+cycle_product_mapping		60011420	2233	Great China Backup-Smartone	40	10	11/21/2025 00:00:00	03/21/2026 00:00:00	0.0	
+cycle_product_mapping		60011427	459	Laos Unitel 30GB Plan (5G)	20	5	11/01/2025 17:00:00	03/01/2026 17:00:00	0.0	35.0
+cycle_product_mapping		60011429	2275	AT&T 300GB Plan HX HS (WA)	1	1	11/24/2025 05:00:00	12/24/2025 05:00:00	0.0	62.0
+cycle_product_mapping		60011436	2275	ATT 300GB Plan AT PP (WA)	800	200	11/10/2025 05:00:00	03/10/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011437	2275	ATT 300GB Plan VS PP (PI)	285	61	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	
+cycle_product_mapping		60011444	2275	ATT 300GB Plan DI JL (PI)	236	59	11/16/2025 05:00:00	03/16/2026 05:00:00	0.0	
+cycle_product_mapping		60011449	2275	ATT 300GB Plan PVP (WA)	427	297	11/01/2025 05:00:00	01/29/2026 05:00:00	0.0	
+cycle_product_mapping		60011450	160	For Customer Big Connect Use Only	12	3	11/30/2025 17:00:00	03/31/2026 17:00:00	0.0	
+cycle_product_mapping		60011454	2462	ETG Use Only	16	4	11/15/2025 16:00:00	03/15/2026 16:00:00	0.0	
+cycle_product_mapping		60011462	14	Singapore SingTel 50GB Plan (5G)	240	60	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	38.15
+cycle_product_mapping		60011468	2254	T-Mobile Postpaid Plan (For TC Only)	8	2	11/18/2025 08:00:00	03/18/2026 08:00:00	0.0	0.0
+cycle_product_mapping		60011470	2254	AT&T Postpaid Plan (For TruConnect Only)	8	2	11/02/2025 08:00:00	03/02/2026 08:00:00	0.0	
+cycle_product_mapping		60011490	616	Taiwan CHT 100GB Plan (5G) for A	277	119	11/05/2025 16:00:00	03/31/2026 16:00:00	0.0	1500.0
+cycle_product_mapping		60011491	616	Taiwan Chunghwa Telecom Unlimited Plan for Testing	24	6	11/23/2025 16:00:00	03/23/2026 16:00:00	0.0	420.0
+cycle_product_mapping		60011492	616	Taiwan TW Mobile Unlimited Plan for Testing	32	8	11/25/2025 16:00:00	03/25/2026 16:00:00	0.0	480.0
+cycle_product_mapping		60011493	616	Taiwan FET Unlimited Plan for Testing	32	8	11/11/2025 16:00:00	03/11/2026 16:00:00	0.0	540.0
+cycle_product_mapping		60011494	2275	ATT 300GB Plan DI CD (PI)	248	62	11/11/2025 05:00:00	03/11/2026 05:00:00	0.0	
+cycle_product_mapping		60011500	2275	ATT 300GB Plan DI MM (PI)	224	56	11/29/2025 05:00:00	03/29/2026 05:00:00	0.0	
+cycle_product_mapping		60011515	2275	ATT 300GB Plan XY PP (WA)	3329	1019	11/01/2025 05:00:00	03/28/2026 05:00:00	0.0	
+cycle_product_mapping		60011516	2275	ATT 300GB Plan DI VS (PI)	328	82	11/09/2025 05:00:00	03/09/2026 05:00:00	0.0	
+cycle_product_mapping		60011521	2275	TMO 300GB Plan AT (5) (WA)	400	100	11/21/2025 05:00:00	03/21/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011530	3	TC Test TMO	8	2	11/01/2025 12:00:00	03/01/2026 12:00:00	0.0	
+cycle_product_mapping		60011534	212	France SFR 130GB Plan (5G)	200	50	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011535	616	Taiwan FET Unlimited Plan (5G) for A 	10	2	11/26/2025 16:00:00	03/31/2026 16:00:00	0.0	1650.0
+cycle_product_mapping		60011542	573	Italy WindTre 150GB Plan (5G)	200	50	11/05/2025 23:00:00	03/05/2026 23:00:00	0.0	
+cycle_product_mapping		60011545	212	Netherlands Odido 150GB Plan (5G)	148	40	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011546	212	Israel Hot Mobile 600GB Plan (5G)	32	8	11/12/2025 22:00:00	03/12/2026 22:00:00	0.0	
+cycle_product_mapping		60011552	2369	T-Mobile Prepaid Unlimited Plan (5G)	1623	623	11/14/2025 04:00:00	02/13/2026 04:00:00	0.0	
+cycle_product_mapping		60011554	212	Switzerland Sunrise Unlimited Plan(5G)	144	36	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011556	650	Bulgaria A1 Unlimited Plan (5G)	80	20	11/15/2025 21:00:00	03/15/2026 21:00:00	0.0	25.0
+cycle_product_mapping		60011578	459	Laos Telecom 25GB Plan	40	10	11/07/2025 17:00:00	03/07/2026 17:00:00	0.0	30.0
+cycle_product_mapping		60011579	573	Egypt Etisalat 43GB Plan (5G)	68	17	11/23/2025 22:00:00	03/23/2026 22:00:00	0.0	
+cycle_product_mapping		60011585	2333	测试百宝箱60012138	4	1	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60011592	2254	AT&T Postpaid Unlimited Plan (5G)	2568	642	11/02/2025 07:00:00	03/02/2026 07:00:00	0.0	
+cycle_product_mapping		60011596	212	Kenya Airtel 40GB Plan (5G)	60	15	11/30/2025 21:00:00	03/31/2026 21:00:00	0.0	
+cycle_product_mapping		60011598	486	UK O2 30GB Plan (5G)	44	22	11/01/2025 00:00:00	01/01/2026 00:00:00	0.0	12.6
+cycle_product_mapping		60011609	450	Vietnam Viettel 4GB/Day Plan	60	20	11/30/2025 17:00:00	02/28/2026 17:00:00	0.0	10.0
+cycle_product_mapping		60011612	2275	ATT 300GB Plan SP (PI)	1276	319	11/25/2025 05:00:00	03/25/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011613	573	Guam & Saipan Docomo 50GB Plan (5G)	190	48	11/30/2025 14:00:00	03/31/2026 14:00:00	0.0	
+cycle_product_mapping		60011615	6	 Canada Telus 50GB Plan (5G)	3250	650	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	75.15
+cycle_product_mapping		60011616	137	Indonesia Indosat 20GB Plan (5G)	200	50	11/26/2025 17:00:00	03/26/2026 17:00:00	0.0	
+cycle_product_mapping		60011619	486	France Bouygues 100GB Plan (5G)	360	90	11/12/2025 22:00:00	03/12/2026 22:00:00	0.0	25.0
+cycle_product_mapping		60011623	212	Spain Orange 200GB Plan (5G)	382	97	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	
+cycle_product_mapping		60011624	2254	AT&T Prepaid Unlimited Plan (5G)	1582	700	11/02/2025 06:00:00	03/22/2026 06:00:00	0.0	
+cycle_product_mapping		60011625	257	Italy Iliad 220GB Plan (5G)	200	50	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011631	2369	Cambodia Smart 50GB Plan	60	15	11/30/2025 17:00:00	03/31/2026 17:00:00	0.0	
+cycle_product_mapping		60011632	2349	Japan SoftBank 50GB Plan (5G)	90	30	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011633	2382	Japan Rakuten Pool (5G)	7988	1997	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011635	212	Poland Play 50GB Plan (5G)	206	116	11/14/2025 23:00:00	03/14/2026 23:00:00	0.0	
+cycle_product_mapping		60011639	212	New Zealand Vodafone 40GB Plan (5G)	60	15	11/10/2025 12:00:00	03/10/2026 12:00:00	0.0	
+cycle_product_mapping		60011640	212	Ukraine Vodafone Unlimited Plan (5G)	40	10	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	
+cycle_product_mapping		60011641	305	Singapore StarHub 53GB Plan (5G)	188	47	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60011645	2371	UK Three 50GB Plan (5G)	75	75	11/20/2025 00:00:00	03/16/2026 00:00:00	0.0	
+cycle_product_mapping		60011647	6	CA Telus Pool (5G) For GID 20757 Only	120	30	11/01/2025 07:00:00	03/01/2026 07:00:00	0.0	
+cycle_product_mapping		60011651	573	Philippines Globe 52GB Plan (5G)	160	40	11/07/2025 16:00:00	03/07/2026 16:00:00	0.0	
+cycle_product_mapping		60011652	2254	T-Mobile Prepaid Unlimited Plan (5G)	1000	1000	11/14/2025 06:00:00	03/14/2026 06:00:00	0.0	
+cycle_product_mapping		60011653	452	Philippines Globe 50GB Plan (5G)	90	30	11/16/2025 16:00:00	02/14/2026 16:00:00	0.0	18.5
+cycle_product_mapping		60011654	452	Philippines Smart 50GB Plan (5G)	300	75	11/01/2025 16:00:00	03/30/2026 16:00:00	0.0	16.0
+cycle_product_mapping		60011655	573	Maldives Dhiraagu 30GB Plan (5G)	7	7	11/19/2025 19:00:00	03/18/2026 19:00:00	0.0	
+cycle_product_mapping		60011664	573	Philippines Smart 55GB Plan (5G)	120	30	11/26/2025 16:00:00	03/26/2026 16:00:00	0.0	
+cycle_product_mapping		60011665	2373	T-Mobile 50GB Test(Foxx Demo only)	8	2	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60011666	486	France Orange 50GB Plan (5G)	80	20	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	32.0
+cycle_product_mapping		60011667	2240	Korea LG 40GB Plan	100	50	11/30/2025 15:00:00	01/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011671	212	Ireland Three 100GB Plan (5G)	80	20	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011672	2275	AT&T 300GB Plan HX RT (WA)	4027	1716	11/24/2025 05:00:00	03/24/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011679	2369	Malaysia Maxis 100GB Plan (5G)	98	78	11/11/2025 16:00:00	03/13/2026 16:00:00	0.0	
+cycle_product_mapping		60011680	2380	UK Vodafone 40GB Plan (5G)	170	170	11/12/2025 00:00:00	03/29/2026 00:00:00	0.0	
+cycle_product_mapping		60011681	2370	Croatia A1 Unlimited Plan (5G)	80	20	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	35.0
+cycle_product_mapping		60011690	2275	ATT 100GB Plan AT TB T (WA)	201	51	11/05/2025 05:00:00	03/10/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011692	1088	CMHK PPU (5G)	400	100	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60011698	2333	HK CSL 100GB PPU (5G)	200	50	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60011699	2348	Turkey Turkcell 50GB Plan (5G)	90	30	11/19/2025 21:00:00	03/19/2026 21:00:00	0.0	
+cycle_product_mapping		60011700	32	Indonesia Telkomsel 50GB Plan (5G)	892	223	11/10/2025 17:00:00	03/10/2026 17:00:00	0.0	
+cycle_product_mapping		60011707	212	Germany Vodafone 100GB Plan (5G)	280	70	11/21/2025 23:00:00	03/21/2026 23:00:00	0.0	
+cycle_product_mapping		60011708	573	Greece Nova Unlimited Plan (5G)	20	20	11/05/2025 22:00:00	12/05/2025 22:00:00	0.0	
+cycle_product_mapping		60011716	2348	Turkey Telekom 30GB Plan (5G)	72	18	11/30/2025 21:00:00	03/31/2026 21:00:00	0.0	
+cycle_product_mapping		60011722	212	Hungary Vodafone Unlimited Plan (5G)	40	10	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011723	212	Netherlands Vodafone 200GB Plan (5G)	143	40	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011727	573	Kenya Safaricom 42GB Plan (5G)	56	14	11/08/2025 21:00:00	03/08/2026 21:00:00	0.0	
+cycle_product_mapping		60011728	650	Lithuania Bite Unlimited Plan (5G)	80	20	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	18.0
+cycle_product_mapping		60011729	2370	Slovakia O2 25GB Plan (5G)	80	20	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	20.0
+cycle_product_mapping		60011730	650	Denmark Telia 100GB Plan (5G)	56	14	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	45.0
+cycle_product_mapping		60011731	2369	Malaysia Digi 200GB Plan (5G)	109	109	11/03/2025 16:00:00	03/29/2026 16:00:00	0.0	
+cycle_product_mapping		60011733	212	Brazil Vivo 100GB Plan (5G)	40	15	11/01/2025 03:00:00	03/01/2026 03:00:00	0.0	
+cycle_product_mapping		60011734	212	New Zealand Spark 50GB Plan (5G)	40	10	11/11/2025 12:00:00	03/11/2026 12:00:00	0.0	
+cycle_product_mapping		60011736	212	Poland Orange 50GB Plan (5G)	180	115	11/05/2025 23:00:00	01/05/2026 23:00:00	0.0	
+cycle_product_mapping		60011742	573	UAE DU 50GB Plan (5G)	35	10	11/23/2025 20:00:00	03/23/2026 20:00:00	0.0	
+cycle_product_mapping		60011749	2365	台哥大21MB吃到飽 (DOTDOT only)	48	12	11/10/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60011752	2349	AT&T Prepaid Unlimited Plan (5G)	868	406	11/01/2025 06:00:00	03/24/2026 06:00:00	0.0	
+cycle_product_mapping		60011754	212	South Africa MTN 50GB Plan (5G)	88	22	11/04/2025 22:00:00	03/04/2026 22:00:00	0.0	
+cycle_product_mapping		60011755	2417	Mexico Telcel 40GB Plan (5G)	300	80	11/25/2025 06:00:00	03/25/2026 06:00:00	0.0	
+cycle_product_mapping		60011758	2349	T-Mobile Prepaid Unlimited Plan (5G)	300	300	11/25/2025 06:00:00	12/25/2025 06:00:00	0.0	
+cycle_product_mapping		60011759	2309	Japan SoftBank 100GB Plan	180	80	11/30/2025 15:00:00	02/28/2026 15:00:00	0.0	
+cycle_product_mapping		60011761	2392	USA USC 10GB IoT Test Plan	4	1	11/09/2025 05:00:00	03/09/2026 05:00:00	0.0	
+cycle_product_mapping		60011762	2254	AT&T Postpaid Advanced Unlimited Plan (5G)	999	279	11/28/2025 07:00:00	03/28/2026 07:00:00	0.0	
+cycle_product_mapping		60011763	2254	T-Mobile Ultimate Postpaid Unlimited Plan (5G)	1250	350	11/01/2025 07:00:00	03/18/2026 07:00:00	0.0	
+cycle_product_mapping		60011767	2415	USA TMO 120GB HLD Plan SIMO (5G)	1586	503	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	
+cycle_product_mapping		60011774	212	South Africa Vodacom 50GB Plan (5G)	40	10	11/11/2025 22:00:00	03/11/2026 22:00:00	0.0	
+cycle_product_mapping		60011775	212	Portugal Vodafone Unlimited Plan (5G)	50	30	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60011777	2275	ATT 300GB Plan DI HY HC (PI)	163	41	11/14/2025 05:00:00	03/14/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011783	2275	ATT 300GB Plan DF ET (WA)	1262	443	11/02/2025 05:00:00	03/27/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011785	2275	ATT 300GB Plan DC (PI)	1515	379	11/05/2025 05:00:00	03/05/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011788	212	Australia Vodafone 60GB Plan (5G)	30	10	12/14/2025 13:00:00	03/14/2026 13:00:00	0.0	
+cycle_product_mapping		60011789	212	Germany Telekom 150GB Plan (5G)	292	73	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011798	2370	Slovakia Orange 30GB Plan (5G)	40	10	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	30.0
+cycle_product_mapping		60011804	650	Greece VDF 50GB Plan (5G)	40	10	11/26/2025 22:00:00	03/26/2026 22:00:00	0.0	45.0
+cycle_product_mapping		60011809	2417	Colombia Tigo 50GB Plan (5G)	40	10	11/19/2025 05:00:00	03/19/2026 05:00:00	0.0	
+cycle_product_mapping		60011811	650	Spain Digi Mobil 100GB Plan (5G)	16	4	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	35.0
+cycle_product_mapping		60011812	2370	Greece Cosmote-OTE 30GB Plan (5G)	120	30	11/19/2025 22:00:00	03/19/2026 22:00:00	0.0	30.0
+cycle_product_mapping		60011814	2415	USA ATT 100GB HLT Plan (5G)	1949	1406	11/01/2025 05:00:00	02/14/2026 05:00:00	0.0	
+cycle_product_mapping		60011815	2275	TMO Unlimited TT (WA)	1364	358	11/19/2025 05:00:00	03/19/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011817	2275	TMO 500GB VS BU (PI)	272	68	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011818	2275	TMO 40GB EC TB(WA)	227	76	11/30/2025 05:00:00	03/31/2026 05:00:00	0.0	21.0
+cycle_product_mapping		60011824	2432	Japan Docomo 25GB	40	10	11/05/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011826	650	Bosnia Herzegovina BH Mobile 35GB Plan	40	10	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	27.0
+cycle_product_mapping		60011827	573	India Vi 50GB Plan internet (5G)	56	14	11/27/2025 19:00:00	03/27/2026 19:00:00	0.0	
+cycle_product_mapping		60011828	2275	ATT 300GB Plan AX (WA)	468	468	11/22/2025 05:00:00	12/22/2025 05:00:00	0.0	62.0
+cycle_product_mapping		60011830	212	Israel Partner 250GB Plan	32	8	11/24/2025 22:00:00	03/24/2026 22:00:00	0.0	
+cycle_product_mapping		60011831	486	UK EE 100GB Plan (5G)	48	12	11/03/2025 00:00:00	03/03/2026 00:00:00	0.0	37.0
+cycle_product_mapping		60011833	650	Ireland VDF Unlimited Plan (5G)	40	10	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	35.0
+cycle_product_mapping		60011836	212	UK EE Unlimited Plan (5G)	196	49	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60011838	2275	ATT 125GB Plan DF ET (WA)	949	474	11/01/2025 05:00:00	03/28/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011839	2275	ATT 300GB Plan VS ET (WA)	257	231	11/01/2025 05:00:00	01/25/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011840	2309	Korea LG 40GB Plan	1000	250	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011841	2417	Mexico AT&T 50GB Plan (5G)	376	100	11/03/2025 06:00:00	03/03/2026 06:00:00	0.0	
+cycle_product_mapping		60011843	2275	USC Plus 300GB Plan DC (PI)	2638	660	11/09/2025 05:00:00	03/09/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011844	2434	Japan Docomo for MaYa testing Only (MaYa)	8	2	11/08/2025 15:00:00	03/08/2026 15:00:00	0.0	
+cycle_product_mapping		60011845	2365	遠傳2MB吃到飽（DOTDOT only)	116	29	11/08/2025 16:00:00	03/22/2026 16:00:00	0.0	
+cycle_product_mapping		60011846	212	Israel Cellcom 600GB Plan (5G)	16	4	11/14/2025 22:00:00	03/14/2026 22:00:00	0.0	
+cycle_product_mapping		60011858	2275	ATT 300GB Plan VS ET  (WA)	717	307	11/04/2025 05:00:00	03/29/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011859	2275	ATT 300GB Plan PVP 3 (WA)	63	42	11/05/2025 05:00:00	01/30/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011860	2275	ATT 300GB Plan DI SG (PI)	568	142	11/10/2025 05:00:00	03/10/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011863	2348	Kazakhistan Kcell 40GB Plan (5G)	40	10	11/30/2025 19:00:00	03/31/2026 19:00:00	0.0	
+cycle_product_mapping		60011870	573	Italy TIM 70GB Plan (5G)	152	38	11/22/2025 23:00:00	03/22/2026 23:00:00	0.0	
+cycle_product_mapping		60011871	573	Canada Bell 200GB Plan (5G)	40	10	11/16/2025 05:00:00	03/16/2026 05:00:00	0.0	
+cycle_product_mapping		60011872	573	Indonesia Hutchison 50GB Plan (5G)	160	40	11/28/2025 17:00:00	03/28/2026 17:00:00	0.0	
+cycle_product_mapping		60011874	32	Indonesia Telkomsel 2GB Plan	80	20	11/10/2025 17:00:00	03/10/2026 17:00:00	0.0	
+cycle_product_mapping		60011875	2275	TMO 300GB Plan MC (WA)	300	100	11/14/2025 05:00:00	02/14/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011878	2275	TMO 100GB Plan AT (3) (WA)	1018	260	11/12/2025 05:00:00	03/12/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011882	2275	TMO 300GB Plan AT (1) (A) (PI)	2404	601	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011883	2275	TMO 300GB Plan AT (2) (PI)	920	230	11/12/2025 05:00:00	03/12/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011884	2275	TMO 300GB Plan AT (3) (WA)	308	154	11/06/2025 05:00:00	01/06/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011885	212	Poland Plus 45GB Plan (5G)	100	50	11/04/2025 23:00:00	01/04/2026 23:00:00	0.0	
+cycle_product_mapping		60011887	2275	TMO 150GB Plan AT (1) (B) (WA)	2461	616	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011888	2275	TMO 300GB Plan AT (1) (C) (PI)	1396	349	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011889	2275	TMO 300GB Plan AT (1) (D) (WA)	1773	537	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011890	2275	TMO 500GB Plan DI BU SG (WA)	808	202	11/16/2025 05:00:00	03/16/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011891	2275	TMO 500GB DI BU MG (PI)	460	115	11/18/2025 05:00:00	03/18/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011893	2275	TMO 100GB Plan AT (3) (2) (WA)	960	240	11/12/2025 05:00:00	03/12/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011894	2275	TMO 500GB EC (PI)	402	67	11/01/2025 05:00:00	03/30/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011898	573	Australia Vodafone 40GB Plan (5G)	194	50	11/19/2025 13:00:00	03/19/2026 13:00:00	0.0	
+cycle_product_mapping		60011921	2275	ATT Unlimited Plan DI MZ (WA)	616	154	11/18/2025 05:00:00	03/18/2026 05:00:00	0.0	43.0
+cycle_product_mapping		60011922	2275	ATT 300GB Plan DF (2) (PI)	339	126	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011932	450	Vietnam Vinaphone 500GB Plan (5G)	160	40	11/30/2025 17:00:00	03/31/2026 17:00:00	0.0	16.0
+cycle_product_mapping		60011933	450	Vietnam Viettel 6GB/Day Plan (5G)	90	30	11/05/2025 17:00:00	02/03/2026 17:00:00	0.0	14.0
+cycle_product_mapping		60011934	450	Vietnam Mobifone 500GB Plan (5G)	120	30	11/15/2025 17:00:00	03/15/2026 17:00:00	0.0	17.5
+cycle_product_mapping		60011936	123	SKT Unlimited Data plan 90 Days testing 	4	2	11/12/2025 15:00:00	05/11/2026 15:00:00	0.0	
+cycle_product_mapping		60011938	212	Germany O2 150GB Plan (5G)	120	30	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60011939	212	Korea SKT 100GB Plan (5G)	400	100	11/01/2025 15:00:00	03/01/2026 15:00:00	0.0	
+cycle_product_mapping		60011948	2415	USA ATT 120GB HLD Plan SIMO (5G)	4336	2522	11/01/2025 05:00:00	03/16/2026 05:00:00	0.0	
+cycle_product_mapping		60011949	2415	复制 60011767 (5G)	410	171	11/01/2025 05:00:00	02/01/2026 05:00:00	0.0	
+cycle_product_mapping		60011951	2309	Japan KDDI 150GB Plan (5G)	1690	424	11/30/2025 15:00:00	03/31/2026 15:00:00	0.0	
+cycle_product_mapping		60011969	14	Singtel Roaming Testing 3G	8	2	11/01/2025 16:00:00	03/01/2026 16:00:00	0.0	
+cycle_product_mapping		60011971	2153	USC IoT Pooled 100GB On Net Only (5G)	640	160	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	35.0
+cycle_product_mapping		60011981	2275	ATT 300GB Plan DF (PI)	1147	287	11/01/2025 05:00:00	03/26/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011986	2275	ATT 300GB Plan DC (2) (PI)	456	114	11/05/2025 05:00:00	03/05/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011989	2275	ATT 300GB Plan AX (2) (WA)	5	5	11/25/2025 05:00:00	12/25/2025 05:00:00	0.0	62.0
+cycle_product_mapping		60011992	2275	ATT 300GB Plan DI PV (PI)	548	137	11/04/2025 05:00:00	03/04/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60011993	2275	ATT 300GB Plan DI 1A (PI)	356	89	11/23/2025 05:00:00	03/23/2026 05:00:00	0.0	62.0
+cycle_product_mapping		60012031	2358	Movistar South America 30GB Plan	529	210	11/01/2025 06:00:00	03/01/2026 06:00:00	0.0	0.0
+cycle_product_mapping		60012044	212	Partner Global 30GB Plan	18	18	11/25/2025 22:00:00	12/25/2025 22:00:00	0.0	0.0
+cycle_product_mapping		60012060	573	Airtel Africa 20GB Plan (5G)	200	50	11/20/2025 21:00:00	03/20/2026 21:00:00	0.0	0.0
+cycle_product_mapping		60012089	2233	USA Backup-Maxis	10000	2500	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60012090	2233	Vodafone Europe	796	199	11/01/2025 00:00:00	03/01/2026 00:00:00	0.0	
+cycle_product_mapping		60012098	616	Taiwan CHT China/HK/Macau 1.5GB/Day Plan	242	63	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	999.0
+cycle_product_mapping		60012102	2333	CSL Global 100GB PPU (5G)	700	175	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	0.67
+cycle_product_mapping		60012104	2233	TruConnect Backup	80	20	11/02/2025 00:00:00	03/02/2026 00:00:00	0.0	
+cycle_product_mapping		60012106	2233	Backup KPN	160	40	11/02/2025 00:00:00	03/02/2026 00:00:00	0.0	
+cycle_product_mapping		60012128	212	Hot Mobile Global 30GB Plan	200	50	11/12/2025 22:00:00	03/12/2026 22:00:00	0.0	
+cycle_product_mapping		60012136	212	Telia North Europe 100GB Plan (5G)	117	47	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	
+cycle_product_mapping		60012137	573	Etisalat Global 15GB Plan	142	41	11/30/2025 22:00:00	03/31/2026 22:00:00	0.0	
+cycle_product_mapping		60012138	2333	CSL Global 100GB PPU (5G)	4884	1271	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60012139	573	Digi Global 3GB/Day Plan (5G)	438	164	11/11/2025 16:00:00	03/09/2026 16:00:00	0.0	
+cycle_product_mapping		60012140	1088	CMHK Saudi Arabia PPU	400	100	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60012141	1088	Hutchison Global PPU (5G)	2300	700	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60012147	212	Vodafone Europe 60GB Plan (5G)	949	299	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60012154	1088	Hutchison Korea PPU (5G)	500	500	11/30/2025 16:00:00	12/31/2025 16:00:00	0.0	
+cycle_product_mapping		60012157	2233	KPN for Caribbean	200	50	11/02/2025 00:00:00	03/02/2026 00:00:00	0.0	
+cycle_product_mapping		60012159	2333	Plus USA 50GB/Day PPU (5G)	104	100	11/01/2025 00:00:00	02/01/2026 00:00:00	0.0	
+cycle_product_mapping		60012160	514	ATT Caribbean Testing-22GB	16	4	11/02/2025 05:00:00	03/02/2026 05:00:00	0.0	
+cycle_product_mapping		60012161	212	FLOW Bahamas 30GB Plan	76	19	11/01/2025 05:00:00	03/01/2026 05:00:00	0.0	
+cycle_product_mapping		60012163	262	Elisa Pool (5G)	800	200	11/30/2025 21:00:00	03/31/2026 21:00:00	0.0	
+cycle_product_mapping		60012164	229	US Testing 10G	4	1	11/27/2025 05:00:00	03/27/2026 05:00:00	0.0	
+cycle_product_mapping		60012165	2417	Vivo Latin America 40GB Plan	244	71	11/01/2025 03:00:00	03/01/2026 03:00:00	0.0	
+cycle_product_mapping		60012167	2333	Plus Global 50GB/Day PPU (5G)	1800	500	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60012170	667	Verizon 50GB Plan	51	17	11/05/2025 16:00:00	01/05/2026 16:00:00	0.0	
+cycle_product_mapping		60012172	2233	Brunei Syniverse Smartone	40	10	11/21/2025 00:00:00	03/21/2026 00:00:00	0.0	
+cycle_product_mapping		60012173	148	Orange Roaming	50	50	02/23/2026 22:00:00	03/23/2026 22:00:00	0.0	
+cycle_product_mapping		60012174	1088	SmarTone Global PPU (5G)	400	100	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60012178	1088	CMHK Global PPU (5G)	2000	500	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	
+cycle_product_mapping		60012179	2333	Verizon 50GB Roaming	331	70	11/12/2025 16:00:00	03/15/2026 16:00:00	0.0	
+cycle_product_mapping		60012180	2417	Claro Latin America 40GB Plan (5G)	322	88	11/01/2025 03:00:00	03/01/2026 10:00:00	0.0	
+cycle_product_mapping		60012181	2466	Plus Roaming cards testing	4	1	11/07/2025 23:00:00	03/07/2026 23:00:00	0.0	
+cycle_product_mapping		60012182	212	Vodafone Europe 100GB Plan (5G)	8	2	11/30/2025 23:00:00	03/31/2026 23:00:00	0.0	
+cycle_product_mapping		60012183	2333	Verizon 50GB Roaming  for VIP testing	15	6	11/06/2025 16:00:00	03/15/2026 16:00:00	0.0	
+cycle_product_mapping		60012184	573	Digi Global 3GB/Day Plan (5G) for Russia	128	44	11/11/2025 16:00:00	03/09/2026 16:00:00	0.0	
+cycle_product_mapping		60012185	573	Digi Global 80GB Plan (5G)	110	50	11/29/2025 16:00:00	03/29/2026 16:00:00	0.0	
+cycle_product_mapping		60012186	2333	CSL Global 100GB PPU (5G) for Japan only	200	100	11/30/2025 16:00:00	01/31/2026 16:00:00	0.0	0.67
+cycle_product_mapping		60012187	616	Taiwan CHT China 1.5GB/Day Plan for China test	8	2	11/30/2025 16:00:00	03/31/2026 16:00:00	0.0	999.0
+cycle_product_mapping		60012188	2349	Hutchison America PPU (5G)	20	10	11/30/2025 16:00:00	01/31/2026 16:00:00	0.0	0.15
+cycle_product_mapping		60012189	2233	Smartone  for SRSIM testing	59	59	11/29/2025 16:00:00	12/29/2025 16:00:00	0.0	
+cycle_product_mapping		60012190	597	CTM (Guam) for SRSIM testing	58	29	11/29/2025 16:00:00	01/29/2026 16:00:00	0.0	
+cycle_product_mapping		60012191	2333	Hutchison Global 50GB/Day PPU (5G)	1300	500	12/31/2025 16:00:00	03/31/2026 16:00:00	0.0	
+snapshot_product_mapping	2025-12				29	29	11/29/2025 16:00:00	12/29/2025 15:59:59		
+snapshot_product_mapping	2025-12	60011002	573	Australia Telstra 55GB Plan (5G)	126740	180	11/05/2025 13:00:00	01/01/2026 12:59:59		
+snapshot_product_mapping	2025-12	60011030	513	Singapore SingTel 60GB Plan	432	8	11/30/2025 16:00:00	12/31/2025 15:59:59		
+snapshot_product_mapping	2025-12	60011044	486	UK VDF 30GB Plan (5G)	45958	68	12/01/2025 00:00:00	12/31/2025 23:59:59		
+snapshot_product_mapping	2025-12	60011046	616	Taiwan TW Mobile Unlimited Plan	2226	3	11/02/2025 16:00:00	01/01/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011054	2370	Czech VDF  50GB Plan (5G)	14840	20				
+snapshot_product_mapping	2025-12	60011065	616	Taiwan FET Unlimited Plan	7420	10	11/23/2025 16:00:00	01/23/2026 15:59:59		
+snapshot_product_mapping	2025-12	600111001	650	Nigeria MTN 75GB Plan	12614	17	11/23/2025 23:00:00	01/22/2026 22:59:59		
+snapshot_product_mapping	2025-12	600111002	2275	TMO 500GB DI BU MW (WA)	212954	287	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111003	2417	Thailand AIS 100GB Plan (5G)	58738	84	11/20/2025 17:00:00	01/20/2026 16:59:59		
+snapshot_product_mapping	2025-12	600111004	212	Nigeria Airtel 40GB Plan (5G)	9646	13	11/10/2025 23:00:00	01/09/2026 22:59:59		
+snapshot_product_mapping	2025-12	600111005	2275	ATT 300GB Plan AX HS (WA)	502	1	11/22/2025 05:00:00	12/22/2025 04:59:59		
+snapshot_product_mapping	2025-12	600111015	2434	Japan Docomo Unlimited(MAYA)	89040	120	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111016	2434	Japan Rakuten 100GB (5G)(MAYA)	117236	158	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111018	2434	Japan Softbank 50GB(MAYA)	14840	20	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111019	2417	Thailand TrueMove 100GB Plan (5G)	54166	73	11/02/2025 17:00:00	01/02/2026 16:59:59		
+snapshot_product_mapping	2025-12	600111022	2417	Brazil Vivo 40GB Plan	112	2	12/01/2025 03:00:00	01/01/2026 02:59:59		
+snapshot_product_mapping	2025-12	600111023	2446	Wirelesslogic IOT Roaming test	1484	2	11/24/2025 00:00:00	01/23/2026 23:59:59		
+snapshot_product_mapping	2025-12	600111024	2333	Japan Docomo PPU（For TS only）	148400	200	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111027	2469	Taiwan FarEasTone Unlimited Plan	11130	15	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	600111028	2469	Taiwan Mobile Unlimited Plan	11130	15	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	600111031	2435	Japan SoftBank 20GB (TS)	371000	500	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111032	2435	Japan SoftBank 50GB (TS)	741258	999	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111033	2435	Japan SoftBank 100GB (TS)	1076000	1600	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111035	2435	Japan Docomo 10GB (TS)	148400	200	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111036	2435	Japan KDDI 10GB (TS)	148400	200	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111041	2434	Japan Rakuten MVNO 100GB (5G)(MAYA)	7420	10	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111046	2446	Wirelesslogic 10GB Roaming test 	2226	3	09/07/2025 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111058	2415	USA TMO 30GB HLD PLAN SIMO (5G) SDP	227052	306	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111062	2333	CSL Global 100GB PPU (5G) for factory only	150626	203	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	600111063	2465	Palau Testing Card 8GB	1484	2				
+snapshot_product_mapping	2025-12	600111064	2417	Brazil Claro 40GB Plan (5G)	378	18	12/01/2025 03:00:00	01/01/2026 02:59:59		
+snapshot_product_mapping	2025-12	600111065	2434	Japan Softbank 50GB( 5G)(MAYA)	393260	530	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111066	2434	Japan KDDI 20GB(MAYA)	73458	99	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111067	573	Ethiopia MTN 50GB Plan	1484	2				
+snapshot_product_mapping	2025-12	600111068	573	Cambodia Metfone 50GB Plan (5G)	1484	2	11/18/2025 17:00:00	01/17/2026 16:59:59		
+snapshot_product_mapping	2025-12	600111069	2275	ATT 300GB Plan ATM RA 5G2 (WA)	742	1	11/24/2025 05:00:00	01/24/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111072	2275	ATT 300GB Plan DI PV 5G (WA)	742	1	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111074	2275	TMO Unlimited TT 5G (WA)	742	1	11/19/2025 05:00:00	01/19/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111075	2275	TMO 500GB DI BU MW 5G (WA)	742	1	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111077	2275	TMO 300GB Plan AT (1) (A) 5G (WA)	742	1	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111078	2275	TMO 500GB VS BU 5G (WA)	742	1	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111079	650	Poland Plus 100GB Plan (5G)	37100	50	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	600111080	2275	AT&T 300GB Plan HX RT 5G2 (WA)	555	1	11/24/2025 05:00:00	01/24/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111082	2275	ATT 300GB Plan DI PV 5G2 (WA)	742	1	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111083	2275	TMO Unlimited TT 5G2 (WA)	742	1	11/19/2025 05:00:00	01/19/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111084	2275	TMO 300GB Plan AT (1) (A) 5G2 (WA)	742	1	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111085	2275	TMO 500GB DI BU MW 5G2 (WA)	742	1	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111086	2275	TMO 500GB VS BU 5G2 (WA)	742	1	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111087	2275	AT&T 150GB Plan ATM RT (WA)	204050	275	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111089	2415	USA TMO 120GB HLD PLAN (5G)	2226	3	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111090	2254	AT&T Postpaid Plan (5G) for VIP testing	2226	3	11/02/2025 07:00:00	01/02/2026 06:59:59		
+snapshot_product_mapping	2025-12	600111091	2254	AT&T Prepaid 30GB Plan (5G)	5722	141	11/20/2025 06:00:00	01/19/2026 05:59:59		
+snapshot_product_mapping	2025-12	600111092	2254	T-Mobile Prepaid 40GB Plan (5G) (SDP)	3710	5	11/06/2025 06:00:00	01/05/2026 05:59:59		
+snapshot_product_mapping	2025-12	600111093	2275	ATT 300GB Plan DF BU (PI)	28938	39	11/13/2025 05:00:00	01/17/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111094	2275	Unassigned(WA)	2011286	2757				
+snapshot_product_mapping	2025-12	600111095	212	UK EE Unlimited Plan (5G) for VDF testing 	2226	3	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	600111098	486	UK O2 30GB Plan (5G) for VDF testing	2016	3	12/01/2025 00:00:00	12/31/2025 23:59:59		
+snapshot_product_mapping	2025-12	600111099	650	Poland Orange 75GB Plan (5G)	37100	50	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	600111101	212	Egypt WE 50GB Plan (5G)	2226	3	11/02/2025 22:00:00	01/02/2026 21:59:59		
+snapshot_product_mapping	2025-12	600111102	2434	Japan Softbank 50GB 5G(SKY)	371000	500	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	600111105	2233	KPN  for SRSIM testing	15732	52	11/29/2025 21:00:00	12/30/2025 20:59:59		
+snapshot_product_mapping	2025-12	600111106	2233	VDF for SRSIM testing	41521	114	11/29/2025 16:00:00	12/31/2025 15:59:59		
+snapshot_product_mapping	2025-12	600111108	2275	ATT 300GB Plan EC TB（WA)	19	1	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111109	2275	AT&T 300GB Plan Air Test (WA)	2226	3	11/04/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111110	3	for Wireless logic testing	3710	5	11/17/2025 05:00:00	01/17/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111111	2275	ATT 300GB Plan DI RC (PI)	52682	71	11/01/2025 05:00:00	01/21/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111112	2349	T-Mobile PPU	1210	2	11/26/2025 08:00:00	12/26/2025 07:59:59		
+snapshot_product_mapping	2025-12	600111113	2275	ATT 300GB Plan DF BU (2) (PI)	29606	96	11/01/2025 05:00:00	01/22/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111114	2275	ATT 300GB Plan DF BU (3) (PI)	14214	23	12/01/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111115	2275	ATT 300GB Plan DF BU (4) (WA)	21630	35	12/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111116	2275	AT&T 300GB Plan RA (PI)	51198	69	11/06/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111117	212	UK Vodafone Unlimited Plan (5G)	7420	20				
+snapshot_product_mapping	2025-12	600111118	212	UK O2 Unlimited Plan (5G)	7420	10	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	600111119	2275	ATT 100GB Plan DF ET (43) (WA)	115051	197	11/21/2025 05:00:00	01/28/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111120	2275	ATT 100GB Plan VS ET (43) (WA)	74810	105	11/18/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111121	2275	ATT 100GB Plan PVP (33) (WA)	50322	152	11/14/2025 05:00:00	01/30/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111122	212	Poland Play 100GB Plan (5G)	30444	86	12/14/2025 23:00:00	01/14/2026 22:59:59		
+snapshot_product_mapping	2025-12	600111123	2275	ATT 300GB Plan DF BU (5) (WA)	5724	9	12/01/2025 05:00:00	01/03/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111126	2275	ATT 100GB Plan VS ET (WA)	54939	182	11/11/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111127	667	TMO Pool 1.5TB (20GB/SIM)	235500	500	12/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111128	2275	ATT 300GB Plan DI FS (PI)	28882	87	12/01/2025 05:00:00	01/13/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111130	2275	ATT 100GB Plan DI MM (WA)	22700	376	11/29/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111131	2275	ATT 50GB Plan DI MM (WA) (For SDP)	333	2	11/29/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111132	2275	ATT 100GB Plan DI CD (WA)	13824	64	12/11/2025 05:00:00	01/11/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111133	2275	ATT 300GB Plan DI SL (PI)	2808	13	12/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111134	2275	ATT 100GB Plan DI JL (WA)	10368	48	12/16/2025 05:00:00	01/16/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111135	2275	ATT 100GB Plan DI MZ (WA)	432	2	12/18/2025 05:00:00	01/18/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111136	2275	ATT 100GB Plan EC (WA)	44939	212	12/01/2025 05:00:00	01/22/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111137	212	Singapore ZYM 100GB Plan (Singtel 5G)	82	2				
+snapshot_product_mapping	2025-12	600111138	2275	AT&T 100GB Plan RA (WA)	34408	184	12/06/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111139	2275	AT&T 300GB Plan HX RT (333) (PI)	53280	333	12/24/2025 05:00:00	01/24/2026 04:59:59		
+snapshot_product_mapping	2025-12	600111142	2275	ATT 60GB Plan AT SDP (WA)	180	60	12/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011126	514	USA ATT 22GB Plan (5G) SDP	14840	20	11/10/2025 04:00:00	01/10/2026 03:59:59		
+snapshot_product_mapping	2025-12	60011138	212	Morocco Orange 35GB Plan (5G)	22260	30	11/07/2025 23:00:00	01/07/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011147	466	Ukraine Life 50GB Plan	6678	9	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011158	616	Taiwan Chunghwa Telecom Unlimited Plan	464145	630	11/08/2025 16:00:00	01/25/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011185	137	Indonesia Indosat 16GB Plan (5G)	14840	20	11/26/2025 17:00:00	01/26/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011192	212	Brazil Claro 40GB Plan (5G)	29680	40	11/05/2025 03:00:00	01/05/2026 02:59:59		
+snapshot_product_mapping	2025-12	60011214	633	Guam & Saipan Docomo 15GB Plan	193662	261				
+snapshot_product_mapping	2025-12	60011231	2417	Bahamas Aliv 25GB Plan	5280	10				
+snapshot_product_mapping	2025-12	60011236	2254	America AT&T Blank	379036	653				
+snapshot_product_mapping	2025-12	60011253	2417	Colombia Claro 50GB Plan (5G)	48230	65	11/13/2025 05:00:00	01/13/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011256	212	Portugal NOS Unlimited Plan (5G)	28938	39	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011290	212	Bulgaria Vivacom Unlimited Plan (5G)	11130	15	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011291	212	Kuwait Viva 100GB Plan (5G)	16324	22				
+snapshot_product_mapping	2025-12	60011309	262	Elisa Pool (5G)	1334858	1799	11/30/2025 21:00:00	01/31/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011320	6	CA Telus Pool (5G)	667800	900	11/01/2025 07:00:00	01/01/2026 06:59:59		
+snapshot_product_mapping	2025-12	60011321	90	India Airtel Unlimited Plan (5G)	51940	70	11/30/2025 18:00:00	01/31/2026 17:59:59		
+snapshot_product_mapping	2025-12	60011347	2233	Smartone [For VIP Only]	7420	10	11/20/2025 16:00:00	01/20/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011349	650	Slovenia A1 30GB Plan (5G)	20776	28	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011356	2233	USA Backup-Smartone	95718	129	11/21/2025 00:00:00	01/29/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011364	2254	T-Mobile Postpaid Unlimited Plan (5G)	430360	580	11/18/2025 08:00:00	01/18/2026 07:59:59		
+snapshot_product_mapping	2025-12	60011373	2275	ATT 300GB Plan EC (PI)	16133	40	11/01/2025 05:00:00	01/17/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011376	2275	TMO 110GB Plan HY (WA)	22350	50	11/19/2025 05:00:00	01/19/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011378	2275	 AT&T 300GB Plan HX (WA)	313110	461	11/24/2025 05:00:00	01/24/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011379	2275	ATT 300GB Plan EC PV (PI)	17827	25	11/01/2025 05:00:00	01/14/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011405	2370	Romania Digi Mobil 75GB  Plan (5G)	25970	35	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011408	513	Singapore SingTel  60GB Plan for VIP	108	2	11/30/2025 16:00:00	12/31/2025 15:59:59		
+snapshot_product_mapping	2025-12	60011420	2233	Great China Backup-Smartone	7420	10	11/21/2025 00:00:00	01/20/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011425	650	Canada Rogers 100GB Plan (5G)	1484	2				
+snapshot_product_mapping	2025-12	60011427	459	Laos Unitel 30GB Plan (5G)	3710	5	11/01/2025 17:00:00	01/30/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011429	2275	AT&T 300GB Plan HX HS (WA)	551	1	11/24/2025 05:00:00	12/24/2025 04:59:59		
+snapshot_product_mapping	2025-12	60011436	2275	ATT 300GB Plan AT PP (WA)	148400	200	11/10/2025 05:00:00	01/10/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011437	2275	ATT 300GB Plan VS PP (PI)	44711	61	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011444	2275	ATT 300GB Plan DI JL (PI)	43778	59	11/16/2025 05:00:00	01/16/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011449	2275	ATT 300GB Plan PVP (WA)	159613	260	11/01/2025 05:00:00	01/30/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011450	160	For Customer Big Connect Use Only	2226	3	11/30/2025 17:00:00	01/31/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011454	2462	ETG Use Only	2968	4	11/15/2025 16:00:00	01/15/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011455	2348	Turkey Telekom 30GB Plan	7420	10				
+snapshot_product_mapping	2025-12	60011462	14	Singapore SingTel 50GB Plan (5G)	44520	60	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011468	2254	T-Mobile Postpaid Plan (For TC Only)	1484	2	11/18/2025 08:00:00	01/18/2026 07:59:59		
+snapshot_product_mapping	2025-12	60011470	2254	AT&T Postpaid Plan (For TruConnect Only)	1484	2	11/02/2025 08:00:00	01/02/2026 07:59:59		
+snapshot_product_mapping	2025-12	60011490	616	Taiwan CHT 100GB Plan (5G) for A	5936	8	11/05/2025 16:00:00	01/22/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011491	616	Taiwan Chunghwa Telecom Unlimited Plan for Testing	4452	6	11/23/2025 16:00:00	01/22/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011492	616	Taiwan TW Mobile Unlimited Plan for Testing	5936	8	11/25/2025 16:00:00	01/24/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011493	616	Taiwan FET Unlimited Plan for Testing	5936	8	11/11/2025 16:00:00	01/11/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011494	2275	ATT 300GB Plan DI CD (PI)	46004	62	11/11/2025 05:00:00	01/11/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011500	2275	ATT 300GB Plan DI MM (PI)	41552	56	11/29/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011514	486	60011514 UK VDF 100GB Plan (5G) prorate	29680	40				
+snapshot_product_mapping	2025-12	60011515	2275	ATT 300GB Plan XY PP (WA)	555361	817	11/01/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011516	2275	ATT 300GB Plan DI VS (PI)	60844	82	11/09/2025 05:00:00	01/09/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011521	2275	TMO 300GB Plan AT (5) (WA)	74200	100	11/21/2025 05:00:00	01/21/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011522	2348	Turkey Turkcell 25GB Plan	14840	20				
+snapshot_product_mapping	2025-12	60011530	3	TC Test TMO	1484	2	11/01/2025 12:00:00	01/01/2026 11:59:59		
+snapshot_product_mapping	2025-12	60011531	2349	Japan Docomo 50GB Plan	131472	249				
+snapshot_product_mapping	2025-12	60011534	212	France SFR 130GB Plan (5G)	87556	118	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011535	616	Taiwan FET Unlimited Plan (5G) for A 	1484	2	11/26/2025 16:00:00	01/26/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011542	573	Italy WindTre 150GB Plan (5G)	45262	61	11/05/2025 23:00:00	01/05/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011544	650	Finland Telia Unlimited Plan (5G)	7420	10				
+snapshot_product_mapping	2025-12	60011545	212	Netherlands Odido 150GB Plan (5G)	54908	74	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011546	212	Israel Hot Mobile 600GB Plan (5G)	5936	8	11/12/2025 22:00:00	01/12/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011552	2369	T-Mobile Prepaid Unlimited Plan (5G)	371000	500	11/14/2025 04:00:00	01/14/2026 03:59:59		
+snapshot_product_mapping	2025-12	60011553	2241	Qatar Ooredoo 30GB Plan (5G, not tested)	22260	30				
+snapshot_product_mapping	2025-12	60011554	212	Switzerland Sunrise Unlimited Plan(5G)	28938	39	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011556	650	Bulgaria A1 Unlimited Plan (5G)	25970	35	11/15/2025 21:00:00	01/15/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011565	650	Austria T-Mobile Unlimited Plan (5G)	7420	10				
+snapshot_product_mapping	2025-12	60011576	2236	USA Verizon 30GB Plan	3710	5				
+snapshot_product_mapping	2025-12	60011578	459	Laos Telecom 25GB Plan	7420	10	11/07/2025 17:00:00	01/06/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011579	573	Egypt Etisalat 43GB Plan (5G)	12614	17	11/23/2025 22:00:00	01/22/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011585	2333	测试百宝箱60012138	734	1	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011592	2254	AT&T Postpaid Unlimited Plan (5G)	497914	692	11/02/2025 07:00:00	01/02/2026 06:59:59		
+snapshot_product_mapping	2025-12	60011596	212	Kenya Airtel 40GB Plan (5G)	48230	65	11/30/2025 21:00:00	01/31/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011598	486	UK O2 30GB Plan (5G)	14784	22	12/01/2025 00:00:00	12/31/2025 23:59:59		
+snapshot_product_mapping	2025-12	60011609	450	Vietnam Viettel 4GB/Day Plan	14840	20	11/30/2025 17:00:00	01/29/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011612	2275	ATT 300GB Plan SP (PI)	236698	319	11/25/2025 05:00:00	01/25/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011613	573	Guam & Saipan Docomo 50GB Plan (5G)	35616	48	11/30/2025 14:00:00	01/31/2026 13:59:59		
+snapshot_product_mapping	2025-12	60011615	6	 Canada Telus 50GB Plan (5G)	482300	650	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011616	137	Indonesia Indosat 20GB Plan (5G)	37100	50	11/26/2025 17:00:00	01/26/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011619	486	France Bouygues 100GB Plan (5G)	66780	90	11/12/2025 22:00:00	01/12/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011623	212	Spain Orange 200GB Plan (5G)	71974	97	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011624	2254	AT&T Prepaid Unlimited Plan (5G)	297160	649	11/02/2025 06:00:00	01/21/2026 05:59:59		
+snapshot_product_mapping	2025-12	60011625	257	Italy Iliad 220GB Plan (5G)	37100	50	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011631	2369	Cambodia Smart 50GB Plan	11130	15	11/30/2025 17:00:00	01/31/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011632	2349	Japan SoftBank 50GB Plan (5G)	21860	30	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011633	2382	Japan Rakuten Pool (5G)	1481774	1997	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011635	212	Poland Play 50GB Plan (5G)	102260	196	11/14/2025 23:00:00	01/14/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011639	212	New Zealand Vodafone 40GB Plan (5G)	18550	25	11/10/2025 12:00:00	01/10/2026 11:59:59		
+snapshot_product_mapping	2025-12	60011640	212	Ukraine Vodafone Unlimited Plan (5G)	7420	10	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011641	305	Singapore StarHub 53GB Plan (5G)	34874	47	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011645	2371	UK Three 50GB Plan (5G)	90680	130	11/20/2025 00:00:00	01/16/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011646	2369	Thailand AIS 80GB Plan (5G)	52800	100				
+snapshot_product_mapping	2025-12	60011647	6	CA Telus Pool (5G) For GID 20757 Only	22260	30	11/01/2025 07:00:00	01/01/2026 06:59:59		
+snapshot_product_mapping	2025-12	60011651	573	Philippines Globe 52GB Plan (5G)	29680	40	11/07/2025 16:00:00	01/06/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011652	2254	T-Mobile Prepaid Unlimited Plan (5G)	146706	499	11/14/2025 06:00:00	12/15/2025 05:59:59		
+snapshot_product_mapping	2025-12	60011653	452	Philippines Globe 50GB Plan (5G)	22260	30	11/16/2025 16:00:00	01/15/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011654	452	Philippines Smart 50GB Plan (5G)	92750	125	11/01/2025 16:00:00	01/30/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011655	573	Maldives Dhiraagu 30GB Plan (5G)	34580	47	11/19/2025 19:00:00	01/17/2026 18:59:59		
+snapshot_product_mapping	2025-12	60011664	573	Philippines Smart 55GB Plan (5G)	22260	30	11/26/2025 16:00:00	01/25/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011665	2373	T-Mobile 50GB Test(Foxx Demo only)	1484	2	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011666	486	France Orange 50GB Plan (5G)	14840	20	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011667	2240	Korea LG 40GB Plan	37100	50	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011668	2380	Egypt Etisalat 30GB Plan	5808	11				
+snapshot_product_mapping	2025-12	60011669	2369	Russia Beeline 30GB Plan	2640	5				
+snapshot_product_mapping	2025-12	60011671	212	Ireland Three 100GB Plan (5G)	14840	20	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011672	2275	AT&T 300GB Plan HX RT (WA)	1159645	1716	11/24/2025 05:00:00	01/24/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011679	2369	Malaysia Maxis 100GB Plan (5G)	152972	218	11/11/2025 16:00:00	01/13/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011680	2380	UK Vodafone 40GB Plan (5G)	134000	200	11/12/2025 00:00:00	01/09/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011681	2370	Croatia A1 Unlimited Plan (5G)	37100	50	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011690	2275	ATT 100GB Plan AT TB T (WA)	37842	51	05/10/2025 05:00:00	01/10/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011692	1088	CMHK PPU (5G)	74200	100	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011698	2333	HK CSL 100GB PPU (5G)	37100	50	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011699	2348	Turkey Turkcell 50GB Plan (5G)	17240	30	11/19/2025 21:00:00	01/19/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011700	32	Indonesia Telkomsel 50GB Plan (5G)	165466	223	11/10/2025 17:00:00	01/10/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011707	212	Germany Vodafone 100GB Plan (5G)	51940	70	11/21/2025 23:00:00	01/21/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011708	573	Greece Nova Unlimited Plan (5G)	40	20	11/05/2025 22:00:00	12/05/2025 21:59:59		
+snapshot_product_mapping	2025-12	60011711	650	Belgium Proximus Unlimited Plan (5G)	1484	2				
+snapshot_product_mapping	2025-12	60011714	650	Sweden Telia Unlimited Plan (5G)	11130	15				
+snapshot_product_mapping	2025-12	60011716	2348	Turkey Telekom 30GB Plan (5G)	87556	118	11/30/2025 21:00:00	01/31/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011721	2369	Thailand TrueMove 80GB Plan (5G)	26928	51				
+snapshot_product_mapping	2025-12	60011722	212	Hungary Vodafone Unlimited Plan (5G)	7420	10	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011723	212	Netherlands Vodafone 200GB Plan (5G)	37100	50	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011727	573	Kenya Safaricom 42GB Plan (5G)	13356	18	11/08/2025 21:00:00	01/07/2026 20:59:59		
+snapshot_product_mapping	2025-12	60011728	650	Lithuania Bite Unlimited Plan (5G)	22260	30	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011729	2370	Slovakia O2 25GB Plan (5G)	14840	20	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011730	650	Denmark Telia 100GB Plan (5G)	10388	14	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011731	2369	Malaysia Digi 200GB Plan (5G)	135450	210	11/03/2025 16:00:00	01/02/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011733	212	Brazil Vivo 100GB Plan (5G)	7420	10	11/01/2025 03:00:00	01/01/2026 02:59:59		
+snapshot_product_mapping	2025-12	60011734	212	New Zealand Spark 50GB Plan (5G)	7420	10	11/11/2025 12:00:00	01/11/2026 11:59:59		
+snapshot_product_mapping	2025-12	60011736	212	Poland Orange 50GB Plan (5G)	89942	144	11/05/2025 23:00:00	01/05/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011742	573	UAE DU 50GB Plan (5G)	8411	12	03/23/2024 20:00:00	01/23/2026 19:59:59		
+snapshot_product_mapping	2025-12	60011745	514	USA Ultra 50GB Plan (5G not tested)	1484	2				
+snapshot_product_mapping	2025-12	60011746	514	USA Lyca 60GB plan	2968	4				
+snapshot_product_mapping	2025-12	60011747	514	USA Red Pocket 30GB Plan 	2968	4				
+snapshot_product_mapping	2025-12	60011748	2254	America T-Mobile Blank	309414	417				
+snapshot_product_mapping	2025-12	60011749	2365	台哥大21MB吃到飽 (DOTDOT only)	8904	12	11/10/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011751	2369	America T-Mobile Blank	369516	498				
+snapshot_product_mapping	2025-12	60011752	2349	AT&T Prepaid Unlimited Plan (5G)	172320	406	11/01/2025 06:00:00	01/23/2026 05:59:59		
+snapshot_product_mapping	2025-12	60011754	212	South Africa MTN 50GB Plan (5G)	43778	59	01/11/2024 22:00:00	01/04/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011755	2417	Mexico Telcel 40GB Plan (5G)	74200	100	11/25/2025 06:00:00	01/25/2026 05:59:59		
+snapshot_product_mapping	2025-12	60011758	2349	T-Mobile Prepaid Unlimited Plan (5G)	169200	300	11/25/2025 06:00:00	12/25/2025 05:59:59		
+snapshot_product_mapping	2025-12	60011759	2309	Japan SoftBank 100GB Plan	58160	80	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011761	2392	USA USC 10GB IoT Test Plan	742	1	11/09/2025 05:00:00	01/09/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011762	2254	AT&T Postpaid Advanced Unlimited Plan (5G)	178080	240	11/28/2025 07:00:00	01/28/2026 06:59:59		
+snapshot_product_mapping	2025-12	60011763	2254	T-Mobile Ultimate Postpaid Unlimited Plan (5G)	222600	300	11/01/2025 07:00:00	01/18/2026 06:59:59		
+snapshot_product_mapping	2025-12	60011764	2369	America AT&T Blank	220916	299				
+snapshot_product_mapping	2025-12	60011766	2371	T-Mobile Prepaid Plan (5G)	251538	339				
+snapshot_product_mapping	2025-12	60011767	2415	USA TMO 120GB HLD Plan SIMO (5G)	272314	367	11/01/2025 05:00:00	01/26/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011772	2349	America AT&T Blank	485326	950				
+snapshot_product_mapping	2025-12	60011773	2349	America T-Mobile Blank	742000	1000				
+snapshot_product_mapping	2025-12	60011774	212	South Africa Vodacom 50GB Plan (5G)	22260	30	11/11/2025 22:00:00	01/11/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011775	212	Portugal Vodafone Unlimited Plan (5G)	15764	32	12/01/2025 00:00:00	12/31/2025 23:59:59		
+snapshot_product_mapping	2025-12	60011777	2275	ATT 300GB Plan DI HY HC (PI)	29685	41	11/14/2025 05:00:00	01/14/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011778	2412	Japan UQ Mobile (KDDI)100GB Plan	1484	2				
+snapshot_product_mapping	2025-12	60011783	2275	ATT 300GB Plan DF ET (WA)	254979	416	11/02/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011785	2275	ATT 300GB Plan DC (PI)	281218	379	11/05/2025 05:00:00	01/05/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011788	212	Australia Vodafone 60GB Plan (5G)	36960	70				
+snapshot_product_mapping	2025-12	60011789	212	Germany Telekom 150GB Plan (5G)	91266	123	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011790	257	Italy Vodafone 70GB Plan (5G)	22260	30				
+snapshot_product_mapping	2025-12	60011798	2370	Slovakia Orange 30GB Plan (5G)	14840	20	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011800	573	India Vi 50GB Plan www	11130	15				
+snapshot_product_mapping	2025-12	60011804	650	Greece VDF 50GB Plan (5G)	25228	34	11/26/2025 22:00:00	01/26/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011809	2417	Colombia Tigo 50GB Plan (5G)	7420	10	11/19/2025 05:00:00	01/19/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011811	650	Spain Digi Mobil 100GB Plan (5G)	49714	67	04/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011812	2370	Greece Cosmote-OTE 30GB Plan (5G)	22260	30	11/19/2025 22:00:00	01/19/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011814	2415	USA ATT 100GB HLT Plan (5G)	493638	1256	11/03/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011815	2275	TMO Unlimited TT (WA)	249312	336	11/19/2025 05:00:00	01/19/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011817	2275	TMO 500GB VS BU (PI)	50456	68	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011818	2275	TMO 40GB EC TB(WA)	232	2	11/30/2025 05:00:00	01/30/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011824	2432	Japan Docomo 25GB	7420	10	11/05/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011826	650	Bosnia Herzegovina BH Mobile 35GB Plan	7420	10	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011827	573	India Vi 50GB Plan internet (5G)	10388	14	11/27/2025 19:00:00	01/26/2026 18:59:59		
+snapshot_product_mapping	2025-12	60011828	2275	ATT 300GB Plan AX (WA)	235872	468	11/22/2025 05:00:00	12/22/2025 04:59:59		
+snapshot_product_mapping	2025-12	60011830	212	Israel Partner 250GB Plan	5936	8	11/24/2025 22:00:00	01/24/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011831	486	UK EE 100GB Plan (5G)	8904	12	11/03/2025 00:00:00	01/01/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011833	650	Ireland VDF Unlimited Plan (5G)	18550	25	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011836	212	UK EE Unlimited Plan (5G)	36358	49	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60011838	2275	ATT 125GB Plan DF ET (WA)	112836	174	11/01/2025 05:00:00	01/28/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011839	2275	ATT 300GB Plan VS ET (WA)	79446	206	11/01/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011840	2309	Korea LG 40GB Plan	185500	250	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011841	2417	Mexico AT&T 50GB Plan (5G)	70424	100	11/03/2025 06:00:00	01/03/2026 05:59:59		
+snapshot_product_mapping	2025-12	60011843	2275	USC Plus 300GB Plan DC (PI)	489720	660	11/09/2025 05:00:00	01/09/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011844	2434	Japan Docomo for MaYa testing Only (MaYa)	1484	2	11/08/2025 15:00:00	01/08/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011845	2365	遠傳2MB吃到飽（DOTDOT only)	21518	29	11/08/2025 16:00:00	01/22/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011846	212	Israel Cellcom 600GB Plan (5G)	6678	9	11/14/2025 22:00:00	01/14/2026 21:59:59		
+snapshot_product_mapping	2025-12	60011848	2371	AT&T Prepaid Plan	222600	300				
+snapshot_product_mapping	2025-12	60011858	2275	ATT 300GB Plan VS ET  (WA)	122359	286	11/04/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011859	2275	ATT 300GB Plan PVP 3 (WA)	2046	39	11/05/2025 05:00:00	01/30/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011860	2275	ATT 300GB Plan DI SG (PI)	105364	142	11/10/2025 05:00:00	01/10/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011863	2348	Kazakhistan Kcell 40GB Plan (5G)	25970	35	11/30/2025 19:00:00	01/31/2026 18:59:59		
+snapshot_product_mapping	2025-12	60011870	573	Italy TIM 70GB Plan (5G)	28196	38	11/22/2025 23:00:00	01/22/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011871	573	Canada Bell 200GB Plan (5G)	7420	10	11/16/2025 05:00:00	01/16/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011872	573	Indonesia Hutchison 50GB Plan (5G)	29680	40	11/28/2025 17:00:00	01/27/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011874	32	Indonesia Telkomsel 2GB Plan	185500	250	11/10/2024 17:00:00	01/10/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011875	2275	TMO 300GB Plan MC (WA)	74200	100	11/14/2025 05:00:00	01/14/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011878	2275	TMO 100GB Plan AT (3) (WA)	192920	260	03/12/2025 05:00:00	01/12/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011882	2275	TMO 300GB Plan AT (1) (A) (PI)	445942	601	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011883	2275	TMO 300GB Plan AT (2) (PI)	170660	230	11/12/2025 05:00:00	01/12/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011884	2275	TMO 300GB Plan AT (3) (WA)	114268	154	11/06/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011885	212	Poland Plus 45GB Plan (5G)	37637	52	11/04/2025 23:00:00	01/04/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011887	2275	TMO 150GB Plan AT (1) (B) (WA)	456330	615	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011888	2275	TMO 300GB Plan AT (1) (C) (PI)	258958	349	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011889	2275	TMO 300GB Plan AT (1) (D) (WA)	398454	537	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011890	2275	TMO 500GB Plan DI BU SG (WA)	149884	202	11/16/2025 05:00:00	01/16/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011891	2275	TMO 500GB DI BU MG (PI)	85330	115	11/18/2025 05:00:00	01/18/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011893	2275	TMO 100GB Plan AT (3) (2) (WA)	178080	240	11/12/2025 05:00:00	01/12/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011894	2275	TMO 500GB EC (PI)	49714	67	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011898	573	Australia Vodafone 40GB Plan (5G)	37100	50	11/19/2025 13:00:00	01/19/2026 12:59:59		
+snapshot_product_mapping	2025-12	60011921	2275	ATT Unlimited Plan DI MZ (WA)	114268	154	11/18/2025 05:00:00	01/18/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011922	2275	ATT 300GB Plan DF (2) (PI)	52682	71	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011932	450	Vietnam Vinaphone 500GB Plan (5G)	29680	40	11/30/2025 17:00:00	01/31/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011933	450	Vietnam Viettel 6GB/Day Plan (5G)	22260	30	11/05/2025 17:00:00	01/04/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011934	450	Vietnam Mobifone 500GB Plan (5G)	22260	30	11/15/2025 17:00:00	01/14/2026 16:59:59		
+snapshot_product_mapping	2025-12	60011936	123	SKT Unlimited Data plan 90 Days testing 	1484	2	11/12/2025 15:00:00	02/10/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011938	212	Germany O2 150GB Plan (5G)	73458	99	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60011939	212	Korea SKT 100GB Plan (5G)	74200	100	11/01/2025 15:00:00	01/01/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011948	2415	USA ATT 120GB HLD Plan SIMO (5G)	853147	2169	11/03/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011949	2415	复制 60011767 (5G)	101654	137	11/01/2025 05:00:00	01/26/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011951	2309	Japan KDDI 150GB Plan (5G)	312402	424	11/30/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2025-12	60011952	573	Morocco IAM 20GB Plan	528	1				
+snapshot_product_mapping	2025-12	60011969	14	Singtel Roaming Testing 3G	1484	2	11/01/2025 16:00:00	01/01/2026 15:59:59		
+snapshot_product_mapping	2025-12	60011971	2153	USC IoT Pooled 100GB On Net Only (5G)	118720	160	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011972	2380	UK O2 30GB Plan	104016	197				
+snapshot_product_mapping	2025-12	60011981	2275	ATT 300GB Plan DF (PI)	212954	287	11/01/2025 05:00:00	01/26/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011986	2275	ATT 300GB Plan DC (2) (PI)	84588	114	11/05/2025 05:00:00	01/05/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011989	2275	ATT 300GB Plan AX (2) (WA)	2840	5	11/25/2025 05:00:00	12/25/2025 04:59:59		
+snapshot_product_mapping	2025-12	60011992	2275	ATT 300GB Plan DI PV (PI)	101654	137	11/04/2025 05:00:00	01/04/2026 04:59:59		
+snapshot_product_mapping	2025-12	60011993	2275	ATT 300GB Plan DI 1A (PI)	66038	89	11/23/2025 05:00:00	01/23/2026 04:59:59		
+snapshot_product_mapping	2025-12	60012031	2358	Movistar South America 30GB Plan	118720	160	11/01/2025 06:00:00	01/01/2026 05:59:59		
+snapshot_product_mapping	2025-12	60012044	212	Partner Global 30GB Plan	15904	25	11/25/2025 22:00:00	12/25/2025 21:59:59		
+snapshot_product_mapping	2025-12	60012048	2417	Digicel Roaming 40GB Plan	40656	77				
+snapshot_product_mapping	2025-12	60012060	573	Airtel Africa 20GB Plan (5G)	57134	77	02/12/2022 21:00:00	01/19/2026 20:59:59		
+snapshot_product_mapping	2025-12	60012089	2233	USA Backup-Maxis	1855000	2500	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012090	2233	Vodafone Europe	370258	499	11/01/2022 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012095	212	Airtel Roaming 20GB Plan	6336	12				
+snapshot_product_mapping	2025-12	60012098	616	Taiwan CHT China/HK/Macau 1.5GB/Day Plan	38852	53	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012102	2333	CSL Global 100GB PPU (5G)	129850	175	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012104	2233	TruConnect Backup	81620	110	11/02/2025 00:00:00	01/01/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012106	2233	Backup KPN	29680	40	11/02/2025 00:00:00	01/01/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012109	2349	AIS Global 6GB/8Days Plan S	51198	69				
+snapshot_product_mapping	2025-12	60012127	212	Digicel Roaming 50GB Plan	18480	35				
+snapshot_product_mapping	2025-12	60012128	212	Hot Mobile Global 30GB Plan	66780	90	11/12/2025 22:00:00	01/12/2026 21:59:59		
+snapshot_product_mapping	2025-12	60012133	2349	AIS Global 6GB/15Days Plan M	7420	10				
+snapshot_product_mapping	2025-12	60012136	212	Telia North Europe 100GB Plan (5G)	39841	67	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60012137	573	Etisalat Global 15GB Plan	51940	70	11/30/2025 22:00:00	01/31/2026 21:59:59		
+snapshot_product_mapping	2025-12	60012138	2333	CSL Global 100GB PPU (5G)	868858	1171	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012139	573	Digi Global 3GB/Day Plan (5G)	66789	114	11/11/2025 16:00:00	01/10/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012140	1088	CMHK Saudi Arabia PPU	74200	100	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012141	1088	Hutchison Global PPU (5G)	148400	200	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012144	212	Ooredoo Roaming 20GB Plan	6864	13				
+snapshot_product_mapping	2025-12	60012145	2417	Digicel Roaming 65GB Plan	19536	37				
+snapshot_product_mapping	2025-12	60012147	212	Vodafone Europe 60GB Plan (5G)	205737	299	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60012154	1088	Hutchison Korea PPU (5G)	371000	500	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012157	2233	KPN for Caribbean	37100	50	11/02/2025 00:00:00	01/01/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012158	650	Jamaica Digicel Caribbean 50GB Plan	1484	2				
+snapshot_product_mapping	2025-12	60012159	2333	Plus USA 50GB/Day PPU (5G)	1484	2	12/01/2025 00:00:00	01/31/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012160	514	ATT Caribbean Testing-22GB	2968	4	11/02/2025 05:00:00	01/02/2026 04:59:59		
+snapshot_product_mapping	2025-12	60012161	212	FLOW Bahamas 30GB Plan	36358	49	11/01/2025 05:00:00	01/01/2026 04:59:59		
+snapshot_product_mapping	2025-12	60012163	262	Elisa Pool (5G)	148400	200	11/30/2025 21:00:00	01/31/2026 20:59:59		
+snapshot_product_mapping	2025-12	60012164	229	US Testing 10G	742	1	11/27/2025 05:00:00	01/27/2026 04:59:59		
+snapshot_product_mapping	2025-12	60012165	2417	Vivo Latin America 40GB Plan	47892	72	11/01/2025 03:00:00	01/01/2026 02:59:59		
+snapshot_product_mapping	2025-12	60012167	2333	Plus Global 50GB/Day PPU (5G)	296800	400	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60012170	667	Verizon 50GB Plan	12614	17	11/05/2025 16:00:00	01/05/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012172	2233	Brunei Syniverse Smartone	7420	10	11/21/2025 00:00:00	01/20/2026 23:59:59		
+snapshot_product_mapping	2025-12	60012173	148	Orange Roaming	265636	358				
+snapshot_product_mapping	2025-12	60012174	1088	SmarTone Global PPU (5G)	74200	100	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012178	1088	CMHK Global PPU (5G)	371000	500	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012179	2333	Verizon 50GB Roaming	37100	50	11/12/2025 16:00:00	01/15/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012180	2417	Claro Latin America 40GB Plan (5G)	50078	68	11/01/2025 10:00:00	01/01/2026 09:59:59		
+snapshot_product_mapping	2025-12	60012181	2466	Plus Roaming cards testing	742	1	11/07/2025 23:00:00	01/07/2026 22:59:59		
+snapshot_product_mapping	2025-12	60012182	212	Vodafone Europe 100GB Plan (5G)	296058	399	11/30/2025 23:00:00	01/31/2026 22:59:59		
+snapshot_product_mapping	2025-12	60012183	2333	Verizon 50GB Roaming  for VIP testing	2226	3	11/06/2025 16:00:00	01/06/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012184	573	Digi Global 3GB/Day Plan (5G) for Russia	9816	15	11/11/2025 16:00:00	01/10/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012185	573	Digi Global 80GB Plan (5G)	14840	20	11/29/2025 16:00:00	01/28/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012186	2333	CSL Global 100GB PPU (5G) for Japan only	74200	100	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012187	616	Taiwan CHT China 1.5GB/Day Plan for China test	1484	2	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012188	2349	Hutchison America PPU (5G)	4050	10	11/30/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2025-12	60012189	2233	Smartone  for SRSIM testing	1770	59	11/29/2025 16:00:00	12/29/2025 15:59:59		
+snapshot_product_mapping	2025-12	60012190	597	CTM (Guam) for SRSIM testing	1624	29	11/29/2025 16:00:00	01/29/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011002	573	Australia Telstra 55GB Plan (5G)	117984	170	12/04/2025 13:00:00	02/26/2026 12:59:59		
+snapshot_product_mapping	2026-01	60011046	616	Taiwan TW Mobile Unlimited Plan	2223	3	12/02/2025 16:00:00	03/02/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011054	2370	Czech VDF  50GB Plan (5G)	14820	20				
+snapshot_product_mapping	2026-01	60011065	616	Taiwan FET Unlimited Plan	7410	10	12/23/2025 16:00:00	02/23/2026 15:59:59		
+snapshot_product_mapping	2026-01	600111001	650	Nigeria MTN 75GB Plan	12597	17	12/23/2025 23:00:00	02/21/2026 22:59:59		
+snapshot_product_mapping	2026-01	600111002	2275	TMO 500GB DI BU MW (WA)	212667	287	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111003	2417	Thailand AIS 100GB Plan (5G)	54834	74	12/20/2025 17:00:00	02/20/2026 16:59:59		
+snapshot_product_mapping	2026-01	600111004	212	Nigeria Airtel 40GB Plan (5G)	9633	13	12/10/2025 23:00:00	02/08/2026 22:59:59		
+snapshot_product_mapping	2026-01	600111015	2434	Japan Docomo Unlimited(MAYA)	88920	120	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111016	2434	Japan Rakuten 100GB (5G)(MAYA)	117078	158	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111018	2434	Japan Softbank 50GB(MAYA)	14820	20	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111019	2417	Thailand TrueMove 100GB Plan (5G)	54093	73	12/02/2025 17:00:00	02/02/2026 16:59:59		
+snapshot_product_mapping	2026-01	600111022	2417	Brazil Vivo 40GB Plan	1587	40	01/01/2026 03:00:00	02/01/2026 02:59:59		
+snapshot_product_mapping	2026-01	600111023	2446	Wirelesslogic IOT Roaming test	1482	2	12/24/2025 00:00:00	02/23/2026 23:59:59		
+snapshot_product_mapping	2026-01	600111024	2333	Japan Docomo PPU（For TS only）	148200	200	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111027	2469	Taiwan FarEasTone Unlimited Plan	11115	15	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	600111028	2469	Taiwan Mobile Unlimited Plan	11115	15	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	600111031	2435	Japan SoftBank 20GB (TS)	370500	500	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111032	2435	Japan SoftBank 50GB (TS)	740259	999	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111033	2435	Japan SoftBank 100GB (TS)	1185600	1600	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111035	2435	Japan Docomo 10GB (TS)	148200	200	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111036	2435	Japan KDDI 10GB (TS)	148200	200	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111041	2434	Japan Rakuten MVNO 100GB (5G)(MAYA)	7410	10	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111046	2446	Wirelesslogic 10GB Roaming test 	2223	3	12/06/2025 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111058	2415	USA TMO 30GB HLD PLAN SIMO (5G) SDP	37332	306	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111062	2333	CSL Global 100GB PPU (5G) for factory only	150423	203	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	600111063	2465	Palau Testing Card 8GB	1482	2				
+snapshot_product_mapping	2026-01	600111064	2417	Brazil Claro 40GB Plan (5G)	800	20				
+snapshot_product_mapping	2026-01	600111065	2434	Japan Softbank 50GB( 5G)(MAYA)	392730	530	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111066	2434	Japan KDDI 20GB(MAYA)	73359	99	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111067	573	Ethiopia MTN 50GB Plan	1482	2				
+snapshot_product_mapping	2026-01	600111068	573	Cambodia Metfone 50GB Plan (5G)	1482	2	12/18/2025 17:00:00	02/16/2026 16:59:59		
+snapshot_product_mapping	2026-01	600111069	2275	ATT 300GB Plan ATM RA 5G2 (WA)	741	1	12/24/2025 05:00:00	02/24/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111072	2275	ATT 300GB Plan DI PV 5G (WA)	741	1	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111074	2275	TMO Unlimited TT 5G (WA)	741	1	12/19/2025 05:00:00	02/19/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111075	2275	TMO 500GB DI BU MW 5G (WA)	741	1	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111077	2275	TMO 300GB Plan AT (1) (A) 5G (WA)	741	1	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111078	2275	TMO 500GB VS BU 5G (WA)	741	1	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111079	650	Poland Plus 100GB Plan (5G)	37050	50	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	600111082	2275	ATT 300GB Plan DI PV 5G2 (WA)	741	1	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111083	2275	TMO Unlimited TT 5G2 (WA)	741	1	12/19/2025 05:00:00	02/19/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111084	2275	TMO 300GB Plan AT (1) (A) 5G2 (WA)	741	1	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111085	2275	TMO 500GB DI BU MW 5G2 (WA)	741	1	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111086	2275	TMO 500GB VS BU 5G2 (WA)	741	1	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111087	2275	AT&T 150GB Plan ATM RT (WA)	203775	275	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111089	2415	USA TMO 120GB HLD PLAN (5G)	2223	3	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111090	2254	AT&T Postpaid Plan (5G) for VIP testing	2223	3	12/02/2025 07:00:00	02/02/2026 06:59:59		
+snapshot_product_mapping	2026-01	600111091	2254	AT&T Prepaid 30GB Plan (5G)	104435	141	12/02/2025 06:00:00	02/18/2026 05:59:59		
+snapshot_product_mapping	2026-01	600111092	2254	T-Mobile Prepaid 40GB Plan (5G) (SDP)	3705	5	12/06/2025 06:00:00	02/04/2026 05:59:59		
+snapshot_product_mapping	2026-01	600111093	2275	ATT 300GB Plan DF BU (PI)	27643	39	12/13/2025 05:00:00	02/17/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111094	2275	Unassigned(WA)	1867542	2573				
+snapshot_product_mapping	2026-01	600111095	212	UK EE Unlimited Plan (5G) for VDF testing 	2223	3	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	600111099	650	Poland Orange 75GB Plan (5G)	37050	50	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	600111101	212	Egypt WE 50GB Plan (5G)	2223	3	12/02/2025 22:00:00	02/02/2026 21:59:59		
+snapshot_product_mapping	2026-01	600111102	2434	Japan Softbank 50GB 5G(SKY)	431700	600	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	600111109	2275	AT&T 300GB Plan Air Test (WA)	423	3	12/04/2025 05:00:00	02/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111110	3	for Wireless logic testing	3705	5	12/17/2025 05:00:00	02/17/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111111	2275	ATT 300GB Plan DI RC (PI)	52611	71	12/21/2025 05:00:00	02/21/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111113	2275	ATT 300GB Plan DF BU (2) (PI)	21489	29	12/22/2025 05:00:00	02/22/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111114	2275	ATT 300GB Plan DF BU (3) (PI)	17043	23	12/06/2025 05:00:00	02/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111115	2275	ATT 300GB Plan DF BU (4) (WA)	25935	35	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111116	2275	AT&T 300GB Plan RA (PI)	52929	72	12/06/2025 05:00:00	02/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111117	212	UK Vodafone Unlimited Plan (5G)	7410	10	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	600111118	212	UK O2 Unlimited Plan (5G)	7410	10	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	600111119	2275	ATT 100GB Plan DF ET (43) (WA)	145977	197	12/20/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111120	2275	ATT 100GB Plan VS ET (43) (WA)	77805	105	12/18/2025 05:00:00	02/27/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111121	2275	ATT 100GB Plan PVP (33) (WA)	146185	299	12/01/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111122	212	Poland Play 100GB Plan (5G)	63726	86	12/14/2025 23:00:00	02/14/2026 22:59:59		
+snapshot_product_mapping	2026-01	600111123	2275	ATT 300GB Plan DF BU (5) (WA)	6669	9	12/03/2025 05:00:00	02/03/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111124	2275	ATT 100GB Plan PVP (36) (WA)	11805	39	12/05/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111126	2275	ATT 100GB Plan VS ET (WA)	133645	190	12/04/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111127	667	TMO Pool 1.5TB (20GB/SIM)	370500	500	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111128	2275	ATT 300GB Plan DI FS (PI)	64467	87	12/13/2025 05:00:00	02/13/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111130	2275	ATT 100GB Plan DI MM (WA)	30400	49	12/29/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111131	2275	ATT 50GB Plan DI MM (WA) (For SDP)	141	1	12/29/2025 05:00:00	01/29/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111132	2275	ATT 100GB Plan DI CD (WA)	47424	64	12/11/2025 05:00:00	02/11/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111133	2275	ATT 300GB Plan DI SL (PI)	9633	13	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111134	2275	ATT 100GB Plan DI JL (WA)	35568	48	12/16/2025 05:00:00	02/16/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111135	2275	ATT 100GB Plan DI MZ (WA)	2078	3	12/18/2025 05:00:00	02/18/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111136	2275	ATT 100GB Plan EC (WA)	156458	212	12/01/2025 05:00:00	02/22/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111137	212	Singapore ZYM 100GB Plan (Singtel 5G)	1482	2	01/01/2026 16:00:00	02/01/2026 15:59:59		
+snapshot_product_mapping	2026-01	600111138	2275	AT&T 100GB Plan RA (WA)	136344	184	12/06/2025 05:00:00	02/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111139	2275	AT&T 300GB Plan HX RT (333) (PI)	246753	333	12/24/2025 05:00:00	02/24/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111140	212	Indonesia Indosat 50GB Plan (5G)	438	2	01/06/2026 17:00:00	02/06/2026 16:59:59		
+snapshot_product_mapping	2026-01	600111142	2275	ATT 60GB Plan AT SDP (WA)	288921	403	12/01/2025 05:00:00	02/10/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111143	450	Vietnam Viettel 500GB Plan (5G)	1200	30	01/20/2026 17:00:00	02/19/2026 16:59:59		
+snapshot_product_mapping	2026-01	600111145	2275	AT&T 150GB Plan ATM RA (WA)	35460	180	01/04/2026 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111146	2275	TMO 300GB DI BU SL (WA)	2532	12	01/01/2026 05:00:00	02/22/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111147	2275	ATT 125GB Plan EC (WA)	12017	61	01/01/2026 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111148	2275	ATT 100GB Plan VS ET (39) (WA)	6893	61	12/28/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	600111150	2275	AT&T 150GB Plan SP RA (WA)	3591	189	01/25/2026 05:00:00	02/25/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011126	514	USA ATT 22GB Plan (5G) SDP	14820	20	12/10/2025 04:00:00	02/10/2026 03:59:59		
+snapshot_product_mapping	2026-01	60011138	212	Morocco Orange 35GB Plan (5G)	22230	30	12/07/2025 23:00:00	02/07/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011147	466	Ukraine Life 50GB Plan	6669	9	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011158	616	Taiwan Chunghwa Telecom Unlimited Plan	458965	625	12/08/2025 16:00:00	02/24/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011185	137	Indonesia Indosat 16GB Plan (5G)	14820	20	12/26/2025 17:00:00	02/26/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011192	212	Brazil Claro 40GB Plan (5G)	28460	40	12/05/2025 03:00:00	02/05/2026 02:59:59		
+snapshot_product_mapping	2026-01	60011214	633	Guam & Saipan Docomo 15GB Plan	193401	261				
+snapshot_product_mapping	2026-01	60011236	2254	America AT&T Blank	611330	1498				
+snapshot_product_mapping	2026-01	60011253	2417	Colombia Claro 50GB Plan (5G)	48165	65	12/13/2025 05:00:00	02/13/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011256	212	Portugal NOS Unlimited Plan (5G)	28899	39	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011290	212	Bulgaria Vivacom Unlimited Plan (5G)	11115	15	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011291	212	Kuwait Viva 100GB Plan (5G)	16302	22				
+snapshot_product_mapping	2026-01	60011309	262	Elisa Pool (5G)	1333059	1799	12/31/2025 21:00:00	02/28/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011320	6	CA Telus Pool (5G)	666900	900	12/01/2025 07:00:00	02/01/2026 06:59:59		
+snapshot_product_mapping	2026-01	60011321	90	India Airtel Unlimited Plan (5G)	51870	70	12/31/2025 18:00:00	02/28/2026 17:59:59		
+snapshot_product_mapping	2026-01	60011347	2233	Smartone [For VIP Only]	7410	10	12/20/2025 16:00:00	02/20/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011349	650	Slovenia A1 30GB Plan (5G)	20748	28	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011356	2233	USA Backup-Smartone	95589	129	12/21/2025 00:00:00	02/27/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011364	2254	T-Mobile Postpaid Unlimited Plan (5G)	429780	580	12/18/2025 08:00:00	02/18/2026 07:59:59		
+snapshot_product_mapping	2026-01	60011373	2275	ATT 300GB Plan EC (PI)	15561	21	12/17/2025 05:00:00	02/17/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011378	2275	 AT&T 300GB Plan HX (WA)	183643	307	12/24/2025 05:00:00	02/24/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011379	2275	ATT 300GB Plan EC PV (PI)	17784	24	12/14/2025 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011405	2370	Romania Digi Mobil 75GB  Plan (5G)	25935	35	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011420	2233	Great China Backup-Smartone	7410	10	12/21/2025 00:00:00	02/20/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011425	650	Canada Rogers 100GB Plan (5G)	1482	2				
+snapshot_product_mapping	2026-01	60011427	459	Laos Unitel 30GB Plan (5G)	3705	5	12/31/2025 17:00:00	03/01/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011436	2275	ATT 300GB Plan AT PP (WA)	148200	200	12/10/2025 05:00:00	02/10/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011437	2275	ATT 300GB Plan VS PP (PI)	45201	61	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011444	2275	ATT 300GB Plan DI JL (PI)	43719	59	12/16/2025 05:00:00	02/16/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011449	2275	ATT 300GB Plan PVP (WA)	75341	189	12/01/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011450	160	For Customer Big Connect Use Only	2223	3	12/31/2025 17:00:00	02/28/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011454	2462	ETG Use Only	2964	4	12/15/2025 16:00:00	02/15/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011455	2348	Turkey Telekom 30GB Plan	7410	10				
+snapshot_product_mapping	2026-01	60011462	14	Singapore SingTel 50GB Plan (5G)	44460	60	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011468	2254	T-Mobile Postpaid Plan (For TC Only)	1482	2	12/18/2025 08:00:00	02/18/2026 07:59:59		
+snapshot_product_mapping	2026-01	60011470	2254	AT&T Postpaid Plan (For TruConnect Only)	1482	2	12/02/2025 08:00:00	02/02/2026 07:59:59		
+snapshot_product_mapping	2026-01	60011490	616	Taiwan CHT 100GB Plan (5G) for A	5928	8	12/05/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011491	616	Taiwan Chunghwa Telecom Unlimited Plan for Testing	4446	6	12/23/2025 16:00:00	02/21/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011492	616	Taiwan TW Mobile Unlimited Plan for Testing	5928	8	12/25/2025 16:00:00	02/23/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011493	616	Taiwan FET Unlimited Plan for Testing	5928	8	12/11/2025 16:00:00	02/11/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011494	2275	ATT 300GB Plan DI CD (PI)	45942	62	12/11/2025 05:00:00	02/11/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011500	2275	ATT 300GB Plan DI MM (PI)	41496	56	12/29/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011514	486	60011514 UK VDF 100GB Plan (5G) prorate	29640	40				
+snapshot_product_mapping	2026-01	60011515	2275	ATT 300GB Plan XY PP (WA)	573273	1018	12/01/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011516	2275	ATT 300GB Plan DI VS (PI)	60762	82	12/09/2025 05:00:00	02/09/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011521	2275	TMO 300GB Plan AT (5) (WA)	74100	100	12/21/2025 05:00:00	02/21/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011522	2348	Turkey Turkcell 25GB Plan	14820	20				
+snapshot_product_mapping	2026-01	60011530	3	TC Test TMO	1482	2	12/01/2025 12:00:00	02/01/2026 11:59:59		
+snapshot_product_mapping	2026-01	60011534	212	France SFR 130GB Plan (5G)	87438	118	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011535	616	Taiwan FET Unlimited Plan (5G) for A 	1482	2	12/26/2025 16:00:00	02/26/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011542	573	Italy WindTre 150GB Plan (5G)	45201	61	12/05/2025 23:00:00	02/05/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011544	650	Finland Telia Unlimited Plan (5G)	7410	10				
+snapshot_product_mapping	2026-01	60011545	212	Netherlands Odido 150GB Plan (5G)	54834	74	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011546	212	Israel Hot Mobile 600GB Plan (5G)	5928	8	12/12/2025 22:00:00	02/12/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011552	2369	T-Mobile Prepaid Unlimited Plan (5G)	355695	500	12/14/2025 04:00:00	02/13/2026 03:59:59		
+snapshot_product_mapping	2026-01	60011553	2241	Qatar Ooredoo 30GB Plan (5G, not tested)	22230	30				
+snapshot_product_mapping	2026-01	60011554	212	Switzerland Sunrise Unlimited Plan(5G)	28899	39	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011556	650	Bulgaria A1 Unlimited Plan (5G)	25935	35	12/15/2025 21:00:00	02/15/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011565	650	Austria T-Mobile Unlimited Plan (5G)	7410	10				
+snapshot_product_mapping	2026-01	60011576	2236	USA Verizon 30GB Plan	3705	5				
+snapshot_product_mapping	2026-01	60011578	459	Laos Telecom 25GB Plan	7410	10	12/07/2025 17:00:00	02/05/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011579	573	Egypt Etisalat 43GB Plan (5G)	12597	17	12/23/2025 22:00:00	02/21/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011585	2333	测试百宝箱60012138	741	1	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011592	2254	AT&T Postpaid Unlimited Plan (5G)	475722	642	12/02/2025 07:00:00	02/02/2026 06:59:59		
+snapshot_product_mapping	2026-01	60011596	212	Kenya Airtel 40GB Plan (5G)	48165	65	12/31/2025 21:00:00	02/28/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011609	450	Vietnam Viettel 4GB/Day Plan	14820	20	12/30/2025 17:00:00	02/28/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011612	2275	ATT 300GB Plan SP (PI)	236379	319	12/25/2025 05:00:00	02/25/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011613	573	Guam & Saipan Docomo 50GB Plan (5G)	34933	48	12/31/2025 14:00:00	02/28/2026 13:59:59		
+snapshot_product_mapping	2026-01	60011615	6	 Canada Telus 50GB Plan (5G)	481650	650	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011616	137	Indonesia Indosat 20GB Plan (5G)	37050	50	12/26/2025 17:00:00	02/26/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011619	486	France Bouygues 100GB Plan (5G)	66690	90	12/12/2025 22:00:00	02/12/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011623	212	Spain Orange 200GB Plan (5G)	71877	97	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011624	2254	AT&T Prepaid Unlimited Plan (5G)	283733	513	12/02/2025 06:00:00	02/20/2026 05:59:59		
+snapshot_product_mapping	2026-01	60011625	257	Italy Iliad 220GB Plan (5G)	37050	50	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011631	2369	Cambodia Smart 50GB Plan	11115	15	12/31/2025 17:00:00	02/28/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011632	2349	Japan SoftBank 50GB Plan (5G)	14820	20	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011633	2382	Japan Rakuten Pool (5G)	1479777	1997	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011635	212	Poland Play 50GB Plan (5G)	81510	110	12/14/2025 23:00:00	02/14/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011639	212	New Zealand Vodafone 40GB Plan (5G)	18525	25	12/10/2025 12:00:00	02/10/2026 11:59:59		
+snapshot_product_mapping	2026-01	60011640	212	Ukraine Vodafone Unlimited Plan (5G)	7410	10	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011641	305	Singapore StarHub 53GB Plan (5G)	34827	47	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011645	2371	UK Three 50GB Plan (5G)	74290	110	12/18/2025 00:00:00	02/14/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011647	6	CA Telus Pool (5G) For GID 20757 Only	22230	30	12/01/2025 07:00:00	02/01/2026 06:59:59		
+snapshot_product_mapping	2026-01	60011651	573	Philippines Globe 52GB Plan (5G)	29640	40	12/07/2025 16:00:00	02/05/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011653	452	Philippines Globe 50GB Plan (5G)	22230	30	12/16/2025 16:00:00	02/14/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011654	452	Philippines Smart 50GB Plan (5G)	92625	125	12/30/2025 16:00:00	03/01/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011655	573	Maldives Dhiraagu 30GB Plan (5G)	33402	46	12/18/2025 19:00:00	02/16/2026 18:59:59		
+snapshot_product_mapping	2026-01	60011664	573	Philippines Smart 55GB Plan (5G)	22230	30	12/26/2025 16:00:00	02/24/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011665	2373	T-Mobile 50GB Test(Foxx Demo only)	1482	2	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011666	486	France Orange 50GB Plan (5G)	14820	20	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011667	2240	Korea LG 40GB Plan	31150	50	12/31/2025 15:00:00	01/31/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011671	212	Ireland Three 100GB Plan (5G)	14820	20	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011672	2275	AT&T 300GB Plan HX RT (WA)	723892	1062	12/24/2025 05:00:00	02/24/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011679	2369	Malaysia Maxis 100GB Plan (5G)	139420	200	12/14/2025 16:00:00	02/11/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011680	2380	UK Vodafone 40GB Plan (5G)	110190	170	12/11/2025 00:00:00	02/27/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011681	2370	Croatia A1 Unlimited Plan (5G)	37050	50	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011690	2275	ATT 100GB Plan AT TB T (WA)	37791	51	05/10/2025 05:00:00	02/10/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011692	1088	CMHK PPU (5G)	74100	100	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011698	2333	HK CSL 100GB PPU (5G)	37050	50	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011699	2348	Turkey Turkcell 50GB Plan (5G)	14820	20	12/19/2025 21:00:00	02/19/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011700	32	Indonesia Telkomsel 50GB Plan (5G)	165243	223	12/10/2025 17:00:00	02/10/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011707	212	Germany Vodafone 100GB Plan (5G)	51870	70	12/21/2025 23:00:00	02/21/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011711	650	Belgium Proximus Unlimited Plan (5G)	1482	2				
+snapshot_product_mapping	2026-01	60011714	650	Sweden Telia Unlimited Plan (5G)	11115	15				
+snapshot_product_mapping	2026-01	60011716	2348	Turkey Telekom 30GB Plan (5G)	87438	118	12/31/2025 21:00:00	02/28/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011722	212	Hungary Vodafone Unlimited Plan (5G)	7410	10	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011723	212	Netherlands Vodafone 200GB Plan (5G)	37050	50	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011727	573	Kenya Safaricom 42GB Plan (5G)	13338	18	12/08/2025 21:00:00	02/06/2026 20:59:59		
+snapshot_product_mapping	2026-01	60011728	650	Lithuania Bite Unlimited Plan (5G)	22230	30	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011729	2370	Slovakia O2 25GB Plan (5G)	14820	20	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011730	650	Denmark Telia 100GB Plan (5G)	10374	14	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011731	2369	Malaysia Digi 200GB Plan (5G)	119862	180	12/03/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011733	212	Brazil Vivo 100GB Plan (5G)	6820	10	12/01/2025 03:00:00	02/01/2026 02:59:59		
+snapshot_product_mapping	2026-01	60011734	212	New Zealand Spark 50GB Plan (5G)	7410	10	12/11/2025 12:00:00	02/11/2026 11:59:59		
+snapshot_product_mapping	2026-01	60011736	212	Poland Orange 50GB Plan (5G)	2015	65	12/05/2025 23:00:00	01/05/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011742	573	UAE DU 50GB Plan (5G)	7603	11	03/23/2024 20:00:00	02/23/2026 19:59:59		
+snapshot_product_mapping	2026-01	60011745	514	USA Ultra 50GB Plan (5G not tested)	1482	2				
+snapshot_product_mapping	2026-01	60011746	514	USA Lyca 60GB plan	2964	4				
+snapshot_product_mapping	2026-01	60011747	514	USA Red Pocket 30GB Plan 	2964	4				
+snapshot_product_mapping	2026-01	60011748	2254	America T-Mobile Blank	802391	1911				
+snapshot_product_mapping	2026-01	60011749	2365	台哥大21MB吃到飽 (DOTDOT only)	8892	12	12/10/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011751	2369	America T-Mobile Blank	369018	498				
+snapshot_product_mapping	2026-01	60011752	2349	AT&T Prepaid Unlimited Plan (5G)	152646	206	12/20/2025 06:00:00	02/22/2026 05:59:59		
+snapshot_product_mapping	2026-01	60011754	212	South Africa MTN 50GB Plan (5G)	43719	59	01/11/2024 22:00:00	02/04/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011755	2417	Mexico Telcel 40GB Plan (5G)	74100	100	12/25/2025 06:00:00	02/25/2026 05:59:59		
+snapshot_product_mapping	2026-01	60011759	2309	Japan SoftBank 100GB Plan	37050	50	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011761	2392	USA USC 10GB IoT Test Plan	741	1	12/09/2025 05:00:00	02/09/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011762	2254	AT&T Postpaid Advanced Unlimited Plan (5G)	179520	280	12/28/2025 07:00:00	02/28/2026 06:59:59		
+snapshot_product_mapping	2026-01	60011763	2254	T-Mobile Ultimate Postpaid Unlimited Plan (5G)	225000	350	12/01/2025 07:00:00	02/18/2026 06:59:59		
+snapshot_product_mapping	2026-01	60011764	2369	America AT&T Blank	217113	293				
+snapshot_product_mapping	2026-01	60011766	2371	T-Mobile Prepaid Plan (5G)	251199	339				
+snapshot_product_mapping	2026-01	60011767	2415	USA TMO 120GB HLD Plan SIMO (5G)	226760	367	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011773	2349	America T-Mobile Blank	741000	1000				
+snapshot_product_mapping	2026-01	60011774	212	South Africa Vodacom 50GB Plan (5G)	22230	30	12/11/2025 22:00:00	02/11/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011775	212	Portugal Vodafone Unlimited Plan (5G)	18072	27				
+snapshot_product_mapping	2026-01	60011777	2275	ATT 300GB Plan DI HY HC (PI)	30381	41	12/14/2025 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011778	2412	Japan UQ Mobile (KDDI)100GB Plan	1482	2				
+snapshot_product_mapping	2026-01	60011783	2275	ATT 300GB Plan DF ET (WA)	222300	300	12/02/2025 05:00:00	02/27/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011785	2275	ATT 300GB Plan DC (PI)	280839	379	12/05/2025 05:00:00	02/05/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011788	212	Australia Vodafone 60GB Plan (5G)	5950	10	12/14/2025 13:00:00	02/14/2026 12:59:59		
+snapshot_product_mapping	2026-01	60011789	212	Germany Telekom 150GB Plan (5G)	91143	123	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011790	257	Italy Vodafone 70GB Plan (5G)	22230	30				
+snapshot_product_mapping	2026-01	60011798	2370	Slovakia Orange 30GB Plan (5G)	14820	20	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011800	573	India Vi 50GB Plan www	11115	15				
+snapshot_product_mapping	2026-01	60011804	650	Greece VDF 50GB Plan (5G)	25194	34	12/26/2025 22:00:00	02/26/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011809	2417	Colombia Tigo 50GB Plan (5G)	7410	10	12/19/2025 05:00:00	02/19/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011811	650	Spain Digi Mobil 100GB Plan (5G)	49647	67	04/30/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011812	2370	Greece Cosmote-OTE 30GB Plan (5G)	22230	30	12/19/2025 22:00:00	02/19/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011814	2415	USA ATT 100GB HLT Plan (5G)	109528	390	12/02/2025 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011815	2275	TMO Unlimited TT (WA)	248976	336	12/19/2025 05:00:00	02/19/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011817	2275	TMO 500GB VS BU (PI)	50388	68	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011818	2275	TMO 40GB EC TB(WA)	19019	75	12/30/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011824	2432	Japan Docomo 25GB	7410	10	12/05/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011826	650	Bosnia Herzegovina BH Mobile 35GB Plan	7410	10	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011827	573	India Vi 50GB Plan internet (5G)	10374	14	12/27/2025 19:00:00	02/25/2026 18:59:59		
+snapshot_product_mapping	2026-01	60011830	212	Israel Partner 250GB Plan	5928	8	12/24/2025 22:00:00	02/24/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011831	486	UK EE 100GB Plan (5G)	8892	12	12/03/2025 00:00:00	03/02/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011833	650	Ireland VDF Unlimited Plan (5G)	18525	25	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011836	212	UK EE Unlimited Plan (5G)	36309	49	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60011838	2275	ATT 125GB Plan DF ET (WA)	111150	150	12/01/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011839	2275	ATT 300GB Plan VS ET (WA)	252	9	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011840	2309	Korea LG 40GB Plan	185250	250	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011841	2417	Mexico AT&T 50GB Plan (5G)	72618	98	12/03/2025 06:00:00	02/03/2026 05:59:59		
+snapshot_product_mapping	2026-01	60011843	2275	USC Plus 300GB Plan DC (PI)	488856	660	12/09/2025 05:00:00	02/09/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011844	2434	Japan Docomo for MaYa testing Only (MaYa)	1482	2	12/08/2025 15:00:00	02/08/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011845	2365	遠傳2MB吃到飽（DOTDOT only)	21489	29	12/08/2025 16:00:00	02/22/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011846	212	Israel Cellcom 600GB Plan (5G)	6669	9	12/14/2025 22:00:00	02/14/2026 21:59:59		
+snapshot_product_mapping	2026-01	60011848	2371	AT&T Prepaid Plan	222700	500				
+snapshot_product_mapping	2026-01	60011858	2275	ATT 300GB Plan VS ET  (WA)	110409	149	12/04/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011859	2275	ATT 300GB Plan PVP 3 (WA)	17091	39	12/05/2025 05:00:00	02/24/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011860	2275	ATT 300GB Plan DI SG (PI)	105222	142	12/10/2025 05:00:00	02/10/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011863	2348	Kazakhistan Kcell 40GB Plan (5G)	25935	35	12/31/2025 19:00:00	02/28/2026 18:59:59		
+snapshot_product_mapping	2026-01	60011870	573	Italy TIM 70GB Plan (5G)	28158	38	12/22/2025 23:00:00	02/22/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011871	573	Canada Bell 200GB Plan (5G)	7410	10	12/16/2025 05:00:00	02/16/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011872	573	Indonesia Hutchison 50GB Plan (5G)	29640	40	12/28/2025 17:00:00	02/26/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011874	32	Indonesia Telkomsel 2GB Plan	185250	250	11/10/2024 17:00:00	02/10/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011875	2275	TMO 300GB Plan MC (WA)	74100	100	12/14/2025 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011878	2275	TMO 100GB Plan AT (3) (WA)	192660	260	03/12/2025 05:00:00	02/12/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011882	2275	TMO 300GB Plan AT (1) (A) (PI)	445341	601	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011883	2275	TMO 300GB Plan AT (2) (PI)	170430	230	12/12/2025 05:00:00	02/12/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011884	2275	TMO 300GB Plan AT (3) (WA)	8008	154	12/06/2025 05:00:00	01/06/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011885	212	Poland Plus 45GB Plan (5G)	1519	49	12/04/2025 23:00:00	01/04/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011887	2275	TMO 150GB Plan AT (1) (B) (WA)	455715	615	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011888	2275	TMO 300GB Plan AT (1) (C) (PI)	258609	349	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011889	2275	TMO 300GB Plan AT (1) (D) (WA)	397917	537	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011890	2275	TMO 500GB Plan DI BU SG (WA)	149682	202	12/16/2025 05:00:00	02/16/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011891	2275	TMO 500GB DI BU MG (PI)	85215	115	12/18/2025 05:00:00	02/18/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011893	2275	TMO 100GB Plan AT (3) (2) (WA)	177840	240	12/12/2025 05:00:00	02/12/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011894	2275	TMO 500GB EC (PI)	49647	67	12/01/2025 05:00:00	02/28/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011898	573	Australia Vodafone 40GB Plan (5G)	35409	50	12/19/2025 13:00:00	02/19/2026 12:59:59		
+snapshot_product_mapping	2026-01	60011921	2275	ATT Unlimited Plan DI MZ (WA)	114114	154	12/18/2025 05:00:00	02/18/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011922	2275	ATT 300GB Plan DF (2) (PI)	52611	71	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011932	450	Vietnam Vinaphone 500GB Plan (5G)	29640	40	12/31/2025 17:00:00	02/28/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011933	450	Vietnam Viettel 6GB/Day Plan (5G)	22230	30	12/05/2025 17:00:00	02/03/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011934	450	Vietnam Mobifone 500GB Plan (5G)	22230	30	12/15/2025 17:00:00	02/13/2026 16:59:59		
+snapshot_product_mapping	2026-01	60011936	123	SKT Unlimited Data plan 90 Days testing 	1482	2	11/12/2025 15:00:00	02/10/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011938	212	Germany O2 150GB Plan (5G)	73359	99	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60011939	212	Korea SKT 100GB Plan (5G)	74100	100	12/01/2025 15:00:00	02/01/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011948	2415	USA ATT 120GB HLD Plan SIMO (5G)	295622	679	12/02/2025 05:00:00	02/13/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011949	2415	复制 60011767 (5G)	75519	137	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011951	2309	Japan KDDI 150GB Plan (5G)	312702	422	12/31/2025 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-01	60011969	14	Singtel Roaming Testing 3G	1482	2	12/01/2025 16:00:00	02/01/2026 15:59:59		
+snapshot_product_mapping	2026-01	60011971	2153	USC IoT Pooled 100GB On Net Only (5G)	118560	160	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011981	2275	ATT 300GB Plan DF (PI)	212667	287	12/01/2025 05:00:00	02/26/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011986	2275	ATT 300GB Plan DC (2) (PI)	84474	114	12/05/2025 05:00:00	02/05/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011992	2275	ATT 300GB Plan DI PV (PI)	101517	137	12/04/2025 05:00:00	02/04/2026 04:59:59		
+snapshot_product_mapping	2026-01	60011993	2275	ATT 300GB Plan DI 1A (PI)	65949	89	12/23/2025 05:00:00	02/23/2026 04:59:59		
+snapshot_product_mapping	2026-01	60012031	2358	Movistar South America 30GB Plan	85716	160	12/01/2025 06:00:00	02/01/2026 05:59:59		
+snapshot_product_mapping	2026-01	60012044	212	Partner Global 30GB Plan	5187	7				
+snapshot_product_mapping	2026-01	60012060	573	Airtel Africa 20GB Plan (5G)	57057	77	02/12/2022 21:00:00	02/18/2026 20:59:59		
+snapshot_product_mapping	2026-01	60012089	2233	USA Backup-Maxis	1852500	2500	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012090	2233	Vodafone Europe	369759	499	11/01/2022 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012098	616	Taiwan CHT China/HK/Macau 1.5GB/Day Plan	43433	63	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012102	2333	CSL Global 100GB PPU (5G)	129675	175	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012104	2233	TruConnect Backup	81510	110	12/02/2025 00:00:00	02/01/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012106	2233	Backup KPN	29640	40	12/02/2025 00:00:00	02/01/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012109	2349	AIS Global 6GB/8Days Plan S	51129	69				
+snapshot_product_mapping	2026-01	60012128	212	Hot Mobile Global 30GB Plan	66690	90	12/12/2025 22:00:00	02/12/2026 21:59:59		
+snapshot_product_mapping	2026-01	60012133	2349	AIS Global 6GB/15Days Plan M	7410	10				
+snapshot_product_mapping	2026-01	60012136	212	Telia North Europe 100GB Plan (5G)	21050	30	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60012137	573	Etisalat Global 15GB Plan	44621	70	12/31/2025 22:00:00	02/28/2026 21:59:59		
+snapshot_product_mapping	2026-01	60012138	2333	CSL Global 100GB PPU (5G)	867711	1171	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012139	573	Digi Global 3GB/Day Plan (5G)	53605	137	12/11/2025 16:00:00	02/09/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012140	1088	CMHK Saudi Arabia PPU	74100	100	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012141	1088	Hutchison Global PPU (5G)	446200	700	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012147	212	Vodafone Europe 60GB Plan (5G)	179350	250	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60012154	1088	Hutchison Korea PPU (5G)	72500	500	12/31/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012157	2233	KPN for Caribbean	37050	50	12/02/2025 00:00:00	02/01/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012158	650	Jamaica Digicel Caribbean 50GB Plan	1482	2				
+snapshot_product_mapping	2026-01	60012159	2333	Plus USA 50GB/Day PPU (5G)	67044	100	01/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012160	514	ATT Caribbean Testing-22GB	2964	4	12/02/2025 05:00:00	02/02/2026 04:59:59		
+snapshot_product_mapping	2026-01	60012161	212	FLOW Bahamas 30GB Plan	36309	49	12/01/2025 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-01	60012163	262	Elisa Pool (5G)	148200	200	12/31/2025 21:00:00	02/28/2026 20:59:59		
+snapshot_product_mapping	2026-01	60012164	229	US Testing 10G	741	1	12/27/2025 05:00:00	02/27/2026 04:59:59		
+snapshot_product_mapping	2026-01	60012165	2417	Vivo Latin America 40GB Plan	51863	72	12/01/2025 03:00:00	02/01/2026 02:59:59		
+snapshot_product_mapping	2026-01	60012167	2333	Plus Global 50GB/Day PPU (5G)	296400	400	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60012170	667	Verizon 50GB Plan	1887	17	12/05/2025 16:00:00	01/05/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012172	2233	Brunei Syniverse Smartone	7410	10	12/21/2025 00:00:00	02/20/2026 23:59:59		
+snapshot_product_mapping	2026-01	60012173	148	Orange Roaming	265278	358				
+snapshot_product_mapping	2026-01	60012174	1088	SmarTone Global PPU (5G)	74100	100	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012178	1088	CMHK Global PPU (5G)	370500	500	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012179	2333	Verizon 50GB Roaming	41462	70	12/15/2025 16:00:00	02/15/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012180	2417	Claro Latin America 40GB Plan (5G)	50388	68	12/01/2025 10:00:00	02/01/2026 09:59:59		
+snapshot_product_mapping	2026-01	60012181	2466	Plus Roaming cards testing	741	1	12/07/2025 23:00:00	02/07/2026 22:59:59		
+snapshot_product_mapping	2026-01	60012182	212	Vodafone Europe 100GB Plan (5G)	295659	399	12/31/2025 23:00:00	02/28/2026 22:59:59		
+snapshot_product_mapping	2026-01	60012183	2333	Verizon 50GB Roaming  for VIP testing	2193	6	12/06/2025 16:00:00	02/15/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012184	573	Digi Global 3GB/Day Plan (5G) for Russia	21164	42	12/11/2025 16:00:00	02/09/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012185	573	Digi Global 80GB Plan (5G)	14820	20	12/29/2025 16:00:00	02/27/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012186	2333	CSL Global 100GB PPU (5G) for Japan only	74100	100	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012187	616	Taiwan CHT China 1.5GB/Day Plan for China test	1482	2	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012188	2349	Hutchison America PPU (5G)	3570	10	12/31/2025 16:00:00	01/31/2026 15:59:59		
+snapshot_product_mapping	2026-01	60012191	2333	Hutchison Global 50GB/Day PPU (5G)	65500	300	12/31/2025 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011002	573	Australia Telstra 55GB Plan (5G)	93480	140	01/29/2026 13:00:00	03/26/2026 12:59:59		
+snapshot_product_mapping	2026-02	60011046	616	Taiwan TW Mobile Unlimited Plan	2016	3	01/31/2026 16:00:00	03/02/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011054	2370	Czech VDF  50GB Plan (5G)	13440	20				
+snapshot_product_mapping	2026-02	60011065	616	Taiwan FET Unlimited Plan	6720	10	01/23/2026 16:00:00	03/23/2026 15:59:59		
+snapshot_product_mapping	2026-02	600111001	650	Nigeria MTN 75GB Plan	11424	17	01/22/2026 23:00:00	03/23/2026 22:59:59		
+snapshot_product_mapping	2026-02	600111002	2275	TMO 500GB DI BU MW (WA)	192864	287	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111003	2417	Thailand AIS 100GB Plan (5G)	49728	74	01/20/2026 17:00:00	03/20/2026 16:59:59		
+snapshot_product_mapping	2026-02	600111004	212	Nigeria Airtel 40GB Plan (5G)	8736	13	01/09/2026 23:00:00	03/10/2026 22:59:59		
+snapshot_product_mapping	2026-02	600111015	2434	Japan Docomo Unlimited(MAYA)	80640	120	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111016	2434	Japan Rakuten 100GB (5G)(MAYA)	106176	158	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111018	2434	Japan Softbank 50GB(MAYA)	13440	20	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111019	2417	Thailand TrueMove 100GB Plan (5G)	49056	73	01/02/2026 17:00:00	03/02/2026 16:59:59		
+snapshot_product_mapping	2026-02	600111022	2417	Brazil Vivo 40GB Plan	13440	20				
+snapshot_product_mapping	2026-02	600111023	2446	Wirelesslogic IOT Roaming test	1344	2	01/24/2026 00:00:00	03/23/2026 23:59:59		
+snapshot_product_mapping	2026-02	600111024	2333	Japan Docomo PPU（For TS only）	134400	200	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111027	2469	Taiwan FarEasTone Unlimited Plan	10080	15	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	600111028	2469	Taiwan Mobile Unlimited Plan	10080	15	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	600111031	2435	Japan SoftBank 20GB (TS)	336000	500	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111032	2435	Japan SoftBank 50GB (TS)	671328	999	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111033	2435	Japan SoftBank 100GB (TS)	1075200	1600	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111035	2435	Japan Docomo 10GB (TS)	134400	200	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111036	2435	Japan KDDI 10GB (TS)	134400	200	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111041	2434	Japan Rakuten MVNO 100GB (5G)(MAYA)	6720	10	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111046	2446	Wirelesslogic 10GB Roaming test 	2016	3	12/06/2025 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111058	2415	USA TMO 30GB HLD PLAN SIMO (5G) SDP	34776	108	02/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111062	2333	CSL Global 100GB PPU (5G) for factory only	136416	203	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	600111063	2465	Palau Testing Card 8GB	460	2	02/03/2026 15:00:00	02/10/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111064	2417	Brazil Claro 40GB Plan (5G)	2238	50	02/01/2026 03:00:00	03/01/2026 02:59:59		
+snapshot_product_mapping	2026-02	600111065	2434	Japan Softbank 50GB( 5G)(MAYA)	356160	530	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111066	2434	Japan KDDI 20GB(MAYA)	66528	99	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111067	573	Ethiopia MTN 50GB Plan	1344	2				
+snapshot_product_mapping	2026-02	600111068	573	Cambodia Metfone 50GB Plan (5G)	1344	2	01/17/2026 17:00:00	03/18/2026 16:59:59		
+snapshot_product_mapping	2026-02	600111069	2275	ATT 300GB Plan ATM RA 5G2 (WA)	828	3	01/24/2026 05:00:00	03/24/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111072	2275	ATT 300GB Plan DI PV 5G (WA)	672	1	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111074	2275	TMO Unlimited TT 5G (WA)	672	1	01/19/2026 05:00:00	03/19/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111075	2275	TMO 500GB DI BU MW 5G (WA)	672	1	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111077	2275	TMO 300GB Plan AT (1) (A) 5G (WA)	672	1	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111078	2275	TMO 500GB VS BU 5G (WA)	672	1	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111079	650	Poland Plus 100GB Plan (5G)	33600	50	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	600111082	2275	ATT 300GB Plan DI PV 5G2 (WA)	672	1	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111083	2275	TMO Unlimited TT 5G2 (WA)	672	1	01/19/2026 05:00:00	03/19/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111084	2275	TMO 300GB Plan AT (1) (A) 5G2 (WA)	672	1	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111085	2275	TMO 500GB DI BU MW 5G2 (WA)	672	1	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111086	2275	TMO 500GB VS BU 5G2 (WA)	672	1	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111087	2275	AT&T 150GB Plan ATM RT (WA)	192300	425	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111089	2415	USA TMO 120GB HLD PLAN (5G)	2016	3	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111090	2254	AT&T Postpaid Plan (5G) for VIP testing	2016	3	01/02/2026 07:00:00	03/02/2026 06:59:59		
+snapshot_product_mapping	2026-02	600111091	2254	AT&T Prepaid 30GB Plan (5G)	67475	140	01/03/2026 06:00:00	03/20/2026 05:59:59		
+snapshot_product_mapping	2026-02	600111092	2254	T-Mobile Prepaid 40GB Plan (5G) (SDP)	170	5	01/05/2026 06:00:00	02/04/2026 05:59:59		
+snapshot_product_mapping	2026-02	600111093	2275	ATT 300GB Plan DF BU (PI)	20544	37	01/13/2026 05:00:00	03/17/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111094	2275	Unassigned(WA)	1436529	2204				
+snapshot_product_mapping	2026-02	600111095	212	UK EE Unlimited Plan (5G) for VDF testing 	2016	3	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	600111099	650	Poland Orange 75GB Plan (5G)	33600	50	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	600111101	212	Egypt WE 50GB Plan (5G)	2256	13	01/02/2026 22:00:00	03/02/2026 21:59:59		
+snapshot_product_mapping	2026-02	600111102	2434	Japan Softbank 50GB 5G(SKY)	403200	600	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	600111110	3	for Wireless logic testing	3360	5	01/17/2026 05:00:00	03/17/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111111	2275	ATT 300GB Plan DI RC (PI)	47712	71	01/21/2026 05:00:00	03/21/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111113	2275	ATT 300GB Plan DF BU (2) (PI)	19488	29	01/22/2026 05:00:00	03/22/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111114	2275	ATT 300GB Plan DF BU (3) (PI)	15456	23	01/06/2026 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111115	2275	ATT 300GB Plan DF BU (4) (WA)	23393	35	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111116	2275	AT&T 300GB Plan RA (PI)	48384	72	01/04/2026 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111117	212	UK Vodafone Unlimited Plan (5G)	6960	20	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	600111118	212	UK O2 Unlimited Plan (5G)	6960	20	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	600111119	2275	ATT 100GB Plan DF ET (43) (WA)	124110	197	01/20/2026 05:00:00	03/26/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111120	2275	ATT 100GB Plan VS ET (43) (WA)	67473	108	01/18/2026 05:00:00	03/27/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111121	2275	ATT 100GB Plan PVP (33) (WA)	249085	385	01/01/2026 05:00:00	03/29/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111122	212	Poland Play 100GB Plan (5G)	57792	86	01/14/2026 23:00:00	03/14/2026 22:59:59		
+snapshot_product_mapping	2026-02	600111123	2275	ATT 300GB Plan DF BU (5) (WA)	6409	10	01/03/2026 05:00:00	03/03/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111124	2275	ATT 100GB Plan PVP (36) (WA)	18699	39	01/05/2026 05:00:00	03/28/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111126	2275	ATT 100GB Plan VS ET (WA)	90876	237	01/04/2026 05:00:00	03/28/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111127	667	TMO Pool 1.5TB (20GB/SIM)	336000	500	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111128	2275	ATT 300GB Plan DI FS (PI)	58464	87	01/13/2026 05:00:00	03/13/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111130	2275	ATT 100GB Plan DI MM (WA)	27552	41	01/29/2026 05:00:00	03/29/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111132	2275	ATT 100GB Plan DI CD (WA)	43008	64	01/11/2026 05:00:00	03/11/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111133	2275	ATT 300GB Plan DI SL (PI)	8736	13	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111134	2275	ATT 100GB Plan DI JL (WA)	32256	48	01/16/2026 05:00:00	03/16/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111135	2275	ATT 100GB Plan DI MZ (WA)	2016	3	01/18/2026 05:00:00	03/18/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111136	2275	ATT 100GB Plan EC (WA)	142464	212	01/04/2026 05:00:00	03/22/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111137	212	Singapore ZYM 100GB Plan (Singtel 5G)	1344	2	01/01/2026 16:00:00	03/01/2026 15:59:59		
+snapshot_product_mapping	2026-02	600111138	2275	AT&T 100GB Plan RA (WA)	123648	184	01/06/2026 05:00:00	03/06/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111139	2275	AT&T 300GB Plan HX RT (333) (PI)	223776	333	01/24/2026 05:00:00	03/24/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111140	212	Indonesia Indosat 50GB Plan (5G)	48	2				
+snapshot_product_mapping	2026-02	600111142	2275	ATT 60GB Plan AT SDP (WA)	268800	400	01/10/2026 05:00:00	03/10/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111143	450	Vietnam Viettel 500GB Plan (5G)	36480	60	01/20/2026 17:00:00	03/26/2026 16:59:59		
+snapshot_product_mapping	2026-02	600111144	2369	Brunei DST 65GB Plan (5G)	862	2	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	600111145	2275	AT&T 150GB Plan ATM RA (WA)	144510	380	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111146	2275	TMO 300GB DI BU SL (WA)	17139	47	01/22/2026 05:00:00	03/22/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111147	2275	ATT 125GB Plan EC (WA)	40992	61	01/01/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111148	2275	ATT 100GB Plan VS ET (39) (WA)	55251	109	01/01/2026 05:00:00	03/29/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111149	2275	TMO 150GB Plan AT (1) (D) (WA)	249199	375	02/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111150	2275	AT&T 150GB Plan SP RA (WA)	132531	210	01/25/2026 05:00:00	03/25/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111151	2275	ATT 125GB Plan DF ET (43) (WA)	24492	39	01/02/2026 05:00:00	03/09/2026 04:59:59		
+snapshot_product_mapping	2026-02	600111152	2275	ATT 200GB Plan ZN ET (PI)	27797	77	01/22/2026 05:00:00	03/30/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011126	514	USA ATT 22GB Plan (5G) SDP	13440	20	01/10/2026 04:00:00	03/10/2026 03:59:59		
+snapshot_product_mapping	2026-02	60011138	212	Morocco Orange 35GB Plan (5G)	20160	30	01/07/2026 23:00:00	03/07/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011147	466	Ukraine Life 50GB Plan	6048	9	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011158	616	Taiwan Chunghwa Telecom Unlimited Plan	413280	615	01/07/2026 16:00:00	03/26/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011185	137	Indonesia Indosat 16GB Plan (5G)	13440	20	01/26/2026 17:00:00	03/26/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011192	212	Brazil Claro 40GB Plan (5G)	19565	30	01/05/2026 03:00:00	03/05/2026 02:59:59		
+snapshot_product_mapping	2026-02	60011214	633	Guam & Saipan Docomo 15GB Plan	175392	261				
+snapshot_product_mapping	2026-02	60011236	2254	America AT&T Blank	889926	1458				
+snapshot_product_mapping	2026-02	60011253	2417	Colombia Claro 50GB Plan (5G)	43680	65	01/13/2026 05:00:00	03/13/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011256	212	Portugal NOS Unlimited Plan (5G)	24993	39	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011290	212	Bulgaria Vivacom Unlimited Plan (5G)	10080	15	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011291	212	Kuwait Viva 100GB Plan (5G)	14784	22				
+snapshot_product_mapping	2026-02	60011309	262	Elisa Pool (5G)	1208928	1799	01/31/2026 21:00:00	03/31/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011320	6	CA Telus Pool (5G)	604800	900	01/01/2026 07:00:00	03/01/2026 06:59:59		
+snapshot_product_mapping	2026-02	60011321	90	India Airtel Unlimited Plan (5G)	47040	70	01/31/2026 18:00:00	03/31/2026 17:59:59		
+snapshot_product_mapping	2026-02	60011347	2233	Smartone [For VIP Only]	6720	10	01/20/2026 16:00:00	03/20/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011349	650	Slovenia A1 30GB Plan (5G)	18816	28	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011356	2233	USA Backup-Smartone	86688	129	01/21/2026 00:00:00	03/29/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011364	2254	T-Mobile Postpaid Unlimited Plan (5G)	389760	580	01/18/2026 08:00:00	03/18/2026 07:59:59		
+snapshot_product_mapping	2026-02	60011373	2275	ATT 300GB Plan EC (PI)	14112	21	01/17/2026 05:00:00	03/17/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011378	2275	 AT&T 300GB Plan HX (WA)	54432	81	01/24/2026 05:00:00	03/24/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011379	2275	ATT 300GB Plan EC PV (PI)	16128	24	01/14/2026 05:00:00	03/14/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011405	2370	Romania Digi Mobil 75GB  Plan (5G)	23520	35	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011420	2233	Great China Backup-Smartone	6720	10	01/21/2026 00:00:00	03/20/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011425	650	Canada Rogers 100GB Plan (5G)	1344	2				
+snapshot_product_mapping	2026-02	60011427	459	Laos Unitel 30GB Plan (5G)	3360	5	01/30/2026 17:00:00	03/01/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011436	2275	ATT 300GB Plan AT PP (WA)	134400	200	01/10/2026 05:00:00	03/10/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011437	2275	ATT 300GB Plan VS PP (PI)	40992	61	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011444	2275	ATT 300GB Plan DI JL (PI)	39648	59	01/16/2026 05:00:00	03/16/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011450	160	For Customer Big Connect Use Only	2016	3	01/31/2026 17:00:00	03/31/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011454	2462	ETG Use Only	2688	4	01/15/2026 16:00:00	03/15/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011455	2348	Turkey Telekom 30GB Plan	6720	10				
+snapshot_product_mapping	2026-02	60011462	14	Singapore SingTel 50GB Plan (5G)	40320	60	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011468	2254	T-Mobile Postpaid Plan (For TC Only)	1344	2	01/18/2026 08:00:00	03/18/2026 07:59:59		
+snapshot_product_mapping	2026-02	60011470	2254	AT&T Postpaid Plan (For TruConnect Only)	1344	2	01/02/2026 08:00:00	03/02/2026 07:59:59		
+snapshot_product_mapping	2026-02	60011490	616	Taiwan CHT 100GB Plan (5G) for A	5376	8	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011491	616	Taiwan Chunghwa Telecom Unlimited Plan for Testing	4032	6	01/22/2026 16:00:00	03/23/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011492	616	Taiwan TW Mobile Unlimited Plan for Testing	5376	8	01/24/2026 16:00:00	03/25/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011493	616	Taiwan FET Unlimited Plan for Testing	5376	8	01/11/2026 16:00:00	03/11/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011494	2275	ATT 300GB Plan DI CD (PI)	41664	62	01/11/2026 05:00:00	03/11/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011500	2275	ATT 300GB Plan DI MM (PI)	37632	56	01/29/2026 05:00:00	03/29/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011514	486	60011514 UK VDF 100GB Plan (5G) prorate	26880	40				
+snapshot_product_mapping	2026-02	60011515	2275	ATT 300GB Plan XY PP (WA)	508456	948	01/01/2026 05:00:00	03/28/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011516	2275	ATT 300GB Plan DI VS (PI)	55104	82	01/09/2026 05:00:00	03/09/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011521	2275	TMO 300GB Plan AT (5) (WA)	67200	100	01/21/2026 05:00:00	03/21/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011522	2348	Turkey Turkcell 25GB Plan	13440	20				
+snapshot_product_mapping	2026-02	60011530	3	TC Test TMO	1344	2	01/01/2026 12:00:00	03/01/2026 11:59:59		
+snapshot_product_mapping	2026-02	60011534	212	France SFR 130GB Plan (5G)	79296	118	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011535	616	Taiwan FET Unlimited Plan (5G) for A 	1344	2	01/26/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011542	573	Italy WindTre 150GB Plan (5G)	40992	61	01/05/2026 23:00:00	03/05/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011544	650	Finland Telia Unlimited Plan (5G)	6720	10				
+snapshot_product_mapping	2026-02	60011545	212	Netherlands Odido 150GB Plan (5G)	48108	74	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011546	212	Israel Hot Mobile 600GB Plan (5G)	5376	8	01/12/2026 22:00:00	03/12/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011552	2369	T-Mobile Prepaid Unlimited Plan (5G)	128170	465	01/13/2026 04:00:00	02/13/2026 03:59:59		
+snapshot_product_mapping	2026-02	60011553	2241	Qatar Ooredoo 30GB Plan (5G, not tested)	20160	30				
+snapshot_product_mapping	2026-02	60011554	212	Switzerland Sunrise Unlimited Plan(5G)	26208	39	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011556	650	Bulgaria A1 Unlimited Plan (5G)	23520	35	01/15/2026 21:00:00	03/15/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011565	650	Austria T-Mobile Unlimited Plan (5G)	6720	10				
+snapshot_product_mapping	2026-02	60011576	2236	USA Verizon 30GB Plan	3360	5				
+snapshot_product_mapping	2026-02	60011578	459	Laos Telecom 25GB Plan	6720	10	01/06/2026 17:00:00	03/07/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011579	573	Egypt Etisalat 43GB Plan (5G)	11424	17	01/22/2026 22:00:00	03/23/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011585	2333	测试百宝箱60012138	672	1	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011592	2254	AT&T Postpaid Unlimited Plan (5G)	431424	642	01/02/2026 07:00:00	03/02/2026 06:59:59		
+snapshot_product_mapping	2026-02	60011596	212	Kenya Airtel 40GB Plan (5G)	43680	65	01/31/2026 21:00:00	03/31/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011609	450	Vietnam Viettel 4GB/Day Plan	11540	20	01/29/2026 17:00:00	02/28/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011612	2275	ATT 300GB Plan SP (PI)	214368	319	01/25/2026 05:00:00	03/25/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011613	573	Guam & Saipan Docomo 50GB Plan (5G)	31584	47	01/31/2026 14:00:00	03/31/2026 13:59:59		
+snapshot_product_mapping	2026-02	60011615	6	 Canada Telus 50GB Plan (5G)	436800	650	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011616	137	Indonesia Indosat 20GB Plan (5G)	33600	50	01/26/2026 17:00:00	03/26/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011619	486	France Bouygues 100GB Plan (5G)	60480	90	01/12/2026 22:00:00	03/12/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011623	212	Spain Orange 200GB Plan (5G)	64374	97	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011624	2254	AT&T Prepaid Unlimited Plan (5G)	258204	518	01/03/2026 06:00:00	03/22/2026 05:59:59		
+snapshot_product_mapping	2026-02	60011625	257	Italy Iliad 220GB Plan (5G)	33600	50	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011631	2369	Cambodia Smart 50GB Plan	10080	15	01/31/2026 17:00:00	03/31/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011632	2349	Japan SoftBank 50GB Plan (5G)	13440	20	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011633	2382	Japan Rakuten Pool (5G)	1341984	1997	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011635	212	Poland Play 50GB Plan (5G)	73920	110	01/14/2026 23:00:00	03/14/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011639	212	New Zealand Vodafone 40GB Plan (5G)	16800	25	01/10/2026 12:00:00	03/10/2026 11:59:59		
+snapshot_product_mapping	2026-02	60011640	212	Ukraine Vodafone Unlimited Plan (5G)	6720	10	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011641	305	Singapore StarHub 53GB Plan (5G)	31584	47	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011645	2371	UK Three 50GB Plan (5G)	53740	90	01/16/2026 00:00:00	03/15/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011647	6	CA Telus Pool (5G) For GID 20757 Only	20160	30	01/01/2026 07:00:00	03/01/2026 06:59:59		
+snapshot_product_mapping	2026-02	60011651	573	Philippines Globe 52GB Plan (5G)	26880	40	01/06/2026 16:00:00	03/07/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011652	2254	T-Mobile Prepaid Unlimited Plan (5G)	204375	500	02/10/2026 06:00:00	03/14/2026 05:59:59		
+snapshot_product_mapping	2026-02	60011653	452	Philippines Globe 50GB Plan (5G)	2430	30	01/15/2026 16:00:00	02/14/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011654	452	Philippines Smart 50GB Plan (5G)	84000	125	01/29/2026 16:00:00	03/30/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011655	573	Maldives Dhiraagu 30GB Plan (5G)	28980	44	01/17/2026 19:00:00	03/18/2026 18:59:59		
+snapshot_product_mapping	2026-02	60011664	573	Philippines Smart 55GB Plan (5G)	20160	30	01/25/2026 16:00:00	03/26/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011665	2373	T-Mobile 50GB Test(Foxx Demo only)	1344	2	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011666	486	France Orange 50GB Plan (5G)	13440	20	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011671	212	Ireland Three 100GB Plan (5G)	13440	20	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011672	2275	AT&T 300GB Plan HX RT (WA)	469384	737	01/24/2026 05:00:00	03/24/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011679	2369	Malaysia Maxis 100GB Plan (5G)	112620	180	01/12/2026 16:00:00	03/13/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011680	2380	UK Vodafone 40GB Plan (5G)	78180	140	01/09/2026 00:00:00	03/28/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011681	2370	Croatia A1 Unlimited Plan (5G)	33600	50	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011690	2275	ATT 100GB Plan AT TB T (WA)	34272	51	05/10/2025 05:00:00	03/10/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011692	1088	CMHK PPU (5G)	67200	100	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011698	2333	HK CSL 100GB PPU (5G)	33600	50	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011699	2348	Turkey Turkcell 50GB Plan (5G)	13440	20	01/19/2026 21:00:00	03/19/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011700	32	Indonesia Telkomsel 50GB Plan (5G)	149856	223	01/10/2026 17:00:00	03/10/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011707	212	Germany Vodafone 100GB Plan (5G)	47040	70	01/21/2026 23:00:00	03/21/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011711	650	Belgium Proximus Unlimited Plan (5G)	1344	2				
+snapshot_product_mapping	2026-02	60011714	650	Sweden Telia Unlimited Plan (5G)	10080	15				
+snapshot_product_mapping	2026-02	60011716	2348	Turkey Telekom 30GB Plan (5G)	79296	118	01/31/2026 21:00:00	03/31/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011722	212	Hungary Vodafone Unlimited Plan (5G)	6720	10	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011723	212	Netherlands Vodafone 200GB Plan (5G)	31322	50	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011727	573	Kenya Safaricom 42GB Plan (5G)	12096	18	01/07/2026 21:00:00	03/08/2026 20:59:59		
+snapshot_product_mapping	2026-02	60011728	650	Lithuania Bite Unlimited Plan (5G)	20160	30	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011729	2370	Slovakia O2 25GB Plan (5G)	13440	20	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011730	650	Denmark Telia 100GB Plan (5G)	9408	14	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011731	2369	Malaysia Digi 200GB Plan (5G)	94572	141	01/29/2026 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011733	212	Brazil Vivo 100GB Plan (5G)	3360	5	01/01/2026 03:00:00	03/01/2026 02:59:59		
+snapshot_product_mapping	2026-02	60011734	212	New Zealand Spark 50GB Plan (5G)	6720	10	01/11/2026 12:00:00	03/11/2026 11:59:59		
+snapshot_product_mapping	2026-02	60011742	573	UAE DU 50GB Plan (5G)	6720	10	03/23/2024 20:00:00	03/23/2026 19:59:59		
+snapshot_product_mapping	2026-02	60011745	514	USA Ultra 50GB Plan (5G not tested)	1344	2				
+snapshot_product_mapping	2026-02	60011746	514	USA Lyca 60GB plan	2688	4				
+snapshot_product_mapping	2026-02	60011747	514	USA Red Pocket 30GB Plan 	2688	4				
+snapshot_product_mapping	2026-02	60011748	2254	America T-Mobile Blank	1044237	1861				
+snapshot_product_mapping	2026-02	60011749	2365	台哥大21MB吃到飽 (DOTDOT only)	8064	12	01/10/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011751	2369	America T-Mobile Blank	334656	498				
+snapshot_product_mapping	2026-02	60011752	2349	AT&T Prepaid Unlimited Plan (5G)	138432	206	01/19/2026 06:00:00	03/24/2026 05:59:59		
+snapshot_product_mapping	2026-02	60011754	212	South Africa MTN 50GB Plan (5G)	39648	59	01/11/2024 22:00:00	03/04/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011755	2417	Mexico Telcel 40GB Plan (5G)	67200	100	01/25/2026 06:00:00	03/25/2026 05:59:59		
+snapshot_product_mapping	2026-02	60011759	2309	Japan SoftBank 100GB Plan	31250	50	01/31/2026 15:00:00	02/28/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011761	2392	USA USC 10GB IoT Test Plan	672	1	01/09/2026 05:00:00	03/09/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011762	2254	AT&T Postpaid Advanced Unlimited Plan (5G)	166671	280	01/28/2026 07:00:00	03/28/2026 06:59:59		
+snapshot_product_mapping	2026-02	60011763	2254	T-Mobile Ultimate Postpaid Unlimited Plan (5G)	201600	300	01/01/2026 07:00:00	03/18/2026 06:59:59		
+snapshot_product_mapping	2026-02	60011764	2369	America AT&T Blank	196896	293				
+snapshot_product_mapping	2026-02	60011766	2371	T-Mobile Prepaid Plan (5G)	227808	339				
+snapshot_product_mapping	2026-02	60011767	2415	USA TMO 120GB HLD Plan SIMO (5G)	260268	389	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011773	2349	America T-Mobile Blank	672000	1000				
+snapshot_product_mapping	2026-02	60011774	212	South Africa Vodacom 50GB Plan (5G)	20160	30	01/11/2026 22:00:00	03/11/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011775	212	Portugal Vodafone Unlimited Plan (5G)	18144	27	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011777	2275	ATT 300GB Plan DI HY HC (PI)	27552	41	01/14/2026 05:00:00	03/14/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011778	2412	Japan UQ Mobile (KDDI)100GB Plan	1344	2				
+snapshot_product_mapping	2026-02	60011783	2275	ATT 300GB Plan DF ET (WA)	175470	300	01/02/2026 05:00:00	03/27/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011785	2275	ATT 300GB Plan DC (PI)	254081	379	01/05/2026 05:00:00	03/05/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011788	212	Australia Vodafone 60GB Plan (5G)	6720	10	01/14/2026 13:00:00	03/14/2026 12:59:59		
+snapshot_product_mapping	2026-02	60011789	212	Germany Telekom 150GB Plan (5G)	82656	123	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011790	257	Italy Vodafone 70GB Plan (5G)	20160	30				
+snapshot_product_mapping	2026-02	60011798	2370	Slovakia Orange 30GB Plan (5G)	13440	20	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011800	573	India Vi 50GB Plan www	10080	15				
+snapshot_product_mapping	2026-02	60011804	650	Greece VDF 50GB Plan (5G)	22848	34	01/26/2026 22:00:00	03/26/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011809	2417	Colombia Tigo 50GB Plan (5G)	6720	10	01/19/2026 05:00:00	03/19/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011811	650	Spain Digi Mobil 100GB Plan (5G)	45024	67	04/30/2025 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011812	2370	Greece Cosmote-OTE 30GB Plan (5G)	20160	30	01/19/2026 22:00:00	03/19/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011814	2415	USA ATT 100GB HLT Plan (5G)	26800	124	01/07/2026 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011815	2275	TMO Unlimited TT (WA)	228454	358	01/19/2026 05:00:00	03/19/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011817	2275	TMO 500GB VS BU (PI)	45696	68	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011818	2275	TMO 40GB EC TB(WA)	50400	75	01/01/2026 05:00:00	03/31/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011824	2432	Japan Docomo 25GB	6720	10	01/05/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011826	650	Bosnia Herzegovina BH Mobile 35GB Plan	6720	10	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011827	573	India Vi 50GB Plan internet (5G)	9408	14	01/26/2026 19:00:00	03/27/2026 18:59:59		
+snapshot_product_mapping	2026-02	60011830	212	Israel Partner 250GB Plan	5376	8	01/24/2026 22:00:00	03/24/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011831	486	UK EE 100GB Plan (5G)	8064	12	02/01/2026 00:00:00	03/02/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011833	650	Ireland VDF Unlimited Plan (5G)	16800	25	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011836	212	UK EE Unlimited Plan (5G)	32690	49	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60011838	2275	ATT 125GB Plan DF ET (WA)	110712	386	01/01/2026 05:00:00	03/28/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011840	2309	Korea LG 40GB Plan	168000	250	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011841	2417	Mexico AT&T 50GB Plan (5G)	65856	98	01/03/2026 06:00:00	03/03/2026 05:59:59		
+snapshot_product_mapping	2026-02	60011843	2275	USC Plus 300GB Plan DC (PI)	442176	658	01/09/2026 05:00:00	03/09/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011844	2434	Japan Docomo for MaYa testing Only (MaYa)	1344	2	01/08/2026 15:00:00	03/08/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011845	2365	遠傳2MB吃到飽（DOTDOT only)	19488	29	01/08/2026 16:00:00	03/22/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011846	212	Israel Cellcom 600GB Plan (5G)	6048	9	01/14/2026 22:00:00	03/14/2026 21:59:59		
+snapshot_product_mapping	2026-02	60011848	2371	AT&T Prepaid Plan	201600	300				
+snapshot_product_mapping	2026-02	60011858	2275	ATT 300GB Plan VS ET  (WA)	109230	188	01/04/2026 05:00:00	03/29/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011860	2275	ATT 300GB Plan DI SG (PI)	95424	142	01/10/2026 05:00:00	03/10/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011863	2348	Kazakhistan Kcell 40GB Plan (5G)	23520	35	01/31/2026 19:00:00	03/31/2026 18:59:59		
+snapshot_product_mapping	2026-02	60011870	573	Italy TIM 70GB Plan (5G)	25536	38	01/22/2026 23:00:00	03/22/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011871	573	Canada Bell 200GB Plan (5G)	6720	10	01/16/2026 05:00:00	03/16/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011872	573	Indonesia Hutchison 50GB Plan (5G)	26880	40	01/27/2026 17:00:00	03/28/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011874	32	Indonesia Telkomsel 2GB Plan	168000	250	11/10/2024 17:00:00	03/10/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011875	2275	TMO 300GB Plan MC (WA)	30900	100	01/14/2026 05:00:00	02/14/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011878	2275	TMO 100GB Plan AT (3) (WA)	174720	260	01/12/2026 05:00:00	03/12/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011882	2275	TMO 300GB Plan AT (1) (A) (PI)	403872	601	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011883	2275	TMO 300GB Plan AT (2) (PI)	154560	230	01/12/2026 05:00:00	03/12/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011887	2275	TMO 150GB Plan AT (1) (B) (WA)	413280	615	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011888	2275	TMO 300GB Plan AT (1) (C) (PI)	234528	349	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011889	2275	TMO 300GB Plan AT (1) (D) (WA)	111489	537	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011890	2275	TMO 500GB Plan DI BU SG (WA)	135744	202	01/16/2026 05:00:00	03/16/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011891	2275	TMO 500GB DI BU MG (PI)	77280	115	01/18/2026 05:00:00	03/18/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011893	2275	TMO 100GB Plan AT (3) (2) (WA)	161280	240	01/12/2026 05:00:00	03/12/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011894	2275	TMO 500GB EC (PI)	45024	67	01/30/2026 05:00:00	03/30/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011898	573	Australia Vodafone 40GB Plan (5G)	31584	47	01/19/2026 13:00:00	03/19/2026 12:59:59		
+snapshot_product_mapping	2026-02	60011921	2275	ATT Unlimited Plan DI MZ (WA)	103488	154	01/18/2026 05:00:00	03/18/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011922	2275	ATT 300GB Plan DF (2) (PI)	47585	71	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011932	450	Vietnam Vinaphone 500GB Plan (5G)	26880	40	01/31/2026 17:00:00	03/31/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011933	450	Vietnam Viettel 6GB/Day Plan (5G)	781	30	01/04/2026 17:00:00	02/03/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011934	450	Vietnam Mobifone 500GB Plan (5G)	20160	30	01/14/2026 17:00:00	03/15/2026 16:59:59		
+snapshot_product_mapping	2026-02	60011936	123	SKT Unlimited Data plan 90 Days testing 	1344	2	11/12/2025 15:00:00	05/11/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011938	212	Germany O2 150GB Plan (5G)	66528	99	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60011939	212	Korea SKT 100GB Plan (5G)	67200	100	01/01/2026 15:00:00	03/01/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011948	2415	USA ATT 120GB HLD Plan SIMO (5G)	307769	500	01/07/2026 05:00:00	03/16/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011949	2415	复制 60011767 (5G)	380	95	01/01/2026 05:00:00	02/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011951	2309	Japan KDDI 150GB Plan (5G)	283584	422	01/31/2026 15:00:00	03/31/2026 14:59:59		
+snapshot_product_mapping	2026-02	60011969	14	Singtel Roaming Testing 3G	1344	2	01/01/2026 16:00:00	03/01/2026 15:59:59		
+snapshot_product_mapping	2026-02	60011971	2153	USC IoT Pooled 100GB On Net Only (5G)	107520	160	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011981	2275	ATT 300GB Plan DF (PI)	192483	287	01/01/2026 05:00:00	03/26/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011986	2275	ATT 300GB Plan DC (2) (PI)	76608	114	01/05/2026 05:00:00	03/05/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011992	2275	ATT 300GB Plan DI PV (PI)	92064	137	01/04/2026 05:00:00	03/04/2026 04:59:59		
+snapshot_product_mapping	2026-02	60011993	2275	ATT 300GB Plan DI 1A (PI)	59808	89	01/23/2026 05:00:00	03/23/2026 04:59:59		
+snapshot_product_mapping	2026-02	60012031	2358	Movistar South America 30GB Plan	57078	99	01/01/2026 06:00:00	03/01/2026 05:59:59		
+snapshot_product_mapping	2026-02	60012044	212	Partner Global 30GB Plan	4704	7				
+snapshot_product_mapping	2026-02	60012060	573	Airtel Africa 20GB Plan (5G)	51744	77	02/12/2022 21:00:00	03/20/2026 20:59:59		
+snapshot_product_mapping	2026-02	60012089	2233	USA Backup-Maxis	1680000	2500	02/01/2026 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012090	2233	Vodafone Europe	335328	499	11/01/2022 00:00:00	03/31/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012098	616	Taiwan CHT China/HK/Macau 1.5GB/Day Plan	42336	63	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012102	2333	CSL Global 100GB PPU (5G)	117600	175	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012104	2233	TruConnect Backup	73920	110	01/02/2026 00:00:00	03/01/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012106	2233	Backup KPN	26880	40	01/02/2026 00:00:00	03/01/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012109	2349	AIS Global 6GB/8Days Plan S	46368	69				
+snapshot_product_mapping	2026-02	60012128	212	Hot Mobile Global 30GB Plan	60480	90	01/12/2026 22:00:00	03/12/2026 21:59:59		
+snapshot_product_mapping	2026-02	60012133	2349	AIS Global 6GB/15Days Plan M	6720	10				
+snapshot_product_mapping	2026-02	60012136	212	Telia North Europe 100GB Plan (5G)	13440	20	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60012137	573	Etisalat Global 15GB Plan	39648	59	01/31/2026 22:00:00	03/31/2026 21:59:59		
+snapshot_product_mapping	2026-02	60012138	2333	CSL Global 100GB PPU (5G)	793212	1271	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012139	573	Digi Global 3GB/Day Plan (5G)	33600	50	01/07/2026 16:00:00	03/09/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012140	1088	CMHK Saudi Arabia PPU	67200	100	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012141	1088	Hutchison Global PPU (5G)	470400	700	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012147	212	Vodafone Europe 60GB Plan (5G)	134400	200	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60012157	2233	KPN for Caribbean	33600	50	01/02/2026 00:00:00	03/01/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012158	650	Jamaica Digicel Caribbean 50GB Plan	1344	2				
+snapshot_product_mapping	2026-02	60012159	2333	Plus USA 50GB/Day PPU (5G)	55300	100	02/01/2026 00:00:00	02/28/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012160	514	ATT Caribbean Testing-22GB	2688	4	01/02/2026 05:00:00	03/02/2026 04:59:59		
+snapshot_product_mapping	2026-02	60012161	212	FLOW Bahamas 30GB Plan	32928	49	01/01/2026 05:00:00	03/01/2026 04:59:59		
+snapshot_product_mapping	2026-02	60012163	262	Elisa Pool (5G)	134400	200	01/31/2026 21:00:00	03/31/2026 20:59:59		
+snapshot_product_mapping	2026-02	60012164	229	US Testing 10G	672	1	01/27/2026 05:00:00	03/27/2026 04:59:59		
+snapshot_product_mapping	2026-02	60012165	2417	Vivo Latin America 40GB Plan	47712	71	01/01/2026 03:00:00	03/01/2026 02:59:59		
+snapshot_product_mapping	2026-02	60012167	2333	Plus Global 50GB/Day PPU (5G)	280700	500	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60012172	2233	Brunei Syniverse Smartone	6720	10	01/21/2026 00:00:00	03/20/2026 23:59:59		
+snapshot_product_mapping	2026-02	60012173	148	Orange Roaming	240576	358	02/23/2026 22:00:00	03/23/2026 21:59:59		
+snapshot_product_mapping	2026-02	60012174	1088	SmarTone Global PPU (5G)	67200	100	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012178	1088	CMHK Global PPU (5G)	336000	500	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012179	2333	Verizon 50GB Roaming	45024	67	01/15/2026 16:00:00	03/15/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012180	2417	Claro Latin America 40GB Plan (5G)	57516	88	01/01/2026 10:00:00	03/01/2026 09:59:59		
+snapshot_product_mapping	2026-02	60012181	2466	Plus Roaming cards testing	672	1	01/07/2026 23:00:00	03/07/2026 22:59:59		
+snapshot_product_mapping	2026-02	60012182	212	Vodafone Europe 100GB Plan (5G)	268128	399	01/31/2026 23:00:00	03/31/2026 22:59:59		
+snapshot_product_mapping	2026-02	60012183	2333	Verizon 50GB Roaming  for VIP testing	2016	3	01/15/2026 16:00:00	03/15/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012184	573	Digi Global 3GB/Day Plan (5G) for Russia	19488	29	01/07/2026 16:00:00	03/09/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012185	573	Digi Global 80GB Plan (5G)	27780	50	01/28/2026 16:00:00	03/29/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012186	2333	CSL Global 100GB PPU (5G) for Japan only	60400	100	01/31/2026 16:00:00	02/28/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012187	616	Taiwan CHT China 1.5GB/Day Plan for China test	1344	2	01/31/2026 16:00:00	03/31/2026 15:59:59		
+snapshot_product_mapping	2026-02	60012191	2333	Hutchison Global 50GB/Day PPU (5G)	286400	500	01/31/2026 16:00:00	03/31/2026 15:59:59		

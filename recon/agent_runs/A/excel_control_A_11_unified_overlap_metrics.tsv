@@ -1,0 +1,5 @@
+overlap_type	key_fields	shared_key_count	detail_rows_on_shared_keys	prorated_rows_on_shared_keys	one_to_one_key_count	non_one_to_one_key_count	detail_amount_on_shared_keys	prorated_amount_on_shared_keys	prorated_pending_on_shared_keys
+COMMON_FIELDS_EXACT_OVERLAP	source_file|imsi|product_name|cycle_start|cycle_end|final_start|final_end|monthly_rate	0							
+IMSI_OVERLAP	imsi	828	5494	828	0	828	264158.819728	30619.758670	7195.895829
+SOURCE_IMSI_CYCLE_EXACT_OVERLAP	source_file|imsi|cycle_start|cycle_end	0							
+SOURCE_IMSI_CYCLE_FINAL_EXACT_OVERLAP	source_file|imsi|cycle_start|cycle_end|final_start|final_end	0							

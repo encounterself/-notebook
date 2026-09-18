@@ -1,0 +1,14 @@
+billing_month	charge_type	rows	mismatch_rows	diff_sum	min_diff	max_diff
+2025-12	Full Cycle Charge	11437	0	0.0	0.0	0.0
+2025-12	New Activation: Prorated-in Charge	748	0	0.0	-7.105427357601002E-15	3.552713678800501E-15
+2026-01	Full Cycle Charge	11700	0	0.0	0.0	0.0
+2026-01	New Activation: Prorated-in Charge	811	0	0.0	-7.105427357601002E-15	7.105427357601002E-15
+2026-01	Partial Charge - Product Transfer Mid Cycle	193	0	0.0	-3.552713678800501E-15	3.552713678800501E-15
+2026-01	Prorated-Out Credit (Offstocked for Replacement)	60	60	-3720.0	-100.0	-4.0
+2026-02	Credit for Offstocked Card	8	0	0.0	0.0	0.0
+2026-02	Full Cycle Charge	11748	0	0.0	0.0	0.0
+2026-02	Full Cycle Charge - Backbilled for FEB Invoice	269	0	0.0	0.0	0.0
+2026-02	New Activation: Prorated-in Charge	729	0	0.0	-7.105427357601002E-15	7.105427357601002E-15
+2026-02	Offstocked before cycle start	90	0			
+2026-02	Partial Charge - Card Replaced Mid Cycle	4	0	0.0	-7.105427357601002E-15	-4.440892098500626E-16
+2026-02	Partial Charge - Product Transfer Mid Cycle	189	0	0.0	-7.105427357601002E-15	3.552713678800501E-15

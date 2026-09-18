@@ -1,0 +1,4 @@
+year	month	max_partition_day	max_partition_hour	max_partition_time	snapshot_rows	snapshot_imsi_count	snapshot_product_count	supplier_2275_imsi_count	supplier_2275_product_count	non_supplier_product_count	min_cycle_start	max_cycle_start	min_cycle_end	max_cycle_end
+2026	3	31	23	2026-03-31 23:00:00	37637577	54157	339	15537	86	253	2022-02-12	2026-04-01	2022-03-14	2026-06-04
+2026	4	30	23	2026-04-30 23:00:00	36956770	54832	351	16002	97	254	2022-02-12	2026-05-01	2022-03-14	2026-06-04
+2026	5	31	23	2026-05-31 23:00:00	38479634	55174	356	16086	99	257	2022-02-12	2026-06-01	2022-03-14	2026-08-09

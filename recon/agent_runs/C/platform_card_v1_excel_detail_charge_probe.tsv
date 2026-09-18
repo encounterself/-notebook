@@ -1,0 +1,18 @@
+source_file	charge_type	record_count	imsi_count	excel_total	excel_days_sum	excel_price_sum	min_final_start	max_final_start	min_final_end	max_final_end	distinct_excel_prices	distinct_excel_days
+01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	Full Cycle Charge	7025	7025	355210.0000000000	210764.0000000000	355210.0000000000	2026-04-01	2026-04-30	2026-04-30	2026-05-30	4	2
+01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	New Activation: Prorated-in Charge	706	706	16597.5408602118	9158.0000000000	40105.0000000000	2026-04-02	2026-04-28	2026-04-18	2026-05-18	2	31
+01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	Partial Charge - Card Replaced Mid Cycle	49	49	481.7666666662	280.0000000000	2696.0000000000	2026-04-01	2026-04-18	2026-04-02	2026-04-24	2	8
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Credit for Offstocked Card	8	8	-170.4999999997	147.0000000000	496.0000000000	2026-02-24	2026-02-24	2026-03-12	2026-03-12	1	2
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Full Cycle Charge	6164	6164	324001.0000000000	191084.0000000000	324001.0000000000	2026-03-01	2026-03-28	2026-03-31	2026-04-27	4	1
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Full Cycle Charge - Backbilled for FEB Invoice	269	269	12371.0000000000	7532.0000000000	12371.0000000000	2026-02-28	2026-02-28	2026-03-27	2026-03-27	3	1
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	New Activation: Prorated-in Charge	1229	1229	33640.6774193462	19804.0000000000	66280.0000000000	2026-03-05	2026-03-28	2026-03-17	2026-04-26	2	31
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Offstocked before cycle start	1	1			62.0000000000					1	0
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Partial Charge - Card Replaced Mid Cycle	496	496	7327.7419354871	4886.0000000000	23703.0000000000	2026-03-01	2026-03-26	2026-03-16	2026-03-27	2	26
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Prorated Out - Transferred to Wing's Simbank	4901	4901	200751.2903225814	103081.0000000000	296262.0000000000	2026-03-01	2026-03-28	2026-03-31	2026-03-31	2	28
+01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	Prorated-out Charge - Offstocked Card	14	14	485.0967741935	245.0000000000	849.0000000000	2026-03-01	2026-03-20	2026-03-09	2026-03-27	2	3
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	Credit for Offstocked Card	2	2	-51.6000000000	24.0000000000	86.0000000000	2026-04-24	2026-04-26	2026-05-01	2026-05-11	1	2
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	Full Cycle Charge	7251	7251	371255.0000000000	224781.0000000000	371255.0000000000	2026-05-01	2026-05-31	2026-05-31	2026-06-29	4	1
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	New Activation: Prorated-in Charge	200	200	4340.0000000000	2100.0000000000	12400.0000000000	2026-05-01	2026-05-16	2026-05-18	2026-05-18	1	2
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	Partial Charge - Card Replaced Mid Cycle	30	30	665.8064516130	480.0000000000	1290.0000000000	2026-05-04	2026-05-04	2026-05-19	2026-05-19	1	1
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	Partial Charge - New Card Used as Replacement Mid Cycle	402	402	13479.7462365579	7400.0000000000	21960.0000000000	2026-05-04	2026-05-29	2026-05-18	2026-06-20	2	27
+01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	Prorated-out Charge - Offstocked Card	2	2	112.0000000000	56.0000000000	124.0000000000	2026-05-04	2026-05-04	2026-05-31	2026-05-31	1	1

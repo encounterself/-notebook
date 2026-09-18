@@ -1,0 +1,2 @@
+supplier_id	product_rows	distinct_product_id	distinct_package_price	rows_with_create_time	rows_with_modify_time	min_create_time	max_create_time	min_modify_time	max_modify_time
+2275	312	312	4	312	312	02/25/2021 03:12:46	09/14/2026 19:19:29	10/15/2025 06:54:36	09/15/2026 02:12:59

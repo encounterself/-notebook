@@ -1,0 +1,10 @@
+billing_month	charge_type	invoice_rows	distinct_imsi	duplicate_rows_at_month_imsi_type_grain	source_file_count	distinct_monthly_rate_count	missing_final_start_rows	missing_final_end_rows	missing_final_days_rows	missing_monthly_rate_rows	missing_final_charge_rows	date_span_mismatch_rows	formula_cent_match_rows	sum_final_days	invoice_amount	forward_formula_amount	forward_formula_diff	sum_abs_unrounded_amount_diff
+2025-09	Full Rate	12602	12602	0	1	2	0	0	0	0	0	2279	12602	378060.0	771254.0	771254.0	0.0	0.0
+2025-09	Partial Charge (Activated AUG)	11484	11484	0	1	2	0	0	0	0	0	95	0	171560.0	339332.26	350643.33	11311.08	11311.08
+2025-09	Prorated-in Charge (Activated SEPT)	1085	1085	0	1	1	0	0	0	0	0	169	1085	13296.0	27478.4	27478.4	0.0	0.0
+2025-09	Prorated-out Charge (Activated SEPT)	66	66	0	1	1	0	0	0	0	0	0	66	643.0	1328.87	1328.87	0.0	0.0
+2025-10	Full Cycle Charge	12573	12573	0	1	2	0	0	0	0	0	0	12573	389763.0	769456.0	769456.0	0.0	0.0
+2025-10	New Activation: Prorated-in Charge	72	72	0	1	1	0	0	0	0	0	4	70	1182.0	2364.53	2364.0	-0.53	0.53
+2025-10	Prorated-out Charge (Activated OCT)	32	32	0	1	1	0	0	0	0	0	0	32	465.0	930.0	930.0	0.0	0.0
+2025-11	Full Cycle Charge	12641	12641	0	1	2	0	0	0	0	0	0	12641	379230.0	773292.0	773292.0	0.0	0.0
+2025-11	New Activation: Prorated-in Charge	22	22	0	1	2	0	0	0	0	0	16	0	317.0	445.84	460.7	14.86	14.86

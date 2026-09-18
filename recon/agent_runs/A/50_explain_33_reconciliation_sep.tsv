@@ -1,0 +1,35 @@
+plan
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- == Initial Plan ==
+   PhotonResultStage
+   +- PhotonColumnarToRow
+      +- PhotonSort [join_status#2551805 ASC NULLS FIRST, imsi#2551908 ASC NULLS FIRST]
+         +- PhotonShuffleExchangeSource false
+            +- PhotonShuffleMapStage ENSURE_REQUIREMENTS, [id=#3902154]
+               +- PhotonShuffleExchangeSink rangepartitioning(join_status#2551805 ASC NULLS FIRST, imsi#2551908 ASC NULLS FIRST, 32)
+                  +- PhotonProject [2025-09 AS billing_month#2551801, imsi#2551908, count(1)#2551938L AS invoice_line_count#2551943L, sum(TRY_CAST(final_charge AS DOUBLE))#2551940 AS invoice_amount#2551944, CASE WHEN false THEN MATCHED WHEN isnotnull(imsi#2551908) THEN WA_ONLY WHEN false THEN PLATFORM_ONLY ELSE MISSING_DATA END AS join_status#2551805, CASE WHEN isnotnull(imsi#2551908) THEN MISSING_DATA_PLATFORM_SNAPSHOT ELSE NOT_APPLICABLE END AS validation_status#2551806]
+                     +- PhotonGroupingAgg(keys=[2025-09#2551955, imsi#2551908], functions=[finalmerge_count(merge count#2551957L) AS count(1)#2551938L, finalmerge_sum(merge sum#2551959) AS sum(TRY_CAST(final_charge AS DOUBLE))#2551940])
+                        +- PhotonShuffleExchangeSource false
+                           +- PhotonShuffleMapStage ENSURE_REQUIREMENTS, [id=#3902146]
+                              +- PhotonShuffleExchangeSink hashpartitioning(2025-09#2551955, imsi#2551908, 32)
+                                 +- PhotonGroupingAgg(keys=[2025-09 AS 2025-09#2551955, imsi#2551908], functions=[merge_count(merge count#2551957L) AS count#2551957L, merge_sum(merge sum#2551959) AS sum#2551959])
+                                    +- PhotonBroadcastNestedLoopJoin Inner, BuildLeft
+                                       :- PhotonShuffleExchangeSource false
+                                       :  +- PhotonShuffleMapStage EXECUTOR_BROADCAST, [id=#3902139]
+                                       :     +- PhotonShuffleExchangeSink SinglePartition
+                                       :        +- PhotonRowToColumnar
+                                       :           +- Scan OneRowRelation[]
+                                       +- PhotonProject [imsi#2551908, count#2551957L, sum#2551959]
+                                          +- PhotonGroupingAgg(keys=[2025-09 AS 2025-09#2551960, imsi#2551908], functions=[partial_count(1) AS count#2551957L, partial_sum(try_cast(final_charge#2551930 as double)) AS sum#2551959])
+                                             +- PhotonProject [imsi#2551908, final_charge#2551930]
+                                                +- PhotonScan parquet simo_prod.mysql_cdc_sync.wa_invoice_detail[imsi#2551908,final_start_date#2551922,final_charge#2551930] DataFilters: [isnotnull(final_start_date#2551922), (try_cast(final_start_date#2551922 as date) >= 2025-09-01),..., DictionaryFilters: [], Format: parquet, Location: PreparedDeltaFileIndex(1 paths)[s3://db-204de0126a7c841025d9b2b3e7bf44ca-s3-root-bucket/uc-migrat..., OptionalDataFilters: [], PartitionFilters: [], ReadSchema: struct<imsi:string,final_start_date:string,final_charge:string>, RequiredDataFilters: [isnotnull(final_start_date#2551922), (try_cast(final_start_date#2551922 as date) >= 2025-09-01),...
+
+
+== Photon Explanation ==
+The query is fully supported by Photon.
+== Optimizer Statistics (table names per statistics state) ==
+  missing = 
+  partial = 
+  full    = wa_invoice_detail
+

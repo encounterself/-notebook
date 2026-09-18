@@ -1,0 +1,23 @@
+platform_source_table	platform_source_file	invoice_batch_label	observed_start_month	observed_cycle_start_month	observed_cycle_end_month	platform_record_count	platform_imsi_count	platform_amount	platform_monthly_rate_sum	platform_amount_semantics
+simo_prod.mysql_cdc_sync.wa_invoice_credit	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx		2025-11	2025-12	393	393	585.4499999999989	24366.0	credit_owed
+simo_prod.mysql_cdc_sync.wa_invoice_detail	006-V2 - SIMO Data Purchase Invoice Details - SEP 2025.xlsx	2025-09	2025-09			25237	14793	1139393.524729102	1544554.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v2)	2025-11			12663	12641	773737.8387096775	774276.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v1)	2025-10			12714	12712	772285.5333333333	778198.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	2026-04	2026-04			7780	7317	372289.30752688175	398011.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-02			12572	12309	690572.7235023042	712418.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx	2025-01	2026-01			13661	13253	703606.2903225811	778622.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx	2026-07	2026-07			7537	7472	373918.3139784944	375953.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JUNE 2026.xlsx	2026-06	2026-06			7598	7469	382329.7204301075	388076.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	2026-03	2026-02			13082	12763	578406.3064516129	724024.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	2026-05	2026-04			7887	7494	389800.95268817176	407115.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx	2026-08	2026-08			7536	7508	364846.6129032258	375967.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_detail	SIMO Data Purchase Invoice Details - DEC 2025.xlsx	2025-12	2025-12			12185	12110	704839.3537634417	723265.0	final_charge
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v2)	2025-10			5	5	294.0	310.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v1)	2025-09			36	36	1521.0666666666666	2232.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	2026-04	2026-03			284	284	9827.387096774199	15442.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-01			359	359	14688.096774193551	16957.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx	2025-01	2025-12			1	1	34.0	62.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx	2026-07	2026-06			4	4	141.9	172.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	2026-03	2026-02			127	127	3686.9285714285716	5651.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	2026-05	2026-04			9	9	298.76666666666665	482.0	final_charge_for_usage_days
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx	2026-08	2026-07			3	3	127.61290322580646	129.0	final_charge_for_usage_days

@@ -1,0 +1,4 @@
+table_catalog	table_schema	table_name	table_type
+simo_prod	mysql_cdc_sync	wa_invoice_credit	MANAGED
+simo_prod	mysql_cdc_sync	wa_invoice_detail	MANAGED
+simo_prod	mysql_cdc_sync	wa_invoice_prorated	MANAGED

@@ -1,0 +1,139 @@
+table_catalog	table_schema	table_name	ordinal_position	column_name	data_type	is_nullable	comment	column_count
+simo_prod	ods	resource_res_carrier	0	ID	LONG	YES	运营商id 	32
+simo_prod	ods	resource_res_carrier	1	CARRIER_NAME	STRING	YES	供应商/运营商名	32
+simo_prod	ods	resource_res_carrier	2	PHONE	STRING	YES	电话号码	32
+simo_prod	ods	resource_res_carrier	3	CARRIER_TYPE	INT	YES	类型:0运营商,1供应商,2两者皆是	32
+simo_prod	ods	resource_res_carrier	4	MNO_TYPE	INT	YES	0:虚商 1：实体运营商	32
+simo_prod	ods	resource_res_carrier	5	ACTUAL_MNO_ID	LONG	YES	虚商对应的实际运营商	32
+simo_prod	ods	resource_res_carrier	6	MNO_NAME_LANG_PKG	STRING	YES	实体运营商语言包：json格式	32
+simo_prod	ods	resource_res_carrier	7	DESCRIPTION	STRING	YES	描述	32
+simo_prod	ods	resource_res_carrier	8	COUNTRY_CODE	STRING	YES	国家码	32
+simo_prod	ods	resource_res_carrier	9	mcc	INT	YES	覆盖的MCC	32
+simo_prod	ods	resource_res_carrier	10	WEB_SITE	STRING	YES	供应商/运营商网站	32
+simo_prod	ods	resource_res_carrier	11	group_id	LONG	YES	集团id	32
+simo_prod	ods	resource_res_carrier	12	simple_carrier_name	STRING	YES	简称	32
+simo_prod	ods	resource_res_carrier	13	account_address	STRING	YES	账户地址	32
+simo_prod	ods	resource_res_carrier	14	account_bank_address	STRING	YES	开户行地址	32
+simo_prod	ods	resource_res_carrier	15	account_bank_name	STRING	YES	开户行	32
+simo_prod	ods	resource_res_carrier	16	account_name	STRING	YES	账户名	32
+simo_prod	ods	resource_res_carrier	17	account_no	STRING	YES	账号	32
+simo_prod	ods	resource_res_carrier	18	address	STRING	YES	地址	32
+simo_prod	ods	resource_res_carrier	19	contact	STRING	YES	联系人	32
+simo_prod	ods	resource_res_carrier	20	email	STRING	YES	邮箱	32
+simo_prod	ods	resource_res_carrier	21	owner	STRING	YES	负责人	32
+simo_prod	ods	resource_res_carrier	22	swift_code	STRING	YES	银行国际代码	32
+simo_prod	ods	resource_res_carrier	23	region_id	LONG	YES	覆盖范围	32
+simo_prod	ods	resource_res_carrier	24	mncs	STRING	YES	冗余信号信息，英文,分割	32
+simo_prod	ods	resource_res_carrier	25	status	INT	YES	状态标示 0：无效 1：有效	32
+simo_prod	ods	resource_res_carrier	26	create_by	STRING	YES	创建人	32
+simo_prod	ods	resource_res_carrier	27	create_time	TIMESTAMP	YES	创建时间	32
+simo_prod	ods	resource_res_carrier	28	modify_by	STRING	YES	最后修改人	32
+simo_prod	ods	resource_res_carrier	29	modify_time	TIMESTAMP	YES	最后修改时间	32
+simo_prod	ods	resource_res_carrier	30	ppci_n	STRING	YES	PPCI&N	32
+simo_prod	ods	resource_res_carrier	31	dt	TIMESTAMP	YES		32
+simo_prod	ods	resource_res_vsim_cycle_history	0	imsi	STRING	YES	imsi编号	10
+simo_prod	ods	resource_res_vsim_cycle_history	1	product_id	LONG	YES	卡套餐id	10
+simo_prod	ods	resource_res_vsim_cycle_history	2	cycle_time	TIMESTAMP	YES	账期时间	10
+simo_prod	ods	resource_res_vsim_cycle_history	3	next_cycle_time	TIMESTAMP	YES	下次账期开始日期	10
+simo_prod	ods	resource_res_vsim_cycle_history	4	CONS_FLUX_KB	LONG	YES	流量累积量（KB）	10
+simo_prod	ods	resource_res_vsim_cycle_history	5	cycle_total_flow	LONG	YES	结束时的套餐总流量(KB)	10
+simo_prod	ods	resource_res_vsim_cycle_history	6	usage_of_percentage	DOUBLE	YES	已使用百分比	10
+simo_prod	ods	resource_res_vsim_cycle_history	7	create_time	TIMESTAMP	YES	创建时间	10
+simo_prod	ods	resource_res_vsim_cycle_history	8	package_price	DOUBLE	YES	套餐内价格	10
+simo_prod	ods	resource_res_vsim_cycle_history	9	time_zone	STRING	YES	时区	10
+simo_prod	ods	resource_res_vsim_product	0	product_id	STRING	YES	产品ID，一一对应亚信产品	70
+simo_prod	ods	resource_res_vsim_product	1	product_name	STRING	YES	产品名称	70
+simo_prod	ods	resource_res_vsim_product	2	service	INT	YES	服务类型	70
+simo_prod	ods	resource_res_vsim_product	3	description	STRING	YES	产品详细描述	70
+simo_prod	ods	resource_res_vsim_product	4	init_flux	STRING	YES	初始流量	70
+simo_prod	ods	resource_res_vsim_product	5	carrier_id	LONG	YES	运营商ID	70
+simo_prod	ods	resource_res_vsim_product	6	supplier_id	LONG	YES	供应商ID	70
+simo_prod	ods	resource_res_vsim_product	7	status	INT	YES	状态:0禁用,1启用	70
+simo_prod	ods	resource_res_vsim_product	8	replenishment	INT	YES	补货参数	70
+simo_prod	ods	resource_res_vsim_product	9	time_zone	STRING	YES	时区	70
+simo_prod	ods	resource_res_vsim_product	10	group_id	LONG	YES	集团ID	70
+simo_prod	ods	resource_res_vsim_product	11	owner	STRING	YES	负责人	70
+simo_prod	ods	resource_res_vsim_product	12	apn_id	LONG	YES	apn	70
+simo_prod	ods	resource_res_vsim_product	13	in_flux_package_amount	DOUBLE	YES	套餐流量	70
+simo_prod	ods	resource_res_vsim_product	14	in_flux_package_unit	STRING	YES	套餐内流量单位	70
+simo_prod	ods	resource_res_vsim_product	15	in_flux_package_aviable_amount_kb	LONG	YES	套餐内可用流量(DSE配置维护),KB	70
+simo_prod	ods	resource_res_vsim_product	16	package_type	LONG	YES	套餐类型：0：固定套餐 1： 固定套餐外有叠加包 2:无固定套餐	70
+simo_prod	ods	resource_res_vsim_product	17	active_type	LONG	YES	激活类型(0：prorate，1：full)	70
+simo_prod	ods	resource_res_vsim_product	18	agreement_time_periods	LONG	YES	合约期(期)	70
+simo_prod	ods	resource_res_vsim_product	19	agreement_time_contains_pause	LONG	YES	合约期是否包含暂停:0:不包含 1：包含	70
+simo_prod	ods	resource_res_vsim_product	20	max_pause_days	LONG	YES	最大暂停天数	70
+simo_prod	ods	resource_res_vsim_product	21	baika_valid_time_month	LONG	YES	白卡有效期(月)	70
+simo_prod	ods	resource_res_vsim_product	22	billing_cycle	STRING	YES	计费周期 1月/1年/30天（支持X天/月/年3种方式）	70
+simo_prod	ods	resource_res_vsim_product	23	loop_using_after_cycle	LONG	YES	账期结束连续使用 0:不连续 1：连续	70
+simo_prod	ods	resource_res_vsim_product	24	cover_type	LONG	YES	覆盖类型：0：单个国家，1：多个国家	70
+simo_prod	ods	resource_res_vsim_product	25	local_currency	STRING	YES	本地货币	70
+simo_prod	ods	resource_res_vsim_product	26	monthly_rent	DOUBLE	YES	月租	70
+simo_prod	ods	resource_res_vsim_product	27	monthly_rent_withusd	DOUBLE	YES	月租(美金)	70
+simo_prod	ods	resource_res_vsim_product	28	over_flux_package_amount	LONG	YES	超套餐购买量	70
+simo_prod	ods	resource_res_vsim_product	29	over_flux_package_unit	STRING	YES	超套餐购买包单位	70
+simo_prod	ods	resource_res_vsim_product	30	over_flux_package_price_all_countries	STRING	YES	超套餐购买包的价格（漫游卡时包含各个国家的价格值MCC	70
+simo_prod	ods	resource_res_vsim_product	31	package_price	DOUBLE	YES	套餐内价格	70
+simo_prod	ods	resource_res_vsim_product	32	package_price_withusd	DOUBLE	YES	套餐内价格（美元）	70
+simo_prod	ods	resource_res_vsim_product	33	pause_monthly_rent	DOUBLE	YES	暂停卡月租	70
+simo_prod	ods	resource_res_vsim_product	34	pause_monthly_rent_withusd	DOUBLE	YES	暂停卡月租（美元）	70
+simo_prod	ods	resource_res_vsim_product	35	payment_day	LONG	YES	结账日	70
+simo_prod	ods	resource_res_vsim_product	36	payment_type	LONG	YES	0：预付 1后付	70
+simo_prod	ods	resource_res_vsim_product	37	pooling	LONG	YES	共享池，0：否，1：是	70
+simo_prod	ods	resource_res_vsim_product	38	pooling_cons_flux	LONG	YES	流量池累积量(KB)	70
+simo_prod	ods	resource_res_vsim_product	39	price_include_tax	DOUBLE	YES	含税价	70
+simo_prod	ods	resource_res_vsim_product	40	price_include_tax_withusd	DOUBLE	YES	含税价(美金)	70
+simo_prod	ods	resource_res_vsim_product	41	product_name_in_supplier	STRING	YES	供应商套餐名	70
+simo_prod	ods	resource_res_vsim_product	42	purchase_fee_disposable	DOUBLE	YES	一次性购买费用	70
+simo_prod	ods	resource_res_vsim_product	43	tax_rate	DOUBLE	YES	税率	70
+simo_prod	ods	resource_res_vsim_product	44	mccs	STRING	YES	覆盖mcc	70
+simo_prod	ods	resource_res_vsim_product	45	is_local	LONG	YES	是否为本地卡 0:否 1：是	70
+simo_prod	ods	resource_res_vsim_product	46	network_type	LONG	YES	1:2G 2:3G 3:4G	70
+simo_prod	ods	resource_res_vsim_product	47	network_standard	LONG	YES	GSM(1), WCDMA(2), CDMA(4), TCDMA(8), TDDLTE(16), FDDLTE(32)	70
+simo_prod	ods	resource_res_vsim_product	48	roam_type	LONG	YES	1:国内 2:国外	70
+simo_prod	ods	resource_res_vsim_product	49	sim_type	LONG	YES	0:VSIM 1:KI	70
+simo_prod	ods	resource_res_vsim_product	50	email_notify_id	LONG	YES		70
+simo_prod	ods	resource_res_vsim_product	51	create_by	STRING	YES	创建人	70
+simo_prod	ods	resource_res_vsim_product	52	create_time	STRING	YES	创建时间	70
+simo_prod	ods	resource_res_vsim_product	53	modify_by	STRING	YES	最后修改人	70
+simo_prod	ods	resource_res_vsim_product	54	modify_time	STRING	YES	修改时间	70
+simo_prod	ods	resource_res_vsim_product	55	countrys	STRING	YES	覆盖mcc国家名字	70
+simo_prod	ods	resource_res_vsim_product	56	balance_currency	STRING	YES	结算货币单位	70
+simo_prod	ods	resource_res_vsim_product	57	balance_rate	DOUBLE	YES	结算货币汇率1	70
+simo_prod	ods	resource_res_vsim_product	58	settle_accounts_currency	STRING	YES	记账货币	70
+simo_prod	ods	resource_res_vsim_product	59	settle_accounts_rate	DOUBLE	YES	记账汇率2	70
+simo_prod	ods	resource_res_vsim_product	60	agreement_time_periods_unit	STRING	YES	合约单位:月/天	70
+simo_prod	ods	resource_res_vsim_product	61	over_flow_fee	DOUBLE	YES	超流量费用	70
+simo_prod	ods	resource_res_vsim_product	62	over_flow_fee_unit	STRING	YES	超流量费用单位:MB/GB	70
+simo_prod	ods	resource_res_vsim_product	63	plmn_sel	STRING	YES	覆盖区域的优先登录列表，PLMNS	70
+simo_prod	ods	resource_res_vsim_product	64	cover_group_id	LONG	YES	覆盖区域ID,数据来自config库	70
+simo_prod	ods	resource_res_vsim_product	65	billing_type	INT	YES	计费类型,无套餐情况下才会有,默认值 0：0阶梯计费 1条件计费	70
+simo_prod	ods	resource_res_vsim_product	66	over_type	INT	YES	超套餐使用类型,有套餐情况下才会有,默认 0: 0停止使用 1正常使用 2限速使用 用	70
+simo_prod	ods	resource_res_vsim_product	67	product_category	STRING	YES	卡产品归属id,对应sc B2B客户的顶级账户id。例如 24:wing、1296:maya、1295:TS	70
+simo_prod	ods	resource_res_vsim_product	68	plmns_from_imsi	STRING	YES	从imsi中获取的plmn	70
+simo_prod	ods	resource_res_vsim_product	69	into_db_time	STRING	YES	数据更新进入databricks的时间	70
+simo_prod	ods	resource_res_vsim_status_log	0	ID	LONG	YES	唯一id	11
+simo_prod	ods	resource_res_vsim_status_log	1	PRE_STATUS	STRING	YES	操作前的卡状态	11
+simo_prod	ods	resource_res_vsim_status_log	2	NEXT_STATUS	STRING	YES	操作之后卡的状态	11
+simo_prod	ods	resource_res_vsim_status_log	3	DESC_LOG	STRING	YES	具体操作的描述	11
+simo_prod	ods	resource_res_vsim_status_log	4	CREATE_DATE	TIMESTAMP	YES	操作时间	11
+simo_prod	ods	resource_res_vsim_status_log	5	OPERATE_USER	STRING	YES	操作人员	11
+simo_prod	ods	resource_res_vsim_status_log	6	DESCRIPTION	STRING	YES	具体操作的描述	11
+simo_prod	ods	resource_res_vsim_status_log	7	IMSI	STRING	YES	imsi卡号	11
+simo_prod	ods	resource_res_vsim_status_log	8	sync_time	TIMESTAMP	YES	同步到databricks的时间	11
+simo_prod	ods	resource_res_vsim_status_log	9	EXT1	STRING	YES	扩展字段1	11
+simo_prod	ods	resource_res_vsim_status_log	10	partition_date	STRING	YES	分区字段,取值于CREATE_DATE 的日期	11
+simo_prod	tc_cdr	sim_status_for_sftp_bak	0	imsi	STRING	YES	vsim 卡号
+	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	1	product_id	STRING	YES	产品ID，一一对应亚信产品	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	2	ICCID	STRING	YES	iccid	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	3	SIM_Product_Threshold	STRING	YES	套餐内可用流量(DSE配置维护),KB	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	4	SIM_Product_Data_Capacity	STRING	YES	卡产品套餐流量 (GB)	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	5	Cycle_Start_Time	STRING	YES	周期开始时间,系统0时区计算	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	6	Cycle_End_Time	STRING	YES	周期结束时间,系统0时区计算	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	7	DispatchStatus	STRING	YES	卡分配状态（Available：可分配 Dispatching：分配中 Dispatched：已分配 Unavailable：不可用 包括 挂起等状态）	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	8	SimStatus	STRING	YES	SimStatus（Installed:白卡 Ready:准备就绪 Depleted:挂起 Cooling：冻结 ..）	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	9	year	INT	YES	分区 年 基于计算时间	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	10	month	INT	YES	分区 月 基于计算时间	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	11	day	INT	YES	分区 日基于计算时间	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	12	hour	INT	YES	分区 小时基于计算时间	14
+simo_prod	tc_cdr	sim_status_for_sftp_bak	13	partition_time	STRING	YES	分区时间 格式化到小时维度	14

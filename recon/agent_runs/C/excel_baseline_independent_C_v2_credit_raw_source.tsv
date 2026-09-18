@@ -1,0 +1,2 @@
+source_table	source_file	source_file_length	raw_equals_trimmed	record_count	imsi_count	total_credit_owed	total_final_price	min_cycle_start	max_cycle_start	min_cycle_end	max_cycle_end
+wa_invoice_credit	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx	91	1	393	393	585.45000000	24366.00000000	2025-11-01	2025-11-27	2025-11-30	2025-12-26

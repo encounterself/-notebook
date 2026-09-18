@@ -1,0 +1,6 @@
+supplier_id	carrier_id	carrier_name	simple_carrier_name	product_count	package_price_count
+2275	3	America T-Mobile	T-Mobile	124	3
+2275	19	America AT&T	AT&T	157	3
+2275	213	Spain Vodafone	voda ES	1	1
+2275	2153	U.S. Cellular	USCC	17	2
+2275	2160	America Verizon	Verizon	13	2

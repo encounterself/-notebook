@@ -1,0 +1,48 @@
+basis_type	source_table	month_value	source_file_count	record_count	imsi_count	excel_amount	amount_semantics
+credit_cycle_end_month	wa_invoice_credit	2025-11	1	13	13	0.0	credit.credit_owed; cycle_end basis only
+credit_cycle_end_month	wa_invoice_credit	2025-12	1	380	380	585.45	credit.credit_owed; cycle_end basis only
+credit_cycle_start_month	wa_invoice_credit	2025-11	1	393	393	585.45	credit.credit_owed; cycle_start basis only
+invoice_batch_label	wa_invoice_credit	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx	1	393	393	585.45	credit.credit_owed; auxiliary only, no final_start_month
+invoice_batch_label	wa_invoice_detail	2025-01	1	13661	13253	703606.290323	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2025-09	1	25237	14793	1139393.524729	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2025-10 (v1)	1	12714	12712	772285.533333	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2025-10 (v2)	1	12663	12641	773737.83871	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2025-12	1	12185	12110	704839.353763	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-02	1	12572	12309	690572.723502	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-03	1	13082	12763	578406.306452	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-04	1	7780	7317	372289.307527	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-05	1	7887	7494	389800.952688	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-06	1	7598	7469	382329.72043	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-07	1	7537	7472	373918.313978	detail.final_charge; candidate invoice truth
+invoice_batch_label	wa_invoice_detail	2026-08	1	7536	7508	364846.612903	detail.final_charge; candidate invoice truth
+observed_start_month	wa_invoice_detail		4	747	747	-465.0	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2025-09	1	25237	14793	1139393.524729	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2025-10	1	12677	12675	772750.533333	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2025-11	1	12663	12641	773737.83871	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2025-12	1	12185	12110	704839.353763	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-01	1	12764	12545	699499.096774	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-02	3	13037	12577	706880.417051	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-03	1	12804	12732	566205.806452	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-04	2	7782	7317	372237.707527	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-05	1	7885	7492	389852.552688	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-06	1	7598	7469	382329.72043	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-07	1	7537	7472	373918.313978	detail.final_charge; observed final_start_date basis only
+observed_start_month	wa_invoice_detail	2026-08	1	7536	7508	364846.612903	detail.final_charge; observed final_start_date basis only
+invoice_batch_label	wa_invoice_prorated	2025-01	1	1	1	34.0	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2025-10 (v1)	1	36	36	1521.066667	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2025-10 (v2)	1	5	5	294.0	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-02	1	359	359	14688.096774	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-03	1	127	127	3686.928571	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-04	1	284	284	9827.387097	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-05	1	9	9	298.766667	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-07	1	4	4	141.9	prorated.final_charge_for_usage_days; auxiliary only
+invoice_batch_label	wa_invoice_prorated	2026-08	1	3	3	127.612903	prorated.final_charge_for_usage_days; auxiliary only
+observed_start_month	wa_invoice_prorated	2025-09	1	36	36	1521.066667	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2025-10	1	5	5	294.0	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2025-12	1	1	1	34.0	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-01	1	359	359	14688.096774	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-02	1	127	127	3686.928571	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-03	1	284	284	9827.387097	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-04	1	9	9	298.766667	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-06	1	4	4	141.9	prorated.final_charge_for_usage_days; observed final_start_date basis only
+observed_start_month	wa_invoice_prorated	2026-07	1	3	3	127.612903	prorated.final_charge_for_usage_days; observed final_start_date basis only

@@ -1,0 +1,10 @@
+check_kind	table_pair	shared_key_count	left_amount_sum	right_amount_sum	left_row_count	right_row_count	shared_values
+CANDIDATE_ROW_KEY_OVERLAP	credit_vs_prorated	0					
+CANDIDATE_ROW_KEY_OVERLAP	detail_vs_credit	0					
+CANDIDATE_ROW_KEY_OVERLAP	detail_vs_prorated	0					
+IMSI_OVERLAP	credit_vs_prorated	0					
+IMSI_OVERLAP	detail_vs_credit	393	81856.0	585.45	1515	393	
+IMSI_OVERLAP	detail_vs_prorated	828	264158.819728	30619.75867	5494	828	
+SOURCE_FILE_OVERLAP	credit_vs_prorated	0					
+SOURCE_FILE_OVERLAP	detail_vs_credit	0					
+SOURCE_FILE_OVERLAP	detail_vs_prorated	9					01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx || 01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx || 01-SIMO Data Purchase Invoice Details - APR 2026.xlsx || 01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx || 01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx || 01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx || 01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx || 01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx || SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx

@@ -1,0 +1,2 @@
+billing_month	reconciliation_status	invoice_rows	invoice_card_count	invoice_amount	platform_status
+2025-09	MISSING_DATA	25237	14793	1139393.5247	PLATFORM_CARD_SET_NOT_MATERIALIZED_DUE_UNREADABLE_SNAPSHOT

@@ -1,0 +1,4 @@
+table_name	record_count	imsi_count	source_file_count	min_primary_date	max_primary_date	min_secondary_date	max_secondary_date	amount_field	amount_sum	auxiliary_amount_field	auxiliary_amount_sum	charge_type_count
+wa_invoice_credit	393	393	1	2025-11-07	2025-11-18	2025-11-01	2025-12-26	credit_owed	585.45	final_price	24366.0	
+wa_invoice_detail	140452	21920	12	2025-09-01	2026-08-31	2025-09-01	2026-09-29	final_charge	7246026.478339	monthly_rate	7980479.0	16
+wa_invoice_prorated	828	828	9	2025-09-20	2026-07-06	2025-10-03	2026-08-03	final_charge_for_usage_days	30619.758679	pending_charge	7195.895777	

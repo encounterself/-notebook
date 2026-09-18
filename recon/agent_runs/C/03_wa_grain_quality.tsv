@@ -1,0 +1,4 @@
+billing_month	card_month_rows	cards_with_multiple_detail_rows	cards_with_multiple_charge_types	cards_with_multiple_prices	cards_with_multiple_final_days	duplicate_charge_grain_keys	amount_sum
+2026-03	13082	638	638	8	638	0	597861.98388
+2026-04	7780	926	926	0	926	0	409248.081689
+2026-05	7887	786	786	0	786	0	422438.085995

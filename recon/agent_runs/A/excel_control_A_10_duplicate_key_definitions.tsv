@@ -1,0 +1,9 @@
+key_definition	duplicate_key_count	duplicate_extra_row_count	max_rows_per_key
+K1_imsi_source_final_dates_charge_type	0		
+K2_imsi_source_final_dates	0		
+K3_imsi_source_cycle_dates_charge_type	191	191	2
+K4_imsi_source_cycle_dates	191	191	2
+K5_imsi_source_final_dates_charge_type_price	0		
+K6_imsi_source_final_dates_charge_type_price_amount	0		
+K7_imsi_source_final_dates_charge_type_product	0		
+K8_imsi_source_cycle_dates_charge_type_price	0		

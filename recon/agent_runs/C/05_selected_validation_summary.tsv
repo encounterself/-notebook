@@ -1,0 +1,18 @@
+billing_month	charge_type	candidate_rule	card_count	wa_days_present	candidate_days_present	exact_day_count	exact_day_rate	day_error_1_count	day_error_ge2_count	exact_platform_price_count	exact_platform_price_rate	amount_exact_count	amount_exact_rate_on_evaluable	unresolved_day_count	missing_platform_price_count	wa_amount_sum	calculated_amount_sum
+2026-03	Credit for Offstocked Card	WA_FINAL_DATE_SPAN	8	8	8	7	0.875	0	1	8	1.0	0		0	0	-170.5	0.0
+2026-03	Full Cycle Charge	WA_FULL_MONTH_DAYS	6164	6164	6164	6164	1.0	0	0	4910	0.796561	6164	1.0	0	0	324001.0	324001.0
+2026-03	Full Cycle Charge - Backbilled for FEB Invoice	WA_FINAL_DATE_SPAN	269	269	269	269	1.0	0	0	269	1.0	269	1.0	0	0	12371.0	12371.0
+2026-03	New Activation: Prorated-in Charge	WA_FINAL_DATE_SPAN	1229	1229	1229	1056	0.859235	18	155	1229	1.0	988	0.803906	0	0	33640.677419	31514.774186
+2026-03	Offstocked before cycle start	UNRESOLVED_NO_DATES	1	0	0	0	0.0	0	0	1	1.0	0		1	0		0.0
+2026-03	Partial Charge - Card Replaced Mid Cycle	WA_FINAL_DATE_SPAN	496	496	496	489	0.985887	1	6	496	1.0	489	0.985887	0	0	7327.741935	7276.129061
+2026-03	Prorated Out - Transferred to Wing's Simbank	WA_FINAL_DATE_SPAN	4901	4901	4901	4478	0.913691	128	295	4804	0.980208	4478	0.913691	0	0	200751.290323	197523.548353
+2026-03	Prorated-out Charge - Offstocked Card	WA_FINAL_DATE_SPAN	14	14	14	14	1.0	0	0	14	1.0	14	1.0	0	0	485.096774	485.096774
+2026-04	Full Cycle Charge	WA_FULL_MONTH_DAYS	7025	7025	7025	7011	0.998007	14	0	6325	0.900356	7025	1.0	0	0	355210.0	355210.0
+2026-04	New Activation: Prorated-in Charge	WA_FINAL_DATE_SPAN	706	706	706	674	0.954674	10	22	706	1.0	236	0.334278	0	0	16597.54086	16693.266761
+2026-04	Partial Charge - Card Replaced Mid Cycle	WA_FINAL_DATE_SPAN	49	49	49	46	0.938776	1	2	43	0.877551	46	0.938776	0	0	481.766667	469.033328
+2026-05	Credit for Offstocked Card	WA_FINAL_DATE_SPAN	2	2	2	2	1.0	0	0	2	1.0	0		0	0	-51.6	0.0
+2026-05	Full Cycle Charge	WA_FULL_MONTH_DAYS	7251	7251	7251	7251	1.0	0	0	6551	0.903462	7251	1.0	0	0	371255.0	371255.0
+2026-05	New Activation: Prorated-in Charge	WA_FINAL_DATE_SPAN	200	200	200	200	1.0	0	0	200	1.0	0	0.0	0	0	4340.0	4200.0
+2026-05	Partial Charge - Card Replaced Mid Cycle	WA_FINAL_DATE_SPAN	30	30	30	30	1.0	0	0	30	1.0	30	1.0	0	0	665.806452	665.80644
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	WA_FINAL_DATE_SPAN	402	402	402	390	0.970149	5	7	402	1.0	200	0.497512	0	0	13479.746237	13267.419343
+2026-05	Prorated-out Charge - Offstocked Card	WA_FINAL_DATE_SPAN	2	2	2	2	1.0	0	0	2	1.0	2	1.0	0	0	112.0	112.0

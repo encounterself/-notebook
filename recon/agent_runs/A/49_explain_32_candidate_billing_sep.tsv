@@ -1,0 +1,27 @@
+plan
+== Physical Plan ==
+AdaptiveSparkPlan isFinalPlan=false
++- == Initial Plan ==
+   PhotonResultStage
+   +- PhotonColumnarToRow
+      +- PhotonSort [imsi#2551694 ASC NULLS FIRST, charge_type#2551704 ASC NULLS FIRST]
+         +- PhotonShuffleExchangeSource false
+            +- PhotonShuffleMapStage ENSURE_REQUIREMENTS, [id=#3901963]
+               +- PhotonShuffleExchangeSink rangepartitioning(imsi#2551694 ASC NULLS FIRST, charge_type#2551704 ASC NULLS FIRST, 32)
+                  +- PhotonProject [2025-09 AS billing_month#2551622, imsi#2551694, iccid#2551695, null AS excel_product_id#2551625, product_name#2551696 AS excel_product_name#2551626, charge_type#2551704, try_cast(final_start_date#2551708 as date) AS xl_start_d#2551628, try_cast(final_end_date#2551709 as date) AS xl_end_d#2551629, try_cast(final_days#2551714 as double) AS xl_days#2551630, try_cast(monthly_rate#2551715 as double) AS xl_rate#2551631, try_cast(final_charge#2551716 as double) AS xl_charge#2551632, day(last_day(try_cast(final_start_date#2551708 as date))) AS excel_days_in_month#2551633, round(((try_cast(monthly_rate#2551715 as double) / cast(day(last_day(try_cast(final_start_date#2551708 as date))) as double)) * try_cast(final_days#2551714 as double)), 4) AS excel_calculated_amount#2551634, round((round(((try_cast(monthly_rate#2551715 as double) / cast(day(last_day(try_cast(final_start_date#2551708 as date))) as double)) * try_cast(final_days#2551714 as double)), 4) - try_cast(final_charge#2551716 as double)), 4) AS excel_amount_difference#2551635, null AS platform_calculated_days#2551636, null AS platform_calculated_price#2551637, null AS platform_calculated_amount#2551638, null AS days_difference#2551639, null AS price_difference#2551640, null AS amount_difference#2551641, MISSING_DATA_PLATFORM_SNAPSHOT AS reconciliation_status#2551642, MISSING_MAPPING_PLATFORM_CARD_SET AS platform_scope_status#2551643, source_file#2551719]
+                     +- PhotonBroadcastNestedLoopJoin Inner, BuildLeft
+                        :- PhotonShuffleExchangeSource false
+                        :  +- PhotonShuffleMapStage EXECUTOR_BROADCAST, [id=#3901956]
+                        :     +- PhotonShuffleExchangeSink SinglePartition
+                        :        +- PhotonRowToColumnar
+                        :           +- Scan OneRowRelation[]
+                        +- PhotonScan parquet simo_prod.mysql_cdc_sync.wa_invoice_detail[imsi#2551694,iccid#2551695,product_name#2551696,charge_type#2551704,final_start_date#2551708,final_end_date#2551709,final_days#2551714,monthly_rate#2551715,final_charge#2551716,source_file#2551719] DataFilters: [isnotnull(final_start_date#2551708), (try_cast(final_start_date#2551708 as date) >= 2025-09-01),..., DictionaryFilters: [], Format: parquet, Location: PreparedDeltaFileIndex(1 paths)[s3://db-204de0126a7c841025d9b2b3e7bf44ca-s3-root-bucket/uc-migrat..., OptionalDataFilters: [], PartitionFilters: [], ReadSchema: struct<imsi:string,iccid:string,product_name:string,charge_type:string,final_start_date:string,fi..., RequiredDataFilters: [isnotnull(final_start_date#2551708), (try_cast(final_start_date#2551708 as date) >= 2025-09-01),...
+
+
+== Photon Explanation ==
+The query is fully supported by Photon.
+== Optimizer Statistics (table names per statistics state) ==
+  missing = 
+  partial = 
+  full    = wa_invoice_detail
+

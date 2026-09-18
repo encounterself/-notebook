@@ -1,0 +1,18 @@
+billing_month	charge_type	row_count	imsi_count	final_days_present	date_span_present	final_days_date_exact	final_days_date_exact_rate	final_charge_present	full_month_formula_exact	prorated_formula_exact	signed_prorated_formula_exact	type_formula_exact	type_formula_exact_rate	type_formula_diff_sum
+2026-03	Credit for Offstocked Card	8	8	8	8	7	0.875	8	0	0	0	0	0.0	123.5
+2026-03	Full Cycle Charge	6164	6164	6164	6164	6164	1.0	6164	6164	6164	0	6164	1.0	0.0
+2026-03	Full Cycle Charge - Backbilled for FEB Invoice	269	269	269	269	269	1.0	269	269	0	0	269	1.0	0.0
+2026-03	New Activation: Prorated-in Charge	1229	1229	1229	1229	1056	0.859235	1229	9	1157	0	1157	0.941416	141.48389
+2026-03	Offstocked before cycle start	1	1	0	0	0		0	0	0	0	0		0.0
+2026-03	Partial Charge - Card Replaced Mid Cycle	496	496	496	496	489	0.985887	496	2	496	0	496	1.0	-2.9E-5
+2026-03	Prorated Out - Transferred to Wing's Simbank	4901	4901	4901	4901	4478	0.913691	4901	1339	4901	0	4901	1.0	2.5E-5
+2026-03	Prorated-out Charge - Offstocked Card	14	14	14	14	14	1.0	14	0	14	0	14	1.0	0.0
+2026-04	Full Cycle Charge	7025	7025	7025	7025	7025	1.0	7025	7025	7011	0	7025	1.0	0.0
+2026-04	New Activation: Prorated-in Charge	706	706	706	706	674	0.954674	706	3	243	0	243	0.344193	-318.792564
+2026-04	Partial Charge - Card Replaced Mid Cycle	49	49	49	49	46	0.938776	49	0	49	0	49	1.0	5.0E-6
+2026-05	Credit for Offstocked Card	2	2	2	2	2	1.0	2	0	0	0	0	0.0	-18.309678
+2026-05	Full Cycle Charge	7251	7251	7251	7251	7163	0.987864	7251	7251	7251	0	7251	1.0	0.0
+2026-05	New Activation: Prorated-in Charge	200	200	200	200	200	1.0	200	0	0	0	0	0.0	140.0
+2026-05	Partial Charge - Card Replaced Mid Cycle	30	30	30	30	30	1.0	30	0	30	0	30	1.0	1.2E-5
+2026-05	Partial Charge - New Card Used as Replacement Mid Cycle	402	402	402	402	390	0.970149	402	4	209	0	209	0.5199	155.617216
+2026-05	Prorated-out Charge - Offstocked Card	2	2	2	2	2	1.0	2	0	2	0	2	1.0	0.0

@@ -1,0 +1,3 @@
+billing_month	join_status	joined_row_count	distinct_card_count	invoice_amount	platform_calculated_amount
+2025-10	MATCHED	12677	12675	772750.5333	751320.7097
+2025-10	PLATFORM_ONLY	411	411	0.0	0.0

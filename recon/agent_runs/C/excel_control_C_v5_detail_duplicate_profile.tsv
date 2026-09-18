@@ -1,0 +1,2 @@
+duplicate_assessment	duplicate_key_count	duplicate_row_count	extra_row_count	max_rows_per_key	keys_with_multiple_final_windows	keys_with_multiple_amounts	keys_with_multiple_charge_types	keys_with_replacement_variation
+DISTINCT_BILLING_ATTRIBUTES	191	382	191	2	191	191	0	0

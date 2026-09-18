@@ -1,0 +1,13 @@
+source_table	billing_month	charge_type	transferred_to_wing_simbank	row_count	card_count	amount
+wa_invoice_credit				0	0	
+wa_invoice_detail	2025-09	Full Rate		12602	12602	771254.0
+wa_invoice_detail	2025-09	Partial Charge (Activated AUG)		11484	11484	339332.2581
+wa_invoice_detail	2025-09	Prorated-in Charge (Activated SEPT)		1085	1085	27478.4
+wa_invoice_detail	2025-09	Prorated-out Charge (Activated SEPT)		66	66	1328.8667
+wa_invoice_detail	2025-10	Full Cycle Charge		12573	12573	769456.0
+wa_invoice_detail	2025-10	New Activation: Prorated-in Charge		72	72	2364.5333
+wa_invoice_detail	2025-10	Prorated-out Charge (Activated OCT)		32	32	930.0
+wa_invoice_detail	2025-11	Full Cycle Charge		12641	12641	773292.0
+wa_invoice_detail	2025-11	New Activation: Prorated-in Charge		22	22	445.8387
+wa_invoice_prorated	2025-09			36	36	1521.0667
+wa_invoice_prorated	2025-10			5	5	294.0

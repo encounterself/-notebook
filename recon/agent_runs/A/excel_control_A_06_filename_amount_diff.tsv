@@ -1,0 +1,23 @@
+source_table	source_file	invoice_batch_label	observed_start_month	observed_cycle_start_month	observed_cycle_end_month	record_count	imsi_count	amount_semantics	filename_amount	platform_amount	amount_diff_platform_minus_filename	filename_amount_status
+simo_prod.mysql_cdc_sync.wa_invoice_credit	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx	01-2-Credit _FROM_ WA_ USD_585.45 wing response New_Query_2025-12-10_5_49pm_2025_12_16.xlsx		2025-11	2025-12	393	393	credit_owed	585.45	585.4499999999989	0.0	FILENAME_AMOUNT_MATCH
+simo_prod.mysql_cdc_sync.wa_invoice_detail	006-V2 - SIMO Data Purchase Invoice Details - SEP 2025.xlsx	2025-09	2025-09			25237	14793	final_charge		1139393.524729102		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v2)	2025-11			12663	12641	final_charge	773793.84	773737.8387096775	-56.00129	FILENAME_AMOUNT_MISMATCH_NO_ADJUSTMENT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v1)	2025-10			12714	12712	final_charge	772765.0	772285.5333333333	-479.466667	FILENAME_AMOUNT_MISMATCH_NO_ADJUSTMENT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	2026-04	2026-04			7780	7317	final_charge		372289.30752688175		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-02			12572	12309	final_charge		690572.7235023042		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx	2025-01	2026-01			13661	13253	final_charge		703606.2903225811		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx	2026-07	2026-07			7537	7472	final_charge		373918.3139784944		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - JUNE 2026.xlsx	2026-06	2026-06			7598	7469	final_charge		382329.7204301075		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	2026-03	2026-02			13082	12763	final_charge		578406.3064516129		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	2026-05	2026-04			7887	7494	final_charge		389800.95268817176		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx	2026-08	2026-08			7536	7508	final_charge		364846.6129032258		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_detail	SIMO Data Purchase Invoice Details - DEC 2025.xlsx	2025-12	2025-12			12185	12110	final_charge		704839.3537634417		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-1-INVOICE_FROM_ WA_USD_773,793.84_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v2)	2025-10			5	5	final_charge_for_usage_days	773793.84	294.0	-773499.84	FILENAME_AMOUNT_MISMATCH_NO_ADJUSTMENT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-INVOICE_FROM_ WA_USD_772,765.00_SIMO Data Purchase Invoice Details - OCT 2025.xlsx	2025-10 (v1)	2025-09			36	36	final_charge_for_usage_days	772765.0	1521.0666666666666	-771243.933333	FILENAME_AMOUNT_MISMATCH_NO_ADJUSTMENT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - APR 2026.xlsx	2026-04	2026-03			284	284	final_charge_for_usage_days		9827.387096774199		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - FEB 2026.xlsx	2026-02	2026-01			359	359	final_charge_for_usage_days		14688.096774193551		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JAN 2025.xlsx	2025-01	2025-12			1	1	final_charge_for_usage_days		34.0		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - JULY 2026.xlsx	2026-07	2026-06			4	4	final_charge_for_usage_days		141.9		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAR 2026.xlsx	2026-03	2026-02			127	127	final_charge_for_usage_days		3686.9285714285716		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	01-SIMO Data Purchase Invoice Details - MAY 2026.xlsx	2026-05	2026-04			9	9	final_charge_for_usage_days		298.76666666666665		NO_FILENAME_AMOUNT
+simo_prod.mysql_cdc_sync.wa_invoice_prorated	SIMO Data Purchase Invoice Details - AUGUST 2026.xlsx	2026-08	2026-07			3	3	final_charge_for_usage_days		127.61290322580646		NO_FILENAME_AMOUNT

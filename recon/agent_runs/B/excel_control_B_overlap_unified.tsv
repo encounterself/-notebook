@@ -1,0 +1,5 @@
+metric_id	matched_distinct_keys	matched_row_pairs	key_definition	semantic_decision
+COMMON_EXACT_OVERLAP	0	0	source_file + imsi + iccid + product_name + cycle_start + cycle_end + final_start + final_end; strings trim; dates to_date; null marker <NULL>	common-field exact diagnostic; product_name is not a formal billing JOIN key
+IMSI_OVERLAP	828	5494	trim(imsi); null imsi excluded	IMSI-only diagnostic; no billing join
+SOURCE_IMSI_CYCLE_FINAL_OVERLAP	0	0	source_file + imsi + cycle_start + cycle_end + final_start + final_end; strings trim; dates to_date; null marker <NULL>	requested full common date diagnostic key
+SOURCE_IMSI_CYCLE_OVERLAP	0	0	source_file + imsi + cycle_start + cycle_end; strings trim; dates to_date; null marker <NULL>	requested cycle diagnostic key
