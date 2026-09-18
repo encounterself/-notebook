@@ -598,20 +598,21 @@ reconciliation_rows AS (
 , bucket_check AS (
   SELECT invoice_batch_label,SUM(bridge_amount) AS bridge_bucket_sum FROM buckets GROUP BY invoice_batch_label
 )
-SELECT 'BRIDGE_SUMMARY' AS result_type,p.invoice_batch_label,
-  e.excel_row_count,e.excel_distinct_imsi_count,e.excel_total,
-  p.platform_card_window_count,p.platform_distinct_imsi_count,p.platform_source_row_count,
-  p.unproven_platform_card_count,p.platform_amount_candidate_sum,p.platform_total,
-  p.platform_total-e.excel_total AS platform_total_minus_excel_total,
-  p.platform_only_card_count,p.platform_only_distinct_imsi_count,p.platform_only_amount,
-  e.wa_only_row_count,e.wa_only_distinct_imsi_count,e.wa_only_excel_amount,
-  k.bridge_bucket_sum,(p.platform_total-e.excel_total)-k.bridge_bucket_sum AS bridge_residual
-FROM month_platform p JOIN month_excel e ON p.invoice_batch_label=e.invoice_batch_label JOIN bucket_check k ON p.invoice_batch_label=k.invoice_batch_label
-UNION ALL
-SELECT 'BRIDGE_BUCKET',b.invoice_batch_label,
-  b.platform_card_window_count,b.platform_distinct_imsi_count,b.bridge_amount,
-  CAST(NULL AS BIGINT),CAST(NULL AS BIGINT),CAST(NULL AS BIGINT),CAST(NULL AS BIGINT),CAST(NULL AS DECIMAL(38,12)),CAST(NULL AS DECIMAL(38,12)),CAST(NULL AS DECIMAL(38,12)),
-  CAST(NULL AS BIGINT),CAST(NULL AS BIGINT),CAST(NULL AS DECIMAL(38,12)),b.excel_row_count,b.excel_distinct_imsi_count,CAST(NULL AS DECIMAL(38,12)),CAST(NULL AS DECIMAL(38,12)),CAST(NULL AS DECIMAL(38,12))
-FROM buckets b
-ORDER BY result_type,invoice_batch_label
-
+SELECT
+  x.invoice_batch_label,
+  COUNT(*) AS excel_rows,
+  SUM(x.excel_amount) AS excel_total,
+  SUM(CASE WHEN x.platform_candidate_count=0 THEN x.excel_amount ELSE CAST(0 AS DECIMAL(38,12)) END) AS wa_excel_total,
+  SUM(CASE WHEN x.selected_card_key IS NULL THEN x.excel_amount ELSE CAST(0 AS DECIMAL(38,12)) END) AS no_selected_key_excel_total,
+  SUM(CASE WHEN x.selected_card_key IS NOT NULL THEN x.excel_amount ELSE CAST(0 AS DECIMAL(38,12)) END) AS selected_excel_total,
+  COUNT(CASE WHEN x.selected_card_key IS NULL THEN 1 END) AS no_selected_key_rows,
+  COUNT(CASE WHEN x.platform_candidate_count=0 THEN 1 END) AS wa_rows,
+  (SELECT SUM(e.excel_amount) FROM excel_by_card e WHERE e.invoice_batch_label=x.invoice_batch_label) AS excel_by_card_sum,
+  (SELECT SUM(b.platform_amount) FROM card_bridge_reason b WHERE b.invoice_batch_label=x.invoice_batch_label) AS card_platform_sum,
+  (SELECT SUM(b.excel_amount) FROM card_bridge_reason b WHERE b.invoice_batch_label=x.invoice_batch_label) AS card_excel_sum,
+  (SELECT SUM(b.bridge_amount) FROM card_bridge_reason b WHERE b.invoice_batch_label=x.invoice_batch_label) AS card_bridge_sum,
+  (SELECT SUM(w.bridge_amount) FROM wa_only w WHERE w.invoice_batch_label=x.invoice_batch_label) AS wa_bridge_sum,
+  (SELECT SUM(b.bridge_amount) FROM buckets b WHERE b.invoice_batch_label=x.invoice_batch_label) AS bucket_sum
+FROM excel_assign x
+GROUP BY x.invoice_batch_label
+ORDER BY x.invoice_batch_label
